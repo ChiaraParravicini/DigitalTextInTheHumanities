@@ -3,23 +3,34 @@
         <fileDesc>
             <titleStmt>
                 <title>
-                <!-- title of the resource -->
+                XLIX - La doulce prison
                 </title>
+                <author>
+                Marguerite de Navarre
+                </author>
+                <editor>
+                Félix Frank
+                </editor>
             </titleStmt>
             <editionStmt>
                 <p>
-                <!-- information about the edition of the
-                                        resource  -->
+                Heptaméron de la reine de Navarre (tome III)
                 </p>
             </editionStmt>
             <extent>
-            <!-- description of the size of the resource -->
+            <measure unit="pages" quantity="613">613 pages of source
+            material</measure>
             </extent>
             <publicationStmt>
-                <p>
-                <!-- information about the distribution
-                                        of the resource -->
-                </p>
+                <publisher>
+                Isidore Liseux
+                </publisher>
+                <pubPlace>
+                Paris
+                </pubPlace>
+                <date>
+                1879
+                </date>
             </publicationStmt>
             <seriesStmt>
                 <p>
