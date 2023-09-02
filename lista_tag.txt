@@ -1,9 +1,12 @@
 <span type="anti-model"> (se non ci piace questo nome lo modifichiamo)
+                        MAGARI SOSTITUIRE CON : type = "counterstereotype" (già usato ad esempio in testo GeorgeSand.xml)
 <span type="beauty">
+<span type="bitch">
 <span type="body">
 <span type="education">
 <span type="food/food abstinence"> (se vogliamo separare i tag o modificare modifichiamo)
 <span type="grace">
+<span type="honour">
 <span type="intellect"> (non sapevo quale fosse il modo migliore di tradurre il concetto di intelletto/intelligenza/razionalità)
 <span type="marriage">
 <span type="mother">
@@ -13,3 +16,4 @@
 <span type="strength">
 <span type="virgin">
 <span type="weakness">
+<span type="witch">

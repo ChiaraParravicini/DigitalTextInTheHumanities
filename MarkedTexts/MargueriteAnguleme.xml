@@ -1,6 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
+        <!-- prima ubblicazione in un altra data -->
             <titleStmt>
                 <title>
                 XLIX - La doulce prison
@@ -78,19 +79,19 @@
 
     <text>
         En la cour du <persName><roleName>Roy</roleName> Charles</persName>, je
-        ne diray point le quantiesme pour l'honneur de
+        ne diray point le quantiesme <span type="honour">pour l'honneur</span> de
         celle dont je veulx parler, laquelle je ne veulx nommer
         par son nom propre, y avoit une Comtesse de fort bonne maison, 
         mais estrangière. Et, pource que toutes choses nou-
         velles plaisent, ceste Dame, à sa venue
-        tant pour la nouveauté deson habillement
-        que pour la richesse dont il estoit plein,
-        estoit regardée de chascun; et combien
+        tant pour la nouveauté de son habillement
+        que <span type="beauty">pour la richesse dont il estoit plein,
+        estoit regardée de chascun</span>; <span type="grace">et combien
         qu'elle ne fust des plus belles, si avoit-elle
         une grace avecq une audace tant bonne
         qu'il n'estoit possible de plus, la parolle et
         la gravité de mesme, de sorte qu'il n'y avoit
-        nul qui n'eust craincte à l'aborder, sinon
+        nul qui n'eust craincte à l'aborder</span>, sinon
         le <roleName>Roy</roleName> qui l'ayma très-fort. Et, 
         pour parler à elle plus priveement, donna quelque
         commission au Comte son mary, 
@@ -228,7 +229,7 @@
         "La mienne" dist <persName>Durassier</persName>,
         "commencea le propre
         jour que la vostre fina; et dura jusques
-        a un tel jour". Valnebon, qui perdoit
+        a un tel jour". <persName>Valnebon</persName>, qui perdoit
         patience, commencea à jurer et dire:
         "Par le sang Dieu! à ce que je voy, je
         suis le tiers qui pensois estre le premier
@@ -247,7 +248,7 @@
         mier, c'est ma Dame la Comtesse qui
         estoit si audatieuse, que, en gaingnant
         son amitié, je pensois avoir gaingné Cesar.
-        Que à tous les diables soit la
+        <span type="bitch">Que à tous les diables soit la
         villaine qui nous a faict d'une chose
         tant travailler, et nous réputer si heureux de l'avoir 
         acquise! Il ne fut oncques une telle meschante, car, quand
@@ -255,7 +256,7 @@
         pour n'estre jamais sans
         passetemps; et aymerois-je mieulx
         estre mort, qu'elle demorast sans pug
-        nition!" Ilz demandèrent chascun,
+        nition!</span>" Ilz demandèrent chascun,
         qu'il leur sembloit quelle debvoit avoir
         et qu'ilz estoient tous prestz de la luy
         donner. "ll me semble," dist-il, "que
@@ -275,11 +276,11 @@
         chascun une chaine de fer. Le matin
         venu, tous habillez de noir, leurs chaines
         de fer tournées À l'entour de leur col
-        en façon de collier, vindrent trouver le
-        Comtesse qui alloit à l'église. Et, si tost
+        en façon de collier, vindrent trouver <roleName>le
+        Comtesse</roleName> qui alloit à l'église. Et, si tost
         qu'elle les veid ainsy habillez, se print
         a rire et leur dist : "Ou vont ces gens si douloureux?"
-        "Ma Dame", dist <persName>Astillon</persName>, "nous vous venons 
+        "Ma <roleName>Dame</roleName>", dist <persName>Astillon</persName>, "nous vous venons 
         accompagner comme pauvres esclaves
         prisonniers qui sont tenuz à vous faire
         service." La Comtesse, faisant semblant de n'y entendre rien, leur dist :
@@ -295,8 +296,8 @@
         gravité les estonner. Mais ilz poursuyvoient si bien leurs propos, 
         qu'elle entendit que la chose estoit descouverte.
         Parquoy, trouva incontinent moien de
-        les tromper, car elle, qui avoit perdu
-        l'honneur et la conscience, ne voulut
+        les tromper, car <span type="honour">elle, qui avoit perdu
+        l'honneur et la conscienc</span>, ne voulut
         point recepvoir la honte qu'ilz lui 
         cuydoient faire; mais, comme <span type="independence">celle qui 
         preféroit son plaisir à tout l'honneur du
@@ -306,23 +307,23 @@
         en leur sein la honte qu'ilz luy avoient
         voulu faire. 
         "Si vous ne trouvez, mes Dames, ce compte
-        digne de faire congnoistre les femmes aussi
-        mauvaises que les hommes, j'en chercheray
+        digne de faire congnoistre <span type="counterstereotype">les femmes aussi
+        mauvaises que les hommes</span>, j'en chercheray
         d'autres pour vous contenter; toutesfois, il
         me semble que cestuy-là suffise pour vous
-        monstrer que une femme qul a perdu la
+        monstrer que <span type="honour">une femme qul a perdu la
         honte est cent foys plus hardye à faire mal
-        que n'est un homme". ll n'y eut femme en
+        que n'est un homme</span>". ll n'y eut femme en
         la compaignie, oiant racompter ceste histoire, 
         qui ne fist tant de signes de croix,
         qu'il sembloit qu'elles voyoient tous les dia-
         bles d'enfer devant leurs oeilz. Mais Oisille
         leur dist : " Mes Dames, humilions-nous,
         quand nous oyons cest horrible cas, d'autant que 
-        la personne délaissde de Dieu se
+        la personne délaissde de <roleName>Dieu</roleName> se
         rend pareille à celluy avecq lequel elle est
         joincte, car, puisque ceulx qui adbèrent A
-        Dieu ont son esperit avecq eulx, aussy sont
+        <roleName>Dieu</roleName> ont son esperit avecq eulx, aussy sont
         cculx qui adhèrent à son contraire; et n'est
         rien si bestial que la personne destituće de
         l'esperit de Dieu". "Quoy que ait faict
@@ -339,7 +340,8 @@
         soustiendray héréticque, car il y a plus
         d'hommes secretz que de femmes ; et sçay
         bien qu'on en trouveroit qui aimeroient
-        mieulx n'en avoir bonne chère, que s'il falloit que créature du monde lentendist. Et,
+        mieulx n'en avoir bonne chère, que s'il falloit 
+        que créature du monde lentendist. Et,
         pour ce, a l'Eglise, comme bonne mère
         ordonne les prestres confesseurs et non Pas
         les femmes, parce qu'elles ne peuvent rien

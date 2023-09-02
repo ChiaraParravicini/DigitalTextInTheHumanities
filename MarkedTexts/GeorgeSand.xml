@@ -24,7 +24,7 @@
             </extent>
             <publicationStmt>
                 <publisher>
-                D.C.Heath&Co. Publishers 
+                D.C.Heath &amp; Co. Publishers 
                 </publisher>
                 <pubPlace>
                 Boston
@@ -57,7 +57,7 @@
                 <language ident="fr">French</language>
             </langUsage>
             <textDesc n="novel">
-                <channel mode="w">print part issues</channel>
+                <channel mode="w">print; part issues</channel>
                 <constitution type="single"/>
                 <derivation type="original"/>
                 <domain type="art"/>
@@ -78,131 +78,141 @@
     </teiHeader>
 
     <text>
-        "Eh bien, Fanchon Fadet, puisque tu parles si raisonnablement, 
-        et que, pour la première fois de ta vie, je te 20 vois douce et trai table, 
-        je vas te dire po irquoi on ne te respecte pas comme une fille de seize ans devrait pouvoir l'exiger. 
-        C'est que tu n'as rien d'une fille et tout d'un garçon, dans ton air et dans tes manières ;
-        c'est que tu ne prends pas soin de ta personne. Pour commencer, tu n'as 25 point l'air propre et soigneux, 
-        et tu te fais paraître laide par ton habillement et ton langage. Tu sais bien que les enfants 
-        t'appellent d'un nom encore plus déplaisant que celui de grelet Ils t'appellent souvent le màlot Eh bien.
-        crois-tu que ce soit à propos, à seize ans, de ne point ressembler encore à une fille? 
-        Tu montes sur les arbres comme un vrai chat-écurieux, et quand tu sautes sur une jumen% 
-        sans bride ni selle, tu la fais galoper comme si le S diable était dessus. C'est bon d'être forte et 
+        "Eh bien, <persName>Fanchon Fadet</persName>, puisque tu parles si raisonnablement, 
+        et que, pour la première fois de ta vie, je te vois douce et trai table, 
+        je vas te dire pourquoi <span type="counterstereotype">on ne te respecte pas comme une fille 
+        de seize ans devrait pouvoir l'exiger.</span> 
+        C'est que <span type="counterstereotype">tu n'as rien d'une fille et tout d'un garçon</span>, dans ton air et dans tes manières ;
+        c'est que <span type="body">tu ne prends pas soin de ta personne.</span> Pour commencer, 
+        <span type="grace">tu n'as point l'air propre et soigneu</span>, 
+        et <span type="body">tu te fais paraître laide par 
+        ton habillement et ton langage.</span> Tu sais bien que les enfants 
+        t'appellent d'un nom encore plus déplaisant que celui de grelet. 
+        Ils t'appellent souvent <span type="counterstereotype">le màlot</span>. Eh bien.
+        crois-tu que ce soit à propos, à seize ans, <span type="counterstereotype">de ne point ressembler encore à une fille?</span>
+        Tu montes sur les arbres comme un vrai chat-écurieux, et quand tu sautes sur une jumen 
+        sans bride ni selle, tu la fais galoper comme si le diable était dessus. <span type="counterstereotype">C'est bon d'être forte et 
         leste ; c'est bon aussi de n'avoir peur de rien, et c'est un avantage de nature pour un homme. 
-        Mais pour une femme trop est trop, et tu as l'air de vouloir te faire remarquer. 
+        Mais pour une femme trop est trop, et tu as l'air de vouloir te faire remarquer.</span> 
         Aussi on te remarque, on te taquine, on crie après toi comme après
         lo un loup. Tu as de l'esprit et tu réponds des malices qui font rire ceux à qui elles 
         ne s'adressent point. C'est encore bon d'avoir plus d'esprit que les autres ; 
         mais à force de le montrer, on se fait des ennemis. Tu es curieuse, et quand tu as surpris 
-        les secrets des autres, tu les leur jettes à la."5 figure bien durement, aussitôt que 
+        les secrets des autres, tu les leur jettes à la."figure bien durement, aussitôt que 
         tu as à te plaindre d'eux. Cela te fait craindre, et on déteste ceux qu'on craint 
-        On leur rend plus de mal qu'ils n'en font Enfin, que tu sois sorcière ou non, je 
-        veux croire que tu as des connaissances, mais j'espère que tu ne t'es pas donnée aux mauvais esprits ;
-        20 tu cherches à le paraître pour effrayer ceux qui te fâchent, 
+        On leur rend plus de mal qu'ils n'en font. Enfin, que tu sois <span id="witch">sorcière</span> ou non, 
+        <span id="intellect">je veux croire que tu as des connaissances, mais j'espère que tu ne t'es pas donnée aux mauvais esprits ;</span>
+        tu cherches à le paraître pour effrayer ceux qui te fâchent, 
         et c'est toujours un assez vilain renom que tu te donnes là. Voilà tous tes torts, 
-        Fanchon Fadet, et c'est à cause de ces torts-là que les gens en ont avec toi. 
+        <persName>Fanchon Fadet</persName>, et c'est à cause de ces torts-là que les gens en ont avec toi. 
         Rumine un peu la chose, et tu verras que si tu voulais être un peu plus
-        25 comme les autres, on te saurait plus de gré de ce que tu as de plus qu'eux dans ton entendement"
-        ** Je te remercie, Landry," répondit la petite Fadette, d'un air très-sérieux, 
+        comme les autres, on te saurait plus de gré de ce que tu as de plus qu'eux dans ton entendement"
+        " Je te remercie, <persName>Landry</persName>," répondit la petite <persName>Fadette</persName>, 
+        d'un air très-sérieux, 
         après avoir écouté le besson bien religieusement "Tu m'as dit à peu près ce que tout
-        30 le monde me reproche, et tu me l'as dit avec beaucoup
+        le monde me reproche, et tu me l'as dit avec beaucoup
         d'honnêteté et de ménagement, ce que les autres ne font
         point ; mais à présent veux- tu que je te réponde, et, pour
         cela, veux-tu t'asseoir à mon côté pour un petit moment ? "
-        " L'endroit n'est guère agréable," dit Landry, qui ne se
-        souciait point trop de s'attarder avec elle, et qui songeait 
-        toujours aux mauvais sorts qu'on Taccusait de jeter sur ceux qui ne s'en méfiaient point
-        "Tu ne trouves point Tendroit agréable," reprit-elle, ** 
-        parce que vous autres riches vous êtes difficiles. Il vous 5 faut du beau gazon pour 
-        vous asseoir dehors, et vous pouvez choisir dscns vos prés et dans vos jardins les plus belles places 
+        " L'endroit n'est guère agréable," dit <persName>Landry</persName>, 
+        qui ne se souciait point trop de s'attarder avec elle, et qui songeait 
+        toujours aux <span id="witch">mauvais sorts</span> qu'on l'accusait de jeter sur ceux qui ne s'en méfiaient point
+        "Tu ne trouves point l'endroit agréable," reprit-elle, 
+        "parce que vous autres riches vous êtes difficiles. Il vous faut du beau gazon pour 
+        vous asseoir dehors, et vous pouvez choisir dans vos prés et dans vos jardins les plus belles places 
         et le meilleur ombrage. Mais ceux qui n'ont rien à eux n'en demandent pas si long au bon 
-        Dieu, et ils s'accommodent de la première pierre venue pour poser leur tête. 
-        10 Les épines ne blessent point leurs pieds, et là où ils se trouvent ils observent 
+        <roleName>Dieu</roleName>, et ils s'accommodent de la première pierre venue pour poser leur tête. 
+        Les épines ne blessent point leurs pieds, et là où ils se trouvent ils observent 
         tout ce qui est joli et avenant au ciel et sur la terre II n*y a point de vilain endroit, 
-        Landry, pour ceux qui connaissent la vertu et la douceur de toutes les choses que Dieu 
-        a faites. Moi, je sais, sans être sorcière, 15 à quoi sont bonnes les moindres 
+        <persName>Landry</persName>, pour ceux qui connaissent 
+        la vertu et la douceur de toutes les choses que <roleName>Dieu</roleName> 
+        a faites. Moi, je sais, sans être <span type="witch">sorcière, à quoi sont bonnes les moindres 
         herbes que tu écrases sous tes pieds ; et quand je sais leur usage, 
-        je les regarde et ne méprise ni leur odeur ni leur figure. 
-        Je te dis cela, Landry, pour t'enseigner tout à l'heure une autre cliose qui se 
-        rapporte aux âmes chrétiennes aussi bien qu'aux fleurs des 20 jardins et aux ronces des carrières ; 
+        je les regarde et ne méprise ni leur odeur ni leur figure.</span> 
+        Je te dis cela, <persName>Landry</persName>, pour t'enseigner tout à l'heure une autre cliose qui se 
+        rapporte aux âmes chrétiennes aussi bien qu'aux fleurs des jardins et aux ronces des carrières ; 
         c'est que l'on méprise trop souvent ce qui ne paraît ni beau ni bon, 
         et que par là on se prive de ce qui est secourable et salutaire."
         "Je n'entends pas bien ce que tu veux signifier," 
-        dit Landry en s'asseyant auprès d'elle ; — et ils restèrent un 25 nottisnt sans parler, 
-        car la petite Fadette avait Tespiit envolé à des idées que Landry ne connaissait point ; 
+        dit <persName>Landry</persName> en s'asseyant auprès d'elle ; — 
+        et ils restèrent un istant sans parler, 
+        car la petite <persName>Fadette</persName> avait l'espiit 
+        envolé à des idées que Landry ne connaissait point ; 
         et, quant à lui, malgré qu'il en eût un peu d'embrouillement dans la tête, 
         il ne pouvait pas s'empêcher d'avoir du plaisir à entendre cette, fille; 
-        car jamais il n'avait entendu une 30 voix si douce et des paroles si bien 
+        car jamais il n'avait entendu une voix si douce et des paroles si bien 
         dites que les paroles et la voix de la Fadette dans ce moment-là.
-        " Écoute, Landry," lui dit-elle, " je suis plus à plaindre qu'à blâmer; 
+        " Écoute, <persName>Landry</persName>," lui dit-elle, " je suis plus à plaindre qu'à blâmer; 
         et si j'ai des torts envers moi-même, du moins
         n'en ai-je jamais eu de sérieux envers les autres ; 
         et si le monde était juste et raisonnable, 
-        il ferait plus d'attention à mon bon cœur qu'à ma vilaine figure 
-        et à mes mauvais habillements. Vois un peu, ou apprends si tu ne le sais, 
-        5 quel a été mon sort depuis que je suis au monde. Je ne te dirai point de mal de 
+        il ferait plus d'attention à mon bon cœur qu'à <span id="beauty">ma vilaine figure 
+        et à mes mauvais habillements</span>. Vois un peu, ou apprends si tu ne le sais, 
+        quel a été mon sort depuis que je suis au monde. Je ne te dirai point de mal de 
         ma pauvre mère qu'un chacun blâme et insulte, quoiqu'elle 
-        ne soit point là» pour se défendre, et sans que je puisse le faire moi qui 
+        ne soit point là pour se défendre, et sans que je puisse le faire moi qui 
         ne sais pas bien ce qu'elle a fait de mal, ni pourquoi elle a été poussée
         lo à le faire. Eh bien, le monde est si méchant, qu'à peine ma mère m'eut-elle délaissée, 
         et comme je la pleurais encore bien amèrement, au moindre dépit que les autres 
         enfants avaient contre moi, pour un jeu, pour un rien qu'ils se seraient pardonné 
         entre eux, ils me reprochaient la faute
-        15 de ma mère et voulaient me forcer à rougir d'elle. 
-        Peutêtre qu'à ma place une fille raisonnable, comme tu dis, se fût abaissée dans le silence, 
+        de ma mère et voulaient me forcer à rougir d'elle. 
+        <span id="counterstereotype">Peut être qu'à ma place une fille raisonnable</span>, comme tu dis, se fût abaissée dans le silence, 
         pensant qu'il était prudent d'abandonner la cause de sa mère et de 
         la laisser injurier pour se préserver de l'être. Mais moi, vois-tu, je ne le
-        20 pouvais pas. C'était plus fort- que moi. Ma mère était toujours ma mère, 
+        pouvais pas. C'était plus fort- que moi. Ma mère était toujours ma mère, 
         et qu'elle soit ce qu'on voudra, que je la retrouve ou que je n'en entende jamais parler, 
         je laimerai toujours de toute la force de mon cœur. 
-        Aussi, quand on m'appelle enfant de coureuse et de vivandière, je suis en
-        25 colère, non à cause de moi : je sais bien que cela ne peut m'offenser, 
+        Aussi, quand on m'appell <span type="bitch">enfant de coureuse et de vivandière</span>, je suis en
+        colère, non à cause de moi : je sais bien que cela ne peut m'offenser, 
         puisque je n'ai rien fait de mal ; mais à cause de cette pauvre 
         chère femme que mon devoir est de défendre. Et comme je ne peux ni ne sais la défendre, 
         je la venge, en disant aux autres les vérités qu'ils méritent,
-        30 et en leur montrant qu'ils ne valent pas mieux que celle à qui ils jettent la pierre. 
+        et en leur montrant qu'ils ne valent pas mieux que celle à qui ils jettent la pierre. 
         Voilà pourqoui ils disent que je suis curieuse et insolente, 
         que je surprends leurs secrets pour les divulguer. 
-        Il est vrai que le bon Dieu m'a faite curieuse, si c'est l'être que de désirer connaître les choses
-        cachées. Mais si on avait été bon et humain envers moi, 
+        Il est vrai que le bon <roleName>Dieu</roleName> m'a faite <span type="intellect">curieuse, 
+        si c'est l'être que de désirer connaître les choses
+        cachées</span>. Mais si on avait été bon et humain envers moi, 
         je n'aurais pas songé à contenter ma curiosité aux dépens du prochain. 
         J'aurais renfermé mon amusement dans la connaissance des secrets que m'enseigne 
         ma grand'mère pour la guérison du corps humain. Les fleurs, les herbes, 
-        5 les pierres, les mouches, tous les secrets de nature, 
+        les pierres, les mouches, tous les secrets de nature, 
         il y en aurait eu bien assez pour m'occuper et pour me divertir, 
         moi qui aime à vaguer et à fureter partout J'aurais toujours été seule, 
         sans connaître l'ennui ; car mon plus grand plaisir est d'aller dans 
-        les endroits qu'on ne fréquente 10 point et d'y rêvasser à cinquante choses 
+        les endroits qu'on ne fréquente point et d'y rêvasser à cinquante choses 
         dont je n'entends jamais parler aux personnes qui se croient bien sages et bien avisées. 
         Si je me suis laissé attirer dans le commerce de mon prochain, 
         c'est par l'envie que j'avais de rendre service avec les petites connaissances 
-        qui me sont venues 1 5 et dont ma grand'mère elle-même fait souvent son profit sans rien dire. 
+        qui me sont venues et dont ma grand'mère elle-même fait souvent son profit sans rien dire. 
         Eh bien, au lieu d'être remerciée honnêtement par tous les enfants de mon 
         âge dont je guérissais les blessures et les maladies, et à qui- j'enseignais 
-        mes remèdes sans demander -jamais de récompense, j'ai été 20 traitée de sorcière, 
+        mes remèdes sans demander -jamais de récompense, <span type="witch">j'ai été traitée de sorcière</span>, 
         et ceux qui venaient bien doucement me prier quand ils avaient besoin de moi, 
         me disaient plus tard des sottises à la première occasion.
         '* Cela me courrouçait, et j'aurais pu leur nuire, 
-        car si je sais des choses pour faire du bien, j'en sais aussi pour faire 25 du mal ; 
+        car si je sais des choses pour faire du bien, j'en sais aussi pour faire du mal ; 
         et pourtant je n'en ai jamais fait usage ; je ne connais point la rancune, 
         et si je me venge en paroles, c'est que je suis soulagée en disant tout de suite ce qui 
         me vient au bout de la langue, et qu'ensuite je n'y pense plus et pardonne ainsi 
-        que Dieu le commande. Quant à ne prendre 30 soin ni de ma personne ni de mes manières, 
+        que Dieu le commande. <span type="beauty">Quant à ne prendre soin ni de ma personne </span>
+        <span type="grace">ni de mes manières</span>, 
         cela devrait montrer que je ne suis pas assez folle pour me croire belle, 
         lorsque je sais que je suis si laide que personne ne peut me regarder. 
         On me l'a dit assez souvent pour que je le
         sache; et, en voyant combien les gens sont durs et méprisants pour ceux 
-        que le bon Dieu a mal partagés, je me suis fait un plaisir de leur déplaire, 
-        me consolant par Tidée que ma figure n'avait rien de repoussant pour le bon Dieu 
-        5 et pour mon ange gardien, lesquels ne me la reprocheraient pas plus que je 
+        que le bon <roleName>Dieu</roleName> a mal partagés, je me suis fait un plaisir de leur déplaire, 
+        me consolant par l'idée que ma figure n'avait rien de repoussant pour le bon Dieu 
+        et pour mon ange gardien, lesquels ne me la reprocheraient pas plus que je 
         ne la leur reproche moi-même. Aussi, moi, je ne suis pas comme ceux qui disent : 
-        ' Voilà une chenille, une vilaine bête ; ah ! qu'elle est laide ! il faut la tuer ! ' 
-        Moi, je n'écrase pas la pauvre créature du bon Dieu, et si
+        ' Voilà une chenille, une vilaine bête ; ah ! <span type="beauty">qu'elle est laide ! il faut la tuer ! </span>' 
+        Moi, je n'écrase pas la pauvre créature du bon <roleName>Dieu</roleName>, et si
         lo la chenille tombe dans l'eau, je lui tends une feuille pour qu'elle se sauve. 
-        Et à cause de cela on dit que j'aime les mauvaises bêtes et que je suis sorcière, 
+        <span type="witch">Et à cause de cela on dit que j'aime les mauvaises bêtes et que je suis sorcière, 
         parce que je n'aime pas à faire souffrir une grenouille, à arracher les pattes 
-        à une guêpe et à clouer une chauve-souris vivante contre un arbre.
-        15 Pauvre bête, que je lui dis, si on doit tuer tout ce qui est vilain, 
+        à une guêpe et à clouer une chauve-souris vivante contre un arbre.</span>
+        Pauvre bête, que je lui dis, si on doit tuer tout ce qui est vilain, 
         je n'aurais pas plus que toi le droit de vivre."
     </text>
 </TEI>
