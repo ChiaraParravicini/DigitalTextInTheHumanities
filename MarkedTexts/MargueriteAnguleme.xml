@@ -1,62 +1,31 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
-        <!-- prima ubblicazione in un altra data -->
             <titleStmt>
                 <title>
-                XLIX - La doulce prison
+                D’ardito cavalier non è prodezza
                 </title>
                 <author>
-                Marguerite de Navarre
+                Veronica Franco
                 </author>
-                <editor>
-                Félix Frank
-                </editor>
             </titleStmt>
             <editionStmt>
                 <p>
-                Heptaméron de la reine de Navarre (tome III)
+                Terze rime
                 </p>
             </editionStmt>
-            <extent>
-            <measure unit="pages" quantity="613">613 pages of source
-            material</measure>
-            </extent>
             <publicationStmt>
-                <publisher>
-                Isidore Liseux
-                </publisher>
-                <pubPlace>
-                Paris
-                </pubPlace>
                 <date>
-                1879
+                 1575
                 </date>
             </publicationStmt>
-            <seriesStmt>
-                <p>
-                <!-- information about any series to which
-                                        the resource belongs  -->
-                </p>
-            </seriesStmt>
-            <notesStmt>
-                <note>
-                <!-- notes on other aspects of the resource -->
-                </note>
-            </notesStmt>
-            <sourceDesc>
-                <p>
-                <!-- information about the source from which
-                                        the resource was derived  -->
-                </p>
-            </sourceDesc>
         </fileDesc>
             
         <profileDesc>
             <langUsage>
-                <language ident="fr">French</language>
+                <language ident="it">Italian</language>
             </langUsage>
-            <textDesc n="novel">
+            <textDesc n="poems">
                 <channel mode="w">print; part issues</channel>
                 <constitution type="single"/>
                 <derivation type="original"/>
@@ -67,330 +36,218 @@
                 <purpose type="entertain" degree="high"/>
                 <purpose type="inform" degree="medium"/>
             </textDesc>
-            <settingDesc>
-                <setting>
-                    <name>Paris, France</name>
-                    <time>Late 19th century</time>
-                </setting>
-            </settingDesc>
         </profileDesc>
 
     </teiHeader>
 
     <text>
-        En la cour du <persName><roleName>Roy</roleName> Charles</persName>, je
-        ne diray point le quantiesme <span type="honour">pour l'honneur</span> de
-        celle dont je veulx parler, laquelle je ne veulx nommer
-        par son nom propre, y avoit une Comtesse de fort bonne maison, 
-        mais estrangière. Et, pource que toutes choses nou-
-        velles plaisent, ceste Dame, à sa venue
-        tant pour la nouveauté de son habillement
-        que <span type="beauty">pour la richesse dont il estoit plein,
-        estoit regardée de chascun</span>; <span type="grace">et combien
-        qu'elle ne fust des plus belles, si avoit-elle
-        une grace avecq une audace tant bonne
-        qu'il n'estoit possible de plus, la parolle et
-        la gravité de mesme, de sorte qu'il n'y avoit
-        nul qui n'eust craincte à l'aborder</span>, sinon
-        le <roleName>Roy</roleName> qui l'ayma très-fort. Et, 
-        pour parler à elle plus priveement, donna quelque
-        commission au Comte son mary, 
-        en laquelle il demeura longuement; et, durant
-        ce temps, le <roleName>Roy</roleName> feit grand chère avec sa
-        femme. Plusieurs gentilz hommes du <roleName>Roy</roleName>,
-        qui congnurent que leur maistre en estoit
-        bien traicté, prindrent hardiesse de parler
-        à clle; et, entre autres, un nommé <persName>Astillon</persName>
-        aul estoit fort audatienx et homme 
-        de bonne grace. Au commencement, elle
-        luy tint une si grande gravité, le menas-
-        sant de le dire au <roleName>Roy</roleName> son maistre, qu'il
-        en cuyda avoir paour; mais luy, qui
-        n'avoit point accoustumé de craindre les
-        menasses d'un bien hardy capitaine, s'as-
-        seura des siennes ; et il la poursuivyt de
-        si près, qu'elle luy accorda de parler a
-        luy seulle, luy enseignant la manière
-        comme il devoit venir en sa chambre.
-        A quoy il ne faillyt; et, afin que le <roleName>Roy</roleName>
-        n'en eust nul soupson, luy demanda
-        congé d'aller en quelque voiage. Et s'en
-        partit de la court, mais, la première journée, 
-        laissa tout son train, et sen revint
-        de nuict recepvoir les promesses que la
-        Comtesse luy avoit faictes; ce qu'elle luy
-        tint: dont il demeura si satisfaict, qu'il
-        fut content de demeurer cinq ou six jours
-        enfermé en une garderobbe, sans saillyr
-        dehors , et et ia là ne vivoit que de restaurans.
-        Durant les huict jours qu'il estoit
-        vint un de ses compaignons faire l'amour
-        à la Comtesse, lequel avoit nom <persName>Durassier</persName>. 
-        Elle tint telz termes à ce serviteur,
-        qu'elle avoit faict au premier : 
-        au commencement, en rudes et audaticux propos
-        qui tous les jours sadoucişsoient; et,
-        quand cestoit le jour qu'elle donnoit
-        congé au premier prisonnier, elle mettoit
-        un serviteur en sa place. Et, durant qu'il
-        y estoit, un autre sien compaignon,
-        nommé <persName>Valnebon</persName>, feit pareille office que
-        les deux premiers; et, après culx, en
-        vindrent deux ou trois aultres qui avoient
-        part à la doulce prison.
-        Ceste vie dura assez longuement, et
-        conduicte si finement, que les uns ne
-        sçavoient rien des aultres. Et combien
-        qu'ilz entendissent assez l'amour que
-        chascun luy portoit, si n'y avoit-il nul
-        qui ne pensast en avoir eu seul ce qu'il
-        en demandoit : et se mocquoit chascun
-        de son compaignon, qu'il pensoit avoir
-        failly à un si grand bien.
-        Un jour que les gentilz hommes dessus
-        nommez estoient en un bancquet où ilz
-        faisoient fort grand chère, ilz 
-        commencèrent àa parler de leurs fortunes 
-        et prisons, quilz avoient eues durant les
-        guerres. Mais <persName>Valnebon</persName>, 
-        à qui il faisoit
-        mal de celer si longuement une si bonne
-        fortune que celle qu'il avoit eue, va dire
-        à ses compaignons : "Je ne scay quelles
-        prisons vous aver cu, mals quanta moy,
-        pour l'amour d'une où j'ay esté, je diray
-        toute ma vie louange et bien des autres;
-        car je pense quil ny plaisir en ce
-        monde qui approche de celluy quel'on
-        a d'estre prisonnier." <persName>Astillon</persName>, qui
-        avoit esté le premier prisonnier, se doubta
-        de la prison qu'il vouloit dire, et luy respondit : 
-        "<persName>Valnebon</persName>, soubz quel 
-        geolière avez-vous esté si bien
-        traicté, que vous aymez tant vostre
-        prison?" <persName>Valnebon</persName> luy dist : 
-        "Quel que soit le geolier, la prison m'a esté
-        si agréable, que j'eusse bien voulu
-        qu'elle eust duré plus longuement, car
-        je ne fuz jamais mieulx traicté ne plus
-        content. " <persName>Durassier</persName>, qui estoit homme
-        peu parlant, congnoissant très-bien que
-        lon se débatoit de la prison où il avoit
-        part comme les autres, dist à <persName>Valnebon</persName>:
-        "De quelles viandes estiez-vous nourry
-        en ceste prison, dont yous vous louez
-        dist si fort?" - De quelles viandes?
-        dist <persName>Valnebon</persName>: "le Roy n'en a poinct de
-        meilleures ne plus nourrissantes". 
-        "Mais encores fault-il que je sçache,"
-        dist <persName>Durassier</persName>, " 
-        si celluy qui vous tenoit
-        prisonnier vous faisoit bien gaingner
-        vostre pain?". <persName>Valnebon</persName>, 
-        qui se doubta d'estre entendu, 
-        ne se peut tenir de jurer:
-        "Ha, vertu Dieul aurois-je bien des
-        compaignons, oà je pense estre tout
-        seul?" <persName>Astillon</persName>, voiant ce différent où
-        il avoit part comme les aultres, dist en
-        riant: "Nous sommes tous à un maistre
-        compaignons et amys dės nostre jeu-
-        nesse; parquoy, si nous sommes com-
-        paignons d'une bonne fortune, nous
-        avons occasion d'en rire, mais, pour
-        sçavoir si ce que je pense est vmay, je
-        vous prie que je vous interroge et que
-        vous tous me confessiez la vérité, car
-        s'il est advenu ainsy de nous comme je
-        pense, ce seroit une adventure aussi
-        plaisante que l'on en sçauroit trouver
-        en nul livre." Ilz jurèrent tous dire
-        vérité, s'il estoit ainsy qu'ilz ne la peus-
-        sent dényer. Il leur dist: "Je vous
-        diray ma fortune, et vous me respondrez ouy ou nenny, 
-        si la vostre est pareille". Ilz se accorderent tous, et
-        alors il dist: "Je demanday congé au
-        <roleName>Roy</roleName> d'aller en quelque voiage. 
-        Ilz respondirent: "Et nous aussy."
-        "Quant je fuz a deux lieues de la court,
-        je laissay tout mon train et m'allay
-        rendre prisonnier." Ilz respondirent:
-        "Nous en fismes autant". 
-        "Je demouray," dist <persName>Astillon</persName>,
-        sept ou huict
-        jours, et couchay en une garderobbe
-        ou l'on ne me fit manger que restaurans et les meilleures viandes que je
-        mangeay jamais; et, au bout de huict
-        jours, ceulx qui me tenoient me laissèrent aller beaucoup plus foible que
-        je n'estois arrivé. Ilz jurèrent tous
-        que ainsy leur estoit advenu." 
-        "Ma prison", dist <persName>Astillon</persName>, "commencea tel
-        jour et fina tel jour."
-        "La mienne" dist <persName>Durassier</persName>,
-        "commencea le propre
-        jour que la vostre fina; et dura jusques
-        a un tel jour". <persName>Valnebon</persName>, qui perdoit
-        patience, commencea à jurer et dire:
-        "Par le sang Dieu! à ce que je voy, je
-        suis le tiers qui pensois estre le premier
-        et le seul, car je y entray tel jour et en
-        saillys tel jour." Les aultres trois, qui
-        estoient à la table, jurérent qu'ilz avoient
-        bien gardé ce rang. " Or, puisque ainsy
-        est ", dist <persName>Astillon</persName>, a je diray l'estat de
-        nostre geolière elle est mariée et son
-        mary est bien loing". "C'est ceste-là
-        propre", respondirent-ilz tous. "Or,
-        pour nous mettre hors de peyne",
-        dist <persName>Astillon</persName>,
-        "moy qui suis le premier
-        en roolle, la nommeray aussy le pre-
-        mier, c'est ma Dame la Comtesse qui
-        estoit si audatieuse, que, en gaingnant
-        son amitié, je pensois avoir gaingné Cesar.
-        <span type="bitch">Que à tous les diables soit la
-        villaine qui nous a faict d'une chose
-        tant travailler, et nous réputer si heureux de l'avoir 
-        acquise! Il ne fut oncques une telle meschante, car, quand
-        elle en tenoit un en cache, elle pratiquoit l'autre, 
-        pour n'estre jamais sans
-        passetemps; et aymerois-je mieulx
-        estre mort, qu'elle demorast sans pug
-        nition!</span>" Ilz demandèrent chascun,
-        qu'il leur sembloit quelle debvoit avoir
-        et qu'ilz estoient tous prestz de la luy
-        donner. "ll me semble," dist-il, "que
-        nous le debvons dire au <roleName>Roy</roleName> nostre
-        maistre, lequel en faict un cas comme
-        d'une déesse?" - "Nous ne ferons point
-        ainsy", dist <persName>Astillon</persName>; "nous avons
-        assez de molen pour nous venger d'elle,
-        sans y appeller nostre maistre.
-        Trouvons-nous demain, quant elle ira à la
-        messe; et que chascun de nous porte
-        une chaine de fer au col; et, quand
-        elle entrera en l'église, nous la salue-
-        rons comme il appartient."
-        Ce conseil fut trouvé très-bon de toute
-        la compaignie; et feirent provision de
-        chascun une chaine de fer. Le matin
-        venu, tous habillez de noir, leurs chaines
-        de fer tournées À l'entour de leur col
-        en façon de collier, vindrent trouver <roleName>le
-        Comtesse</roleName> qui alloit à l'église. Et, si tost
-        qu'elle les veid ainsy habillez, se print
-        a rire et leur dist : "Ou vont ces gens si douloureux?"
-        "Ma <roleName>Dame</roleName>", dist <persName>Astillon</persName>, "nous vous venons 
-        accompagner comme pauvres esclaves
-        prisonniers qui sont tenuz à vous faire
-        service." La Comtesse, faisant semblant de n'y entendre rien, leur dist :
-        "Vous n'estes point mes prisonniers, ne
-        je n'entendz point que vous ayer occa-
-        sion de me faire service plus que les
-        autres." <persName>Valnebon</persName> s'advancea et luy
-        dist:" Si nous avons mange de vostre
-        pain si longuement, nous serions bien
-        ingratz si nous ne vous faisions ser-
-        vice". Elle feit si bonne mine de n'y
-        rien entendre, qufelle cuydoit par ceste
-        gravité les estonner. Mais ilz poursuyvoient si bien leurs propos, 
-        qu'elle entendit que la chose estoit descouverte.
-        Parquoy, trouva incontinent moien de
-        les tromper, car <span type="honour">elle, qui avoit perdu
-        l'honneur et la conscienc</span>, ne voulut
-        point recepvoir la honte qu'ilz lui 
-        cuydoient faire; mais, comme <span type="independence">celle qui 
-        preféroit son plaisir à tout l'honneur du
-        monde</span>, ne leur en feit pire visaige, n'y
-        n'en changea de contenance : dont il.
-        furent tant estonnez, qu'ilz rapportèrent
-        en leur sein la honte qu'ilz luy avoient
-        voulu faire. 
-        "Si vous ne trouvez, mes Dames, ce compte
-        digne de faire congnoistre <span type="counterstereotype">les femmes aussi
-        mauvaises que les hommes</span>, j'en chercheray
-        d'autres pour vous contenter; toutesfois, il
-        me semble que cestuy-là suffise pour vous
-        monstrer que <span type="honour">une femme qul a perdu la
-        honte est cent foys plus hardye à faire mal
-        que n'est un homme</span>". ll n'y eut femme en
-        la compaignie, oiant racompter ceste histoire, 
-        qui ne fist tant de signes de croix,
-        qu'il sembloit qu'elles voyoient tous les dia-
-        bles d'enfer devant leurs oeilz. Mais Oisille
-        leur dist : " Mes Dames, humilions-nous,
-        quand nous oyons cest horrible cas, d'autant que 
-        la personne délaissde de <roleName>Dieu</roleName> se
-        rend pareille à celluy avecq lequel elle est
-        joincte, car, puisque ceulx qui adbèrent A
-        <roleName>Dieu</roleName> ont son esperit avecq eulx, aussy sont
-        cculx qui adhèrent à son contraire; et n'est
-        rien si bestial que la personne destituće de
-        l'esperit de Dieu". "Quoy que ait faict
-        ceste pauvre Dame", dist <persName>Ennasuitte</persName>, "si
-        ne scaurois-je louer ceulx qui se vantent de
-        leur prison". "J'ay opinion", dist 
-        <persName>Longarine</persName>, "que la peine n'est moindre
-        un homme de celer sa bonne fortune, que de
-        la pourchasser, car il n'y a veneur qui ne
-        prenne plaisir à corner sa prise, ny amou.
-        reux, d'avoir la gloire de sa victoire".
-        "Voila une opinion", dist <persName>Simontault</persName>, "que
-        devant tous les inquisiteurs de la Foy, je
-        soustiendray héréticque, car il y a plus
-        d'hommes secretz que de femmes ; et sçay
-        bien qu'on en trouveroit qui aimeroient
-        mieulx n'en avoir bonne chère, que s'il falloit 
-        que créature du monde lentendist. Et,
-        pour ce, a l'Eglise, comme bonne mère
-        ordonne les prestres confesseurs et non Pas
-        les femmes, parce qu'elles ne peuvent rien
-        celer". "Ce n'est pas pour ceate accasion,
-        dit <persName>Oisille</persName>, "mais c'est parce que les femmes
-        sont tant ennemyes du vice, qu'elles ne
-        donneroient pas si facilement absolution
-        que les hommes , et seroient trop austères
-        an leurs péoitences". "Si elles l'estoient autant"
-        dist <persName>Dagoudin</persName>, "qu'elles sont en
-        leurs responces , clles feroient désespérer
-        plus de pécheurs, qu'elles n'en attireroient
-        à salut ; parquoy l'Eglise, en toute sorte, y
-        a bien pourveu. Mais si ne veulx-je pas,
-        pour cela, excuser les gentilz hommes, qui
-        se vantèrent ainsy de leur prison, car jamais
-        homme n'eut honneur à dire mal des
-        femmes". "Puis que le faict estoit commun", dit <persName>Hircan</persName>, 
-        "il me semble qu'ilz
-        faisoient bien de se consoler les uns aux aultres". 
-        "Mais", dist <persName>Geburon</persName>, "ilz ne le
-        devoient jamais confesser pour leur honneur mesme. 
-        Car les livres de la Table
-        Ronde nous apprennent que ce n'est point
-        honneur à un bon chevalier, d'en abattre
-        un qui ne vault rien". "Je p'esbahys",
-        dist <persName>Longarine</persName>, "que ceste paüvre femme
-        ne moroit de honte devant ses prisonniers".
-        "Celles qui l'ont perdue", dist <persName>Oisille</persName>, 
-        "à grand peyne la peuvent-elles jamais reprendre, 
-        sinon celle que fort amour a faict
-        oublier.De telles en ay-je veu beaucoup re"
-        venir". "Je croy", dist <persName>Hircan</persName>, "que vous
-        en avez veu revenir celles qui y sont alldes,
-        car forte amour, qui est en une femme, est
-        malaisée à trourer". "Je ne suis pas de
-        vostre opinion, dist <persName>Longarine</persName>,
-        "car je croy qu'il y en a qui ont aymé juaques à la
-        mort". "J'ay tant d'envie d'ouyr ceste nouvelle", 
-        dist <persName>Hircan</persName>, "que je vous donne
-        ma voix pour congnoistre aux femmes l'amour que je n'ay jamais estimé y estre".
-        "Or, mais que vous l'oyez", dist <persName>Longarine</persName>,
-        "vous le croirez, et quil n'est nulle Plus
-        forte passion que celle d'amour Mais, tout
-        ainsy qu'elle faict entreprendre choses quasi
-        impossibles, pour acquérir quelque conten
-        tement en ceste vie, aussy mène-elle, plus
-        que autre passion, E désespoir celluy ou
-        celle qui perd lespérance de son désir
-        comme vous verrez par ceste histoire".
+        D’ardito cavalier non è prodezza
+        (concedami che ’l vero a questa volta
+        io possa dir, la vostra gentilezza),
+        da cavalier non è, ch’abbia raccolta
+        ne l’animo suo invitto alta virtute,
+        e che a l’onor la mente abbia rivolta,
+        <span class= "war">con armi insidiose e non vedute,
+        a chi piú disarmato men sospetta
+        dar gravi colpi di mortal ferute.</span>
+        Men ch’agli altri ciò far poi se gli aspetta
+        <span class="gender">contra le donne, da natura fatte
+        per l’uso che piú d’altro a l’uom diletta:</span>
+        <span class= "body"> imbecilli di body, ed in nulla atte
+        non pur a offender gli altri, ma se stesse
+        dal difender col cor timido astratte.
+        Questo doveva far che s’astenesse
+        la vostra man da quell’aspre percosse,
+        ch’al mio feminil petto ignudo impresse.</span>
+        Io non saprei già dir onde ciò fosse,
+        se non che fuor del lato mi traeste
+        <span class= "war">l’armi vostre del sangue asperse e rosse.
+        Spogliata e sola e incauta mi coglieste,
+        debil d’animo, e in armi non esperta,
+        e robusto ed armato m’offendeste:</span>
+        tanto ch’io stei per lungo spazio incerta
+        di mia salute; e fu per me tra tanto
+        passion infinita al cor sofferta.
+        Pur finalmente s’è stagnato il pianto,
+        e quella piaga acerba s’è saldata,
+        che da l’un mi passava a l’altro canto.
+        Quasi da pigro sonno or poi svegliata,
+        dal cansato periglio animo presi,
+        <span class="gender">benché femina a molli opere nata;</span>
+        <span class="war">e in man col ferro a essercitarmi appresi,</span>
+        tanto ch’aver le donne agil natura,
+        non men che l’uomo, <span class="war">in armeggiando intesi</span>:
+        perché ’n ciò posto ogni mia industria e cura,
+        mercé del ciel, mi veggo giunta a tale,
+        che più d’offese altrui non ho paura.
+        E se voi dianzi mi trattaste male,
+        fu gran vostro diffetto, ed io dal dánno
+        grave n’ho tratto un ben che molto vale.
+        Così nei casi avversi i savi fanno,
+        che ’l lor utile espresso alfin cavare
+        da quel che nuoce da principio sanno;
+        e cosí ancor le medicine amare
+        rendon salute; e ’l ferro e ’l foco s’usa
+        le putrefatte piaghe a ben curare:
+        benché non serve a voi questa per scusa,
+        che m’offendeste non già per giovarmi,
+        e ’l fatto stesso parla e sì v’accusa.
+        Ed io, poi che ’l ciel vòlse liberarmi
+        da sì mortal periglio, <span class="war">ho sempre atteso
+        a l’essercizio nobile de l’armi,
+        sì ch’or, animo e forze avendo preso,
+        di provocarvi a rissa in campo ardisco,
+        con cor non poco a la vendetta acceso.</span>
+        <span class="gender">Non so se voi stimiate lieve risco
+        entrar con una donna in campo armato;
+        ma io, benché ingannata, v’avvertisco
+        che ’l mettersi con donne è da l’un lato
+        biasmo ad uom forte, ma da l’altro è poi
+        caso d’alta importanza riputato.
+        Quando armate ed esperte ancor siam noi,
+        render buon conto a ciascun uom potemo,
+        ché mani e piedi e core avem qual voi;
+        e se ben molli e delicate semo,
+        ancor tal uom, ch’è delicato, è forte;
+        e tal, ruvido ed aspro, è d’ardir scemo.
+        Di ciò non se ne son le donne accorte;
+        che se si risolvessero di farlo,
+        con voi pugnar porìan fino a la morte.
+        E per farvi veder che ’l vero parlo,
+        tra tante donne incominciar voglio io,
+        porgendo essempio a lor di seguitarlo.</span>
+        <span class="war">A voi, che contra tutte sète rio,
+        con qual’armi volete in man mi volgo,
+        con speme d’atterrarvi e con desio;
+        e le donne a difender tutte tolgo</span>
+        contra di voi, che di lor sète schivo,
+        sì ch’a ragion io sola non mi dolgo.
+        Certo d’un gran piacer voi sète privo,
+        a non gustar di noi la gran dolcezza;
+        ed al mal uso in ciò la colpa ascrivo.
+        <span class="body">Data è dal ciel la feminil bellezza,
+        perch’ella sia felicitate in terra
+        di qualunque uom conosce gentilezza.</span>
+       <span class="war"> Ma dove ’l mio pensier trascorre ed erra
+        a ragionar de le cose d’amore,
+        or ch’io sono in procinto di far guerra,
+        torno al mio intento, ond’era uscita fuore,
+        e vi disfido a singolar battaglia.
+        Cingetevi pur d’armi e di valore:
+        vi mostrerò quanto al vostro prevaglia
+        il sesso feminil; pigliate quali
+        volete armi, e di voi stesso vi caglia,
+        ch’io vi risponderò di colpi tali,
+        il campo a voi lasciando elegger anco,
+        ch’a questi forse non sentiste eguali.
+        Mal difender da me potrete il fianco,
+        e stran vi parrà forse, a offenderne uso,
+        da me vedervi oppresso in terra stanco:
+        così talor quell’uom resta deluso,
+        ch’ingiuria gli altri fuor d’ogni ragione,
+        non so se per natura, o per mal uso.
+        Vostra di questa rissa è la cagione,
+        ed a me per difesa e per vendetta
+        carico d’oppugnarvi ora s’impone.
+        Prendete pur de l’armi omai l’eletta,
+        ch’io non posso soffrir lunga dimora,
+        da lo sdegno de l’animo costretta.
+        La spada, che ’n man vostra rade e fôra,
+        de la lingua volgar veneziana,
+        s’a voi piace d’usar, piace a me ancora;
+        e se volete entrar ne la toscana,
+        scegliete voi la seria o la burlesca,
+        ché l’una e l’altra è a me facile e piana.</span>
+        Io ho veduto in lingua selvaghesca
+        certa fattura vostra molto bella,
+        simile a la maniera pedantesca:
+        se voi volete usar o questa o quella,
+        ed aventar, come ne l’altre fate,
+        di queste in biasmo nostro le quadrella,
+        qual di lor più vi piace, e voi pigliate,
+        ché di tutte ad un modo io mi contento.
+        <span class="education">avendole perciò tutte imparate.
+        Per contrastar con voi con ardimento,
+        in tutte queste ho molta industria speso:</span>
+        se bene o male, io stessa mi contento;
+        e ciò sarà dagli altri ancora inteso,
+        e ’l saperete voi, che forse vinto
+        cadrete, e non vorreste avermi offeso.
+        Ma prima che si venga in tal procinto,
+        quasi per far al gioco una levata,
+        non col ferro tagliente ancora accinto,
+        de la vostra canzone, a me mandata,
+        il principio vorrei mi dichiaraste,
+        poi che l’opera a me vien indrizzata.
+        <span class="irony">«Verunica» e ’l restante mi chiamaste,
+        alludendo a Veronica mio nome,
+        ed al vostro discorso mi biasmaste;
+        ma al mio dizzionario io non so come
+        «unica» alcuna cosa propriamente
+        in mala parte ed in biasmar si nome.
+        Forse che si direbbe impropriamente,
+        ma l’anfibologia non quadra in cosa
+        qual mostrar voi volete espressamente.
+        Quella di cui la fama è gloriosa,
+        e che ’n bellezza od in valor eccelle,
+        senza par di gran lunga virtuosa,
+        «unica» a gran ragion vien che s’appelle;
+        e l’arte, a l’ironia non sottoposto,
+        scelto tra gli altri, un tal vocabol dièlle.
+        L’«unico» in lode e in pregio vien esposto
+        da chi s’intende; e chi parla altrimenti
+        dal senso del parlar sen va discosto.
+        Questo non è, signor, fallo d’accenti,
+        quello, in che s’inveisce, nominare
+        col titol de le cose piú eccellenti.
+        O voi non mi voleste biasimare,
+        o in questo dir menzogna non sapeste.
+        Non parlo del dir bene e del lodare,
+        ché questo so che far non intendeste,
+        ma senz’esser offeso da me stato,
+        quel che vi corse a l’animo scriveste,
+        altrui volendo in ciò forse esser grato;
+        benché me non ingiuria, ma se stesso,
+        s’altri mi dice mal, non provocato.</span>
+        E ’l voler oscurar il vero espresso
+        con le torbide macchie degli inchiostri
+        in buona civiltà non è permesso;
+        e spesso avien che ’l mal talento uom mostri,
+        giovando in quello onde più nuocer crede
+        essempi in me più d’una volta mostri,
+        sì come in questo caso ancor si vede,
+        ché voi, non v’accorgendo, mi lodate
+        di quel ch’al bene ed a la virtù chiede.
+        <span class="puttana">E se ben «meretrice» mi chiamate,</span>
+        <span class="war">o volete inferir ch’io non vi sono,
+        o che ve n’èn tra tali di lodate.
+        Quanto le meretrici hanno di buono,
+        quanto di grazioso e di gentile,
+        esprime in me del parlar vostro il suono.
+        Se questo intese il vostro arguto stile,
+        di non farne romor io son contenta,
+        e d’inchinarmi a voi devota, umìle;</span>
+        ma perch’al fin de la scrittura, intenta
+        stando, che voi mi biasimate trovo,
+        e ciò si tocca e non pur s’argomenta,
+        da questa intenzion io mi rimovo,
+        e in ogni modo question far voglio,
+        e partorir lo sdegno ch’entro covo.
+        Apparecchiate pur l’inchiostro e ’l foglio,
+        e fatemi saper senz’altro indugio
+        quali armi per combatter in man toglio.
+        Voi non avrete incontro a me rifugio,
+        ch’a tutte prove sono apparecchiata,
+        e impazientemente a l’opra indugio
+        o la favella giornalmente usata,
+        o qual vi piace idioma prendete,
+        ché ’n tutti quanti sono essercitata;
+        e se voi poi non mi risponderete,
+        di me dirò che gran paura abbiate,
+        se ben così valente vi tenete.
+        Ma perché alquanto manco dubitiate,
+        son contenta di far con voi la pace,
+        pur ch’una volta meco vi proviate:
+        fate voi quel che più vi giova e piace.
     </text>
 </TEI>
