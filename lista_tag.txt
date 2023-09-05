@@ -17,3 +17,4 @@
 <span type="virgin">
 <span type="weakness">
 <span type="witch">
+<span type="lover">
