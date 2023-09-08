@@ -1,0 +1,93 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                Al buio
+                </title>
+                <author>
+                Maria Messina
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <p>
+                
+                </p>
+            </editionStmt>
+            <extent>
+            <measure unit="pages" quantity="75">75 pages of source
+            material</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>
+                Sandron
+                </publisher>
+                <pubPlace>
+                Firenze
+                </pubPlace>
+                <date>
+                1909
+                </date>
+            </publicationStmt>
+        </fileDesc>    
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italian</language>
+            </langUsage>
+            <textDesc n="novel">
+                <channel mode="w">print; part issues</channel>
+                <constitution type="single"/>
+                <derivation type="original"/>
+                <domain type="art"/>
+                <factuality type="fiction"/>
+                <interaction type="none"/>
+                <preparedness type="prepared"/>
+                <purpose type="entertain" degree="high"/>
+                <purpose type="inform" degree="medium"/>
+            </textDesc>
+        </profileDesc>
+
+    </teiHeader>
+
+    <text>
+        <span class="mother">Stella aveva addormentato il piccino, poi s’era messo il busto color lilla, e
+        s’era ravviati i capelli neri e lucidi come piume di storno. Temperò la luce
+        del lume guardando in giro per la stanza rimessa bene in ordine; c’era,
+        appeso a un chiodo, un giubbone di velluto del <span class="marriage"> marito </span> e lo cacciò in una
+        cassa. L’orologio della Matrice sonava le otto.<span class="lover"> Stella ascoltò dietro l’uscio:
+        il tenente stava per venire. Si accomodò il fazzoletto di seta intorno al collo,
+        e si passò ancora una mano sui capelli come per ravviarli. </span>Aspettava.
+        Proprio allora il piccino si svegliò e cominciò a piangere; gli si accostò e
+        con voce stizzosa lo ninnò:
+        «Dormi, gioia, dormi…».
+        Udì finalmente un passo sulla scaletta, sentì picchiare e lasciato il bimbo
+        corse ad aprire:
+        «Buona sera!» fece tutta lieta, e stese la mano.
+        «Sei matta?»
+        Stella sentì mancarsi il fiato, come se le avessero dato un colpo al cuore.
+        Chi se l’aspettava? Il marito entrò guardando in giro nella stanza,
+        sospettosamente.
+        «O che ti piglia col buona sera? e con le strette di mano? diventi una
+        signora!…» fece fissando la moglie negli occhi mentre si levava lo
+        scapolare.
+        «Così, scherzavo…» rispose Stella cercando di ridere.
+        «Io non ne ho nessuna voglia.»
+        Non ne aveva davvero. Si spogliò dei panni infangati e si mutò la
+        biancheria sempre guardando in giro nella stanza.
+        «Perché non c’è il mio giubbone?» chiese.
+        «A che ti serve, di sera? l’avevo messo a posto.»
+        «È festa oggi…?» chiese accennando il busto lilla.
+        «Sono andata alla Matrice per la benedizione, con Mariannina.»
+        A poco a poco il contadino si ammansava. Si mise a letto e borbottò
+        qualche cosa che non si capì. Anche Stella cominciò a levarsi mogia mogia
+        il busto lilla, coll’orecchio teso alla strada. Sentì un passo lesto proprio
+        dietro l’uscio, trasalì e disse con voce alta e ferma:
+        «Nino, non sei stato a lavorare da don Manuele?» e ascoltò fuori. Il
+        passo si allontanava cautamente. Stella spense il lume e mise un gran
+        respiro. Il marito seguitava a borbottare la sua risposta: e «… per quel cane
+        di don Manuele, che vorrebbe la giornata fosse di quarantott’ore… e ci leva
+        la pelle…».
+        Stella rispose con sincerità:
+        «Un vero cane!».
+    </text>
+</TEI>
