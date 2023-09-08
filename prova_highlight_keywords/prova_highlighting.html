@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="prova.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    </head>
+    <body>
+        Passando ora al quesito che mi hai sottoposto, credo di poterti rispondere così. Tu mi domandi
+        quali feste il gloriosissimo Padre nostro <roleName>san</roleName> <span class="persName">Francesco</span> ci raccomandò di celebrare con particolare
+        solennità, pensando, se ben ho capito, che si possa in esse usare una certa maggior larghezza nella
+        varietà dei <span class="foodOrFoodAbstinence">cibi</span>. Nella tua prudenza certamente saprai che, salvo le deboli e le inferme, -­‐ verso le
+        quali ci insegnò e ci comandò di usare ogni discrezione con qualsiasi genere di <span class="foodOrFoodAbstinence">cibo</span> -­‐, nessuna di noi,
+        che sia sana e <span class="strength">robusta</span>, dovrebbe prendere se non <span class="foodOrFoodAbstinence">cibi</span> quaresimali, tanto nei giorni feriali che nei
+        festivi, <span class="foodOrFoodAbstinence">digiunando</span> ogni giorno ad eccezione delle domeniche e del Natale del Signore, nei quali
+        giorni possiamo prendere il <span class="foodOrFoodAbstinence">cibo</span> due volte. Ed anche nei giovedì, dei periodi non di <span class="foodOrFoodAbstinence">digiuno</span>,
+        ciascuna può fare come le piace, cioè chi non volesse <span class="foodOrFoodAbstinence">digiunare</span> non vi è tenuta.
+        Ma noi, che siamo in buona salute, <span class="foodOrFoodAbstinence">digiuniamo</span> tutti i giorni, eccetto le domeniche e il Natale. Non
+        siamo però tenute al <span class="foodOrFoodAbstinence">digiuno</span> -­‐ così ci ha insegnato il beato Francesco in suo scritto -­‐, durante tutto il
+        tempo pasquale e nelle feste della Madonna e dei santi Apostoli, a meno che cadessero il venerdì.
+        Ma, come ho detto sopra, noi che siamo sane e <span class="strength">robuste</span>, consumiamo sempre <span class="foodOrFoodAbstinence">cibi</span> quaresimali.
+        Siccome però, <span class="waekness">non abbiamo un <span class="body">corpo</span> di bronzo</span>, 
+        <span class="weakness">né la nostra è la robustezza del granito</span><!--decidere se tenere-->,
+        anzi siamo piuttosto <span class="weakness">fragili e inclini ad ogni debolezza corporale</span>, ti prego e ti supplico nel Signore, o
+        carissima, di moderarti con saggia discrezione nell’austerità, quasi esagerata e impossibile, nella quale
+        ho saputo che ti sei avviata, affinché, vivendo, la tua vita sia lode del Signore, e
+        tu renda al Signore, un culto spirituale ed il tuo sacrificio sia sempre condito col sale della
+        prudenza.
+
+        <div class="row mt-4">
+            <p><b>Highlight in the text:</b></p>
+                 <div class="col-md-12">
+                <form role="form">
+                    <div class="checkbox"><label>
+                            <input type="checkbox" id="showpersnames" class="show">Characters</label></div>
+                    <div class="checkbox"><label>
+                            <input type="checkbox" id="showfood" class="show">Food theme</label></div>
+                    <div class="checkbox"><label>
+                            <input type="checkbox" id="showbody" class="show">Body theme</label></div>
+                    <div class="checkbox"><label>
+                            <input type="checkbox" id="showstrength" class="show">Strength theme</label></div>
+              
+
+                </form>
+            </div>
+        </div>
+
+        <script>
+            $('#showpersnames').click(function () {
+                if (this.checked)
+                    $('.persName').addClass('text-persname')
+                else
+                    $('.persName').removeClass('text-persname')
+            })
+
+            $('#showfood').click(function () {
+                if (this.checked)
+                    $('.foodOrFoodAbstinence').addClass('text-food')
+                else
+                    $('.foodOrFoodAbstinence').removeClass('text-food')
+            })
+
+            $('#showbody').click(function () {
+                if (this.checked)
+                    $('.body').addClass('text-body')
+                else
+                    $('.body').removeClass('text-body')
+            })
+
+            $('#showstrength').click(function () {
+                if (this.checked)
+                    $('.strength').addClass('text-strength')
+                else
+                    $('.strength').removeClass('text-strength')
+            })
+        </script>
+    </body>
+</html>
