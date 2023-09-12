@@ -18,3 +18,7 @@
 <span type="weakness">
 <span type="witch">
 <span type="lover">
+<span type="gender">
+<span type="modesty">
+<span type="war">
+<span type="irony">
