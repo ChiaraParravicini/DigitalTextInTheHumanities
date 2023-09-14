@@ -104,7 +104,7 @@
     </interpGrp>
 
     <text>
-        "Eh bien, <persName>Fanchon Fadet</persName>, puisque tu parles si raisonnablement, 
+        "Eh bien, <persName xml:id="FanchonFadet">Fanchon Fadet</persName>, puisque tu parles si raisonnablement, 
         et que, pour la première fois de ta vie, je te vois douce et trai table, 
         je vas te dire pourquoi <seg xml:id="seg1" ana="#counterstereotype"> on ne te respecte pas comme une fille 
         de seize ans devrait pouvoir l'exiger.</seg> 
@@ -130,17 +130,17 @@
         <seg xml:id="seg5" ana="#intellect">je veux croire que tu as des connaissances, mais j'espère que tu ne t'es pas donnée aux mauvais esprits ;</seg> 
         tu cherches à le paraître pour effrayer ceux qui te fâchent, 
         et c'est toujours un assez vilain renom que tu te donnes là. Voilà tous tes torts, 
-        <persName>Fanchon Fadet</persName>, et c'est à cause de ces torts-là que les gens en ont avec toi. 
+        <persName xml:id="FanchonFadet">Fanchon Fadet</persName>, et c'est à cause de ces torts-là que les gens en ont avec toi. 
         Rumine un peu la chose, et tu verras que si tu voulais être un peu plus
         comme les autres, on te saurait plus de gré de ce que tu as de plus qu'eux dans ton entendement"
-        " Je te remercie, <persName>Landry</persName>," répondit la petite <persName>Fadette</persName>, 
+        " Je te remercie, <persName xml:id="Landry">Landry</persName>," répondit la petite <persName xml:id="FanchonFadet">Fadette</persName>, 
         d'un air très-sérieux, 
         après avoir écouté le besson bien religieusement "Tu m'as dit à peu près ce que tout
         le monde me reproche, et tu me l'as dit avec beaucoup
         d'honnêteté et de ménagement, ce que les autres ne font
         point ; mais à présent veux- tu que je te réponde, et, pour
         cela, veux-tu t'asseoir à mon côté pour un petit moment ? "
-        " L'endroit n'est guère agréable," dit <persName>Landry</persName>, 
+        " L'endroit n'est guère agréable," dit <persName xml:id="Landry">Landry</persName>, 
         qui ne se souciait point trop de s'attarder avec elle, et qui songeait 
         toujours aux <seg xml:id="seg4" ana="#witch">mauvais sorts</seg>  qu'on l'accusait de jeter sur ceux qui ne s'en méfiaient point
         "Tu ne trouves point l'endroit agréable," reprit-elle, 
@@ -150,16 +150,16 @@
         <roleName>Dieu</roleName>, et ils s'accommodent de la première pierre venue pour poser leur tête. 
         Les épines ne blessent point leurs pieds, et là où ils se trouvent ils observent 
         tout ce qui est joli et avenant au ciel et sur la terre II n*y a point de vilain endroit, 
-        <persName>Landry</persName>, pour ceux qui connaissent 
+        <persName xml:id="Landry">Landry</persName>, pour ceux qui connaissent 
         la vertu et la douceur de toutes les choses que <roleName>Dieu</roleName> 
         a faites. Moi, je sais, sans être <seg xml:id="seg4" ana="#witch">sorcière, à quoi sont bonnes les moindres herbes que tu écrases sous tes pieds ; et quand je sais leur usage, 
         je les regarde et ne méprise ni leur odeur ni leur figure.</seg>  
-        Je te dis cela, <persName>Landry</persName>, pour t'enseigner tout à l'heure une autre cliose qui se 
+        Je te dis cela, <persName xml:id="Landry">Landry</persName>, pour t'enseigner tout à l'heure une autre cliose qui se 
         rapporte aux âmes chrétiennes aussi bien qu'aux fleurs des jardins et aux ronces des carrières ; 
         c'est que l'on méprise trop souvent ce qui ne paraît ni beau ni bon, 
         et que par là on se prive de ce qui est secourable et salutaire."
         "Je n'entends pas bien ce que tu veux signifier," 
-        dit <persName>Landry</persName> en s'asseyant auprès d'elle ; — 
+        dit <persName xml:id="Landry">Landry</persName> en s'asseyant auprès d'elle ; — 
         et ils restèrent un istant sans parler, 
         car la petite <persName>Fadette</persName> avait l'espiit 
         envolé à des idées que Landry ne connaissait point ; 
@@ -167,7 +167,7 @@
         il ne pouvait pas s'empêcher d'avoir du plaisir à entendre cette, fille; 
         car jamais il n'avait entendu une voix si douce et des paroles si bien 
         dites que les paroles et la voix de la Fadette dans ce moment-là.
-        " Écoute, <persName>Landry</persName>," lui dit-elle, " je suis plus à plaindre qu'à blâmer; 
+        " Écoute, <persName xml:id="Landry">Landry</persName>," lui dit-elle, " je suis plus à plaindre qu'à blâmer; 
         et si j'ai des torts envers moi-même, du moins
         n'en ai-je jamais eu de sérieux envers les autres ; 
         et si le monde était juste et raisonnable, 
