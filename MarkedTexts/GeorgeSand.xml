@@ -1,71 +1,98 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
-        <!-- PUBBLICATO ORIGINARIAMENTE NEL 1849 -->
             <titleStmt>
                 <title>
-                XVI
+                La Petite Fadette. A digital edition
                 </title>
                 <author>
                 George Sand
                 </author>
-                <editor>
-                F.Aston-Binns
-                </editor>
+                <respStmt>
+                    <resp>conversion to TEI-conformant markup</resp>
+                    <name>Lucia Bertoldini</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
-                <p>
-                La Petite Fadette
-                </p>
+                <edition> DHDK Digital Edition <date>2023</date>
+                </edition>
             </editionStmt>
-            <extent>
-            <measure unit="pages" quantity="714">714 pages of source
-            material</measure>
-            </extent>
             <publicationStmt>
-                <publisher>
-                D.C.Heath &amp; Co. Publishers 
-                </publisher>
-                <pubPlace>
-                Boston
-                </pubPlace>
-                <date>
-                1898
-                </date>
+                <publisher>University of Bologna</publisher>
+                <authority>Lucia Bertoldini</authority>                
             </publicationStmt>
             <sourceDesc>
-                <p>
-                HERE THE INFORMATION ABOUT THE SOURCE (INITIALLY PUT IN PUBLICATION STATEMENT)
-                </p>
+                <biblFull xml:lang="fr">
+                    <titleStmt>
+                        <title>
+                        La Petite Fadette
+                        </title>
+                        <author>
+                        George Sand
+                        </author>
+                        <editor>
+                        F.Aston-Binns
+                        </editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition> First Edition <date when="1849">1849</date>
+                        </edition>
+                    </editionStmt>
+                    <extent>
+                        <measure unit="pages" quantity="714">714 pages of source
+                        material</measure>
+                    </extent>
+                    <publicationStmt>
+                        <publisher>D.C.Heath &amp; Co. Publishers</publisher>
+                        <date when="1898">1898</date>   
+                        <pubPlace>Boston</pubPlace>  
+                        <availability target="https://archive.org/details/lapetitefadette06sandgoog/page/n11/mode/2up">Book digitized by Google from the library of the New York Public Library and uploaded to the Internet Archive.org
+                        </availability>          
+                    </publicationStmt>
+                    <sourceDesc>
+                        No source: this is an original 
+                    </sourceDesc>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
-            
+
+        <encodingDesc>
+            <projectDesc>
+                Basic encoding, capturing information related to main characters and aiming to interpret the texts through concept-like structures. All hyphenation, punctuation, and variant spelling normalized. No formatting or layout information preserved.
+            </projectDesc>
+            <samplingDecl>
+                <p>A sample of the book "La Petite Fadette" was selected in order to create this digial edition. The sample was chosen on the basis of the topics touched upon in the text.</p>
+            </samplingDecl>
+            <tagsDecl>
+                <tagsUsage gi="seg" occurs="21">
+                    Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
+                </tagsUsage>
+            </tagsDecl>
+        </encodingDesc>
+                    
         <profileDesc>
             <langUsage>
                 <language ident="fr">French</language>
             </langUsage>
-            <textDesc n="novel">
-                <channel mode="w">print; part issues</channel>
-                <constitution type="single"/>
-                <derivation type="original"/>
-                <domain type="art"/>
-                <factuality type="fiction"/>
-                <interaction type="none"/>
-                <preparedness type="prepared"/>
-                <purpose type="entertain" degree="high"/>
-                <purpose type="inform" degree="medium"/>
-            </textDesc>
-            <settingDesc>
-                <setting>
-                    <name>rural France</name>
-                    <time>19th century</time>
-                </setting>
-            </settingDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="FanchonFadet">
+                        <persName>
+                            Fanchon Fadet
+                        </persName>
+                    </person>
+                    <person xml:id="Landry">
+                        <persName>
+                            Landry
+                        </persName>
+                    </person>
+                </listPerson>
+            </particDesc>
         </profileDesc>
 
     </teiHeader>
 
-    <interpGrp resp="#DHDKstudents - reponsibility"
+    <interpGrp resp="#LuciaBertoldini"
     type="structuralunit">
         <interp xml:id="counterstereotype">counterstereotype</interp>
         <interp xml:id="body">body</interp>
