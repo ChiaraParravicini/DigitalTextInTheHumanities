@@ -33,21 +33,9 @@
                 1898
                 </date>
             </publicationStmt>
-            <seriesStmt>
-                <p>
-                <!-- information about any series to which
-                                        the resource belongs  -->
-                </p>
-            </seriesStmt>
-            <notesStmt>
-                <note>
-                <!-- notes on other aspects of the resource -->
-                </note>
-            </notesStmt>
             <sourceDesc>
                 <p>
-                <!-- information about the source from which
-                                        the resource was derived  -->
+                HERE THE INFORMATION ABOUT THE SOURCE (INITIALLY PUT IN PUBLICATION STATEMENT)
                 </p>
             </sourceDesc>
         </fileDesc>
@@ -77,31 +65,42 @@
 
     </teiHeader>
 
+    <interpGrp resp="#DHDKstudents - reponsibility"
+    type="structuralunit">
+        <interp xml:id="counterstereotype">counterstereotype</interp>
+        <interp xml:id="body">body</interp>
+        <interp xml:id="grace">grace</interp>
+        <interp xml:id="witch">witch</interp>
+        <interp xml:id="intellect">intellect</interp>
+        <interp xml:id="beauty">beauty</interp>
+        <interp xml:id="bitch">bitch</interp>
+    </interpGrp>
+
     <text>
         "Eh bien, <persName>Fanchon Fadet</persName>, puisque tu parles si raisonnablement, 
         et que, pour la première fois de ta vie, je te vois douce et trai table, 
-        je vas te dire pourquoi <span type="counterstereotype">on ne te respecte pas comme une fille 
-        de seize ans devrait pouvoir l'exiger.</span> 
-        C'est que <span type="counterstereotype">tu n'as rien d'une fille et tout d'un garçon</span>, dans ton air et dans tes manières ;
-        c'est que <span type="body">tu ne prends pas soin de ta personne.</span> Pour commencer, 
-        <span type="grace">tu n'as point l'air propre et soigneu</span>, 
-        et <span type="body">tu te fais paraître laide par 
-        ton habillement et ton langage.</span> Tu sais bien que les enfants 
+        je vas te dire pourquoi <seg xml:id="seg1" ana="#counterstereotype"> on ne te respecte pas comme une fille 
+        de seize ans devrait pouvoir l'exiger.</seg> 
+        C'est que <seg xml:id="seg1" ana="#counterstereotype"> tu n'as rien d'une fille et tout d'un garçon</seg>, dans ton air et dans tes manières ;
+        c'est que <seg xml:id="seg2" ana="#body">tu ne prends pas soin de ta personne.</seg>  Pour commencer, 
+        <seg xml:id="seg3" ana="#grace">tu n'as point l'air propre et soigneu</seg> , 
+        et <seg xml:id="seg2" ana="#body">tu te fais paraître laide par 
+        ton habillement et ton langage.</seg>  Tu sais bien que les enfants 
         t'appellent d'un nom encore plus déplaisant que celui de grelet. 
-        Ils t'appellent souvent <span type="counterstereotype">le màlot</span>. Eh bien.
-        crois-tu que ce soit à propos, à seize ans, <span type="counterstereotype">de ne point ressembler encore à une fille?</span>
+        Ils t'appellent souvent <seg xml:id="seg1" ana="#counterstereotype"> le màlot</seg> . Eh bien.
+        crois-tu que ce soit à propos, à seize ans, <seg xml:id="seg1" ana="#counterstereotype"> de ne point ressembler encore à une fille?</seg> 
         Tu montes sur les arbres comme un vrai chat-écurieux, et quand tu sautes sur une jumen 
-        sans bride ni selle, tu la fais galoper comme si le diable était dessus. <span type="counterstereotype">C'est bon d'être forte et 
+        sans bride ni selle, tu la fais galoper comme si le diable était dessus. <seg xml:id="seg1" ana="#counterstereotype"> C'est bon d'être forte et 
         leste ; c'est bon aussi de n'avoir peur de rien, et c'est un avantage de nature pour un homme. 
-        Mais pour une femme trop est trop, et tu as l'air de vouloir te faire remarquer.</span> 
+        Mais pour une femme trop est trop, et tu as l'air de vouloir te faire remarquer.</seg>  
         Aussi on te remarque, on te taquine, on crie après toi comme après
         lo un loup. Tu as de l'esprit et tu réponds des malices qui font rire ceux à qui elles 
         ne s'adressent point. C'est encore bon d'avoir plus d'esprit que les autres ; 
         mais à force de le montrer, on se fait des ennemis. Tu es curieuse, et quand tu as surpris 
         les secrets des autres, tu les leur jettes à la."figure bien durement, aussitôt que 
         tu as à te plaindre d'eux. Cela te fait craindre, et on déteste ceux qu'on craint 
-        On leur rend plus de mal qu'ils n'en font. Enfin, que tu sois <span id="witch">sorcière</span> ou non, 
-        <span id="intellect">je veux croire que tu as des connaissances, mais j'espère que tu ne t'es pas donnée aux mauvais esprits ;</span>
+        On leur rend plus de mal qu'ils n'en font. Enfin, que tu sois <seg xml:id="seg4" ana="#witch">sorcière</seg>  ou non, 
+        <seg xml:id="seg5" ana="#intellect">je veux croire que tu as des connaissances, mais j'espère que tu ne t'es pas donnée aux mauvais esprits ;</seg> 
         tu cherches à le paraître pour effrayer ceux qui te fâchent, 
         et c'est toujours un assez vilain renom que tu te donnes là. Voilà tous tes torts, 
         <persName>Fanchon Fadet</persName>, et c'est à cause de ces torts-là que les gens en ont avec toi. 
@@ -116,7 +115,7 @@
         cela, veux-tu t'asseoir à mon côté pour un petit moment ? "
         " L'endroit n'est guère agréable," dit <persName>Landry</persName>, 
         qui ne se souciait point trop de s'attarder avec elle, et qui songeait 
-        toujours aux <span id="witch">mauvais sorts</span> qu'on l'accusait de jeter sur ceux qui ne s'en méfiaient point
+        toujours aux <seg xml:id="seg4" ana="#witch">mauvais sorts</seg>  qu'on l'accusait de jeter sur ceux qui ne s'en méfiaient point
         "Tu ne trouves point l'endroit agréable," reprit-elle, 
         "parce que vous autres riches vous êtes difficiles. Il vous faut du beau gazon pour 
         vous asseoir dehors, et vous pouvez choisir dans vos prés et dans vos jardins les plus belles places 
@@ -126,9 +125,8 @@
         tout ce qui est joli et avenant au ciel et sur la terre II n*y a point de vilain endroit, 
         <persName>Landry</persName>, pour ceux qui connaissent 
         la vertu et la douceur de toutes les choses que <roleName>Dieu</roleName> 
-        a faites. Moi, je sais, sans être <span type="witch">sorcière, à quoi sont bonnes les moindres 
-        herbes que tu écrases sous tes pieds ; et quand je sais leur usage, 
-        je les regarde et ne méprise ni leur odeur ni leur figure.</span> 
+        a faites. Moi, je sais, sans être <seg xml:id="seg4" ana="#witch">sorcière, à quoi sont bonnes les moindres herbes que tu écrases sous tes pieds ; et quand je sais leur usage, 
+        je les regarde et ne méprise ni leur odeur ni leur figure.</seg>  
         Je te dis cela, <persName>Landry</persName>, pour t'enseigner tout à l'heure une autre cliose qui se 
         rapporte aux âmes chrétiennes aussi bien qu'aux fleurs des jardins et aux ronces des carrières ; 
         c'est que l'on méprise trop souvent ce qui ne paraît ni beau ni bon, 
@@ -146,8 +144,8 @@
         et si j'ai des torts envers moi-même, du moins
         n'en ai-je jamais eu de sérieux envers les autres ; 
         et si le monde était juste et raisonnable, 
-        il ferait plus d'attention à mon bon cœur qu'à <span id="beauty">ma vilaine figure 
-        et à mes mauvais habillements</span>. Vois un peu, ou apprends si tu ne le sais, 
+        il ferait plus d'attention à mon bon cœur qu'à <seg xml:id="seg6" ana="#beauty">ma vilaine figure 
+        et à mes mauvais habillements</seg> . Vois un peu, ou apprends si tu ne le sais, 
         quel a été mon sort depuis que je suis au monde. Je ne te dirai point de mal de 
         ma pauvre mère qu'un chacun blâme et insulte, quoiqu'elle 
         ne soit point là pour se défendre, et sans que je puisse le faire moi qui 
@@ -157,13 +155,13 @@
         enfants avaient contre moi, pour un jeu, pour un rien qu'ils se seraient pardonné 
         entre eux, ils me reprochaient la faute
         de ma mère et voulaient me forcer à rougir d'elle. 
-        <span id="counterstereotype">Peut être qu'à ma place une fille raisonnable</span>, comme tu dis, se fût abaissée dans le silence, 
+        <seg xml:id="seg1" ana="#counterstereotype">Peut être qu'à ma place une fille raisonnable</seg> , comme tu dis, se fût abaissée dans le silence, 
         pensant qu'il était prudent d'abandonner la cause de sa mère et de 
         la laisser injurier pour se préserver de l'être. Mais moi, vois-tu, je ne le
         pouvais pas. C'était plus fort- que moi. Ma mère était toujours ma mère, 
         et qu'elle soit ce qu'on voudra, que je la retrouve ou que je n'en entende jamais parler, 
         je laimerai toujours de toute la force de mon cœur. 
-        Aussi, quand on m'appell <span type="bitch">enfant de coureuse et de vivandière</span>, je suis en
+        Aussi, quand on m'appell <seg xml:id="seg7" ana="#bitch">enfant de coureuse et de vivandière</seg> , je suis en
         colère, non à cause de moi : je sais bien que cela ne peut m'offenser, 
         puisque je n'ai rien fait de mal ; mais à cause de cette pauvre 
         chère femme que mon devoir est de défendre. Et comme je ne peux ni ne sais la défendre, 
@@ -171,9 +169,9 @@
         et en leur montrant qu'ils ne valent pas mieux que celle à qui ils jettent la pierre. 
         Voilà pourqoui ils disent que je suis curieuse et insolente, 
         que je surprends leurs secrets pour les divulguer. 
-        Il est vrai que le bon <roleName>Dieu</roleName> m'a faite <span type="intellect">curieuse, 
+        Il est vrai que le bon <roleName>Dieu</roleName> m'a faite <seg xml:id="seg5" ana="#intellect">curieuse, 
         si c'est l'être que de désirer connaître les choses
-        cachées</span>. Mais si on avait été bon et humain envers moi, 
+        cachées</seg> . Mais si on avait été bon et humain envers moi, 
         je n'aurais pas songé à contenter ma curiosité aux dépens du prochain. 
         J'aurais renfermé mon amusement dans la connaissance des secrets que m'enseigne 
         ma grand'mère pour la guérison du corps humain. Les fleurs, les herbes, 
@@ -188,7 +186,7 @@
         qui me sont venues et dont ma grand'mère elle-même fait souvent son profit sans rien dire. 
         Eh bien, au lieu d'être remerciée honnêtement par tous les enfants de mon 
         âge dont je guérissais les blessures et les maladies, et à qui- j'enseignais 
-        mes remèdes sans demander -jamais de récompense, <span type="witch">j'ai été traitée de sorcière</span>, 
+        mes remèdes sans demander -jamais de récompense, <seg xml:id="seg4" ana="#witch">j'ai été traitée de sorcière</seg> , 
         et ceux qui venaient bien doucement me prier quand ils avaient besoin de moi, 
         me disaient plus tard des sottises à la première occasion.
         '* Cela me courrouçait, et j'aurais pu leur nuire, 
@@ -196,8 +194,8 @@
         et pourtant je n'en ai jamais fait usage ; je ne connais point la rancune, 
         et si je me venge en paroles, c'est que je suis soulagée en disant tout de suite ce qui 
         me vient au bout de la langue, et qu'ensuite je n'y pense plus et pardonne ainsi 
-        que Dieu le commande. <span type="beauty">Quant à ne prendre soin ni de ma personne </span>
-        <span type="grace">ni de mes manières</span>, 
+        que Dieu le commande. <seg xml:id="seg6" ana="#beauty">Quant à ne prendre soin ni de ma personne </seg> 
+        <seg xml:id="seg3" ana="#grace">ni de mes manières</seg> , 
         cela devrait montrer que je ne suis pas assez folle pour me croire belle, 
         lorsque je sais que je suis si laide que personne ne peut me regarder. 
         On me l'a dit assez souvent pour que je le
@@ -206,12 +204,12 @@
         me consolant par l'idée que ma figure n'avait rien de repoussant pour le bon Dieu 
         et pour mon ange gardien, lesquels ne me la reprocheraient pas plus que je 
         ne la leur reproche moi-même. Aussi, moi, je ne suis pas comme ceux qui disent : 
-        ' Voilà une chenille, une vilaine bête ; ah ! <span type="beauty">qu'elle est laide ! il faut la tuer ! </span>' 
+        ' Voilà une chenille, une vilaine bête ; ah ! <seg xml:id="seg6" ana="#beauty">qu'elle est laide ! il faut la tuer ! </seg> ' 
         Moi, je n'écrase pas la pauvre créature du bon <roleName>Dieu</roleName>, et si
         lo la chenille tombe dans l'eau, je lui tends une feuille pour qu'elle se sauve. 
-        <span type="witch">Et à cause de cela on dit que j'aime les mauvaises bêtes et que je suis sorcière, 
+        <seg xml:id="seg4" ana="#witch">Et à cause de cela on dit que j'aime les mauvaises bêtes et que je suis sorcière, 
         parce que je n'aime pas à faire souffrir une grenouille, à arracher les pattes 
-        à une guêpe et à clouer une chauve-souris vivante contre un arbre.</span>
+        à une guêpe et à clouer une chauve-souris vivante contre un arbre.</seg> 
         Pauvre bête, que je lui dis, si on doit tuer tout ce qui est vilain, 
         je n'aurais pas plus que toi le droit de vivre."
     </text>
