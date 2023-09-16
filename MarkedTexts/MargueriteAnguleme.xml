@@ -1,93 +1,184 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
-        <!-- prima ubblicazione in un altra data -->
             <titleStmt>
                 <title>
-                XLIX - La doulce prison
+                La doulce prison. A digital Edition
                 </title>
                 <author>
                 Marguerite de Navarre
                 </author>
-                <editor>
-                Félix Frank
-                </editor>
+                <respStmt>
+                <resp>conversion to TEI-conformant markup</resp>
+                    <name>Lucia Bertoldini</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
-                <p>
-                Heptaméron de la reine de Navarre (tome III)
-                </p>
+                <edition> DHDK Digital Edition <date>2023</date>
+                </edition>
             </editionStmt>
-            <extent>
-            <measure unit="pages" quantity="613">613 pages of source
-            material</measure>
-            </extent>
             <publicationStmt>
-                <publisher>
-                Isidore Liseux
-                </publisher>
-                <pubPlace>
-                Paris
-                </pubPlace>
-                <date>
-                1879
-                </date>
+                <publisher>University of Bologna</publisher>
+                <authority>Lucia Bertoldini</authority>                
             </publicationStmt>
-            <seriesStmt>
-                <p>
-                <!-- information about any series to which
-                                        the resource belongs  -->
-                </p>
-            </seriesStmt>
-            <notesStmt>
-                <note>
-                <!-- notes on other aspects of the resource -->
-                </note>
-            </notesStmt>
             <sourceDesc>
-                <p>
-                <!-- information about the source from which
-                                        the resource was derived  -->
-                </p>
+                <biblFull xml:lang="fr">
+                    <titleStmt>
+                        <title>
+                        XLIX nouvelle. V journée.
+                        </title>
+                        <author>
+                        Marguerite de Navarre
+                        </author>
+                        <editor>
+                        Félix Frank
+                        </editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition> First Edition <date when="1558">1558</date>
+                        </edition>
+                    </editionStmt>
+                    <extent>
+                        <measure unit="pages" quantity="13">13 pages of source
+                        material</measure>
+                    </extent>
+                    <publicationStmt>
+                        <publisher>
+                        Isidore Liseux
+                        </publisher>
+                        <pubPlace>
+                        Paris
+                        </pubPlace>
+                        <date when="1879">
+                        1879
+                        </date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <biblStruct xml:lang="fr">
+                        <author>Marguerite de Navarre</author>
+                        <title>Heptaméron de la reine de Navarre</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Isidore Liseux</publisher>
+                            <date when="1879">1879</date>
+                        </imprint>
+                        <biblScope unit="613">613</biblScope>
+                        <biblScope unit="volume">III</biblScope>
+                        <availability target="http://dbooks.bodleian.ox.ac.uk/books/PDFs/N11273837.pdf">This book is part of the collection held by the Bodleian Libraries (University of Oxford) and scanned by Google, Inc. for the Google Books Library Project.
+                        </availability> 
+                        </biblStruct>
+                    </sourceDesc>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
-            
+
+        <encodingDesc>
+            <projectDesc>
+                Basic encoding, capturing information related to main characters and aiming to interpret the texts through concept-like structures. All hyphenation, punctuation, and variant spelling normalized. No formatting or layout information preserved.
+            </projectDesc>
+            <samplingDecl>
+                <p>The XLIX nouvelle of the V journée was selected from L'Héptameron because of the topics touched upon by the author, relevant for the scope of this archive.
+                </p>
+            </samplingDecl>
+            <tagsDecl>
+                <tagsUsage gi="seg" occurs="???">
+                    Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
+                </tagsUsage>
+            </tagsDecl>
+        </encodingDesc>
+                    
         <profileDesc>
             <langUsage>
                 <language ident="fr">French</language>
             </langUsage>
-            <textDesc n="novel">
-                <channel mode="w">print; part issues</channel>
-                <constitution type="single"/>
-                <derivation type="original"/>
-                <purpose type="entertain" degree="high"/>
-                <purpose type="inform" degree="medium"/>
-            </textDesc>
-            <settingDesc>
-                <setting>
-                    <name>Paris, France</name>
-                    <time>Late 19th century</time>
-                </setting>
-            </settingDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="RoyCharles">
+                        <persName>
+                            Roy Charles
+                        </persName>
+                    </person>
+                    <person xml:id="Astillon">
+                        <persName>
+                            Astillon
+                        </persName>
+                    </person>
+                    <person xml:id="Durassier">
+                        <persName>
+                            Durassier
+                        </persName>
+                    </person>
+                    <person xml:id="Valnebon">
+                        <persName>
+                            Valnebon
+                        </persName>
+                    </person>
+                    <person xml:id="Ennasuitte">
+                        <persName>
+                            Ennasuitte
+                        </persName>
+                    </person>
+                    <person xml:id="Longarine">
+                        <persName>
+                            Longarine
+                        </persName>
+                    </person>
+                    <person xml:id="Simontault">
+                        <persName>
+                            Simontault
+                        </persName>
+                    </person>
+                    <person xml:id="Oisille">
+                        <persName>
+                            Oisille
+                        </persName>
+                    <person xml:id="Dagoudin">
+                        <persName>
+                            Dagoudin
+                        </persName>
+                    </person>
+                    <person xml:id="Hircan">
+                        <persName>
+                            Hircan
+                        </persName>
+                    </person>
+                    <person xml:id="Geburon">
+                        <persName>
+                            Geburon
+                        </persName>
+                    </person>
+                </listPerson>
+            </particDesc>
         </profileDesc>
 
     </teiHeader>
 
+<interpGrp resp="#LuciaBertoldini"
+    type="structuralunit">
+        <interp xml:id="honour">honour</interp>
+        <interp xml:id="beauty">beauty</interp>
+        <interp xml:id="grace">grace</interp>
+        <interp xml:id="bitch">bitch</interp>       
+        <interp xml:id="independence">independence</interp>
+        <interp xml:id="counterstereotype">counterstereotype</interp>      
+</interpGrp>           
+   
+
     <text>
-        En la cour du <persName><roleName>Roy</roleName> Charles</persName>, je
-        ne diray point le quantiesme <span type="honour">pour l'honneur</span> de
+        En la cour du <persName xml:id="RoyCharles"><roleName>Roy</roleName> Charles</persName>, je
+        ne diray point le quantiesme <seg xml:id="seg1" ana="#honour">pour l'honneur</seg> de
         celle dont je veulx parler, laquelle je ne veulx nommer
         par son nom propre, y avoit une Comtesse de fort bonne maison, 
         mais estrangière. Et, pource que toutes choses nou-
         velles plaisent, ceste Dame, à sa venue
         tant pour la nouveauté de son habillement
-        que <span type="beauty">pour la richesse dont il estoit plein,
-        estoit regardée de chascun</span>; <span type="grace">et combien
+        que <seg xml:id="seg2" ana="#beauty">pour la richesse dont il estoit plein,
+        estoit regardée de chascun</seg>; <seg xml:id="seg3" ana="#grace">et combien
         qu'elle ne fust des plus belles, si avoit-elle
         une grace avecq une audace tant bonne
         qu'il n'estoit possible de plus, la parolle et
         la gravité de mesme, de sorte qu'il n'y avoit
-        nul qui n'eust craincte à l'aborder</span>, sinon
+        nul qui n'eust craincte à l'aborder</seg>, sinon
         le <roleName>Roy</roleName> qui l'ayma très-fort. Et, 
         pour parler à elle plus priveement, donna quelque
         commission au Comte son mary, 
@@ -96,7 +187,7 @@
         femme. Plusieurs gentilz hommes du <roleName>Roy</roleName>,
         qui congnurent que leur maistre en estoit
         bien traicté, prindrent hardiesse de parler
-        à clle; et, entre autres, un nommé <persName>Astillon</persName>
+        à clle; et, entre autres, un nommé <persName xml:id="Astillon">Astillon</persName>
         aul estoit fort audatienx et homme 
         de bonne grace. Au commencement, elle
         luy tint une si grande gravité, le menas-
@@ -121,7 +212,7 @@
         dehors , et et ia là ne vivoit que de restaurans.
         Durant les huict jours qu'il estoit
         vint un de ses compaignons faire l'amour
-        à la Comtesse, lequel avoit nom <persName>Durassier</persName>. 
+        à la Comtesse, lequel avoit nom <persName xml:id="Durassier">Durassier</persName>. 
         Elle tint telz termes à ce serviteur,
         qu'elle avoit faict au premier : 
         au commencement, en rudes et audaticux propos
@@ -130,7 +221,7 @@
         congé au premier prisonnier, elle mettoit
         un serviteur en sa place. Et, durant qu'il
         y estoit, un autre sien compaignon,
-        nommé <persName>Valnebon</persName>, feit pareille office que
+        nommé <persName xml:id="Valnebon">Valnebon</persName>, feit pareille office que
         les deux premiers; et, après culx, en
         vindrent deux ou trois aultres qui avoient
         part à la doulce prison.
@@ -148,7 +239,7 @@
         faisoient fort grand chère, ilz 
         commencèrent àa parler de leurs fortunes 
         et prisons, quilz avoient eues durant les
-        guerres. Mais <persName>Valnebon</persName>, 
+        guerres. Mais <persName xml:id="Valnebon">Valnebon</persName>, 
         à qui il faisoit
         mal de celer si longuement une si bonne
         fortune que celle qu'il avoit eue, va dire
@@ -158,36 +249,36 @@
         toute ma vie louange et bien des autres;
         car je pense quil ny plaisir en ce
         monde qui approche de celluy quel'on
-        a d'estre prisonnier." <persName>Astillon</persName>, qui
+        a d'estre prisonnier." <persName xml:id="Astillon">Astillon</persName>, qui
         avoit esté le premier prisonnier, se doubta
         de la prison qu'il vouloit dire, et luy respondit : 
-        "<persName>Valnebon</persName>, soubz quel 
+        "<persName xml:id="Valnebon">Valnebon</persName>, soubz quel 
         geolière avez-vous esté si bien
         traicté, que vous aymez tant vostre
-        prison?" <persName>Valnebon</persName> luy dist : 
+        prison?" <persName xml:id="Valnebon">Valnebon</persName> luy dist : 
         "Quel que soit le geolier, la prison m'a esté
         si agréable, que j'eusse bien voulu
         qu'elle eust duré plus longuement, car
         je ne fuz jamais mieulx traicté ne plus
-        content. " <persName>Durassier</persName>, qui estoit homme
+        content. " <persName xml:id="Durassier">Durassier</persName>, qui estoit homme
         peu parlant, congnoissant très-bien que
         lon se débatoit de la prison où il avoit
-        part comme les autres, dist à <persName>Valnebon</persName>:
+        part comme les autres, dist à <persName xml:id="Valnebon">Valnebon</persName>:
         "De quelles viandes estiez-vous nourry
         en ceste prison, dont yous vous louez
         dist si fort?" - De quelles viandes?
-        dist <persName>Valnebon</persName>: "le Roy n'en a poinct de
+        dist <persName xml:id="Valnebon">Valnebon</persName>: "le Roy n'en a poinct de
         meilleures ne plus nourrissantes". 
         "Mais encores fault-il que je sçache,"
-        dist <persName>Durassier</persName>, " 
+        dist <persName xml:id="Durassier">Durassier</persName>, " 
         si celluy qui vous tenoit
         prisonnier vous faisoit bien gaingner
-        vostre pain?". <persName>Valnebon</persName>, 
+        vostre pain?". <persName xml:id="Valnebon">Valnebon</persName>, 
         qui se doubta d'estre entendu, 
         ne se peut tenir de jurer:
         "Ha, vertu Dieul aurois-je bien des
         compaignons, oà je pense estre tout
-        seul?" <persName>Astillon</persName>, voiant ce différent où
+        seul?" <persName xml:id="Astillon">Astillon</persName>, voiant ce différent où
         il avoit part comme les aultres, dist en
         riant: "Nous sommes tous à un maistre
         compaignons et amys dės nostre jeu-
@@ -212,7 +303,7 @@
         je laissay tout mon train et m'allay
         rendre prisonnier." Ilz respondirent:
         "Nous en fismes autant". 
-        "Je demouray," dist <persName>Astillon</persName>,
+        "Je demouray," dist <persName xml:id="Astillon">Astillon</persName>,
         sept ou huict
         jours, et couchay en une garderobbe
         ou l'on ne me fit manger que restaurans et les meilleures viandes que je
@@ -220,12 +311,12 @@
         jours, ceulx qui me tenoient me laissèrent aller beaucoup plus foible que
         je n'estois arrivé. Ilz jurèrent tous
         que ainsy leur estoit advenu." 
-        "Ma prison", dist <persName>Astillon</persName>, "commencea tel
+        "Ma prison", dist <persName xml:id="Astillon">Astillon</persName>, "commencea tel
         jour et fina tel jour."
-        "La mienne" dist <persName>Durassier</persName>,
+        "La mienne" dist <persName xml:id="Durassier">Durassier</persName>,
         "commencea le propre
         jour que la vostre fina; et dura jusques
-        a un tel jour". <persName>Valnebon</persName>, qui perdoit
+        a un tel jour". <persName xml:id="Valnebon">Valnebon</persName>, qui perdoit
         patience, commencea à jurer et dire:
         "Par le sang Dieu! à ce que je voy, je
         suis le tiers qui pensois estre le premier
@@ -233,18 +324,18 @@
         saillys tel jour." Les aultres trois, qui
         estoient à la table, jurérent qu'ilz avoient
         bien gardé ce rang. " Or, puisque ainsy
-        est ", dist <persName>Astillon</persName>, a je diray l'estat de
+        est ", dist <persName xml:id="Astillon">Astillon</persName>, a je diray l'estat de
         nostre geolière elle est mariée et son
         mary est bien loing". "C'est ceste-là
         propre", respondirent-ilz tous. "Or,
         pour nous mettre hors de peyne",
-        dist <persName>Astillon</persName>,
+        dist <persName xml:id="Astillon">Astillon</persName>,
         "moy qui suis le premier
         en roolle, la nommeray aussy le pre-
         mier, c'est ma Dame la Comtesse qui
         estoit si audatieuse, que, en gaingnant
         son amitié, je pensois avoir gaingné Cesar.
-        <span type="bitch">Que à tous les diables soit la
+        <seg xml:id="seg4" ana="#bitch">Que à tous les diables soit la
         villaine qui nous a faict d'une chose
         tant travailler, et nous réputer si heureux de l'avoir 
         acquise! Il ne fut oncques une telle meschante, car, quand
@@ -252,14 +343,14 @@
         pour n'estre jamais sans
         passetemps; et aymerois-je mieulx
         estre mort, qu'elle demorast sans pug
-        nition!</span>" Ilz demandèrent chascun,
+        nition!</seg>" Ilz demandèrent chascun,
         qu'il leur sembloit quelle debvoit avoir
         et qu'ilz estoient tous prestz de la luy
         donner. "ll me semble," dist-il, "que
         nous le debvons dire au <roleName>Roy</roleName> nostre
         maistre, lequel en faict un cas comme
         d'une déesse?" - "Nous ne ferons point
-        ainsy", dist <persName>Astillon</persName>; "nous avons
+        ainsy", dist <persName xml:id="Astillon">Astillon</persName>; "nous avons
         assez de molen pour nous venger d'elle,
         sans y appeller nostre maistre.
         Trouvons-nous demain, quant elle ira à la
@@ -276,14 +367,14 @@
         Comtesse</roleName> qui alloit à l'église. Et, si tost
         qu'elle les veid ainsy habillez, se print
         a rire et leur dist : "Ou vont ces gens si douloureux?"
-        "Ma <roleName>Dame</roleName>", dist <persName>Astillon</persName>, "nous vous venons 
+        "Ma <roleName>Dame</roleName>", dist <persName xml:id="Astillon">Astillon</persName>, "nous vous venons 
         accompagner comme pauvres esclaves
         prisonniers qui sont tenuz à vous faire
         service." La Comtesse, faisant semblant de n'y entendre rien, leur dist :
         "Vous n'estes point mes prisonniers, ne
         je n'entendz point que vous ayer occa-
         sion de me faire service plus que les
-        autres." <persName>Valnebon</persName> s'advancea et luy
+        autres." <persName xml:id="Valnebon">Valnebon</persName> s'advancea et luy
         dist:" Si nous avons mange de vostre
         pain si longuement, nous serions bien
         ingratz si nous ne vous faisions ser-
@@ -292,24 +383,24 @@
         gravité les estonner. Mais ilz poursuyvoient si bien leurs propos, 
         qu'elle entendit que la chose estoit descouverte.
         Parquoy, trouva incontinent moien de
-        les tromper, car <span type="honour">elle, qui avoit perdu
-        l'honneur et la conscienc</span>, ne voulut
+        les tromper, car <seg xml:id="seg1" ana="#honour">elle, qui avoit perdu
+        l'honneur et la conscienc</seg>, ne voulut
         point recepvoir la honte qu'ilz lui 
-        cuydoient faire; mais, comme <span type="independence">celle qui 
+        cuydoient faire; mais, comme <seg xml:id="seg5" ana="#independence">celle qui 
         preféroit son plaisir à tout l'honneur du
-        monde</span>, ne leur en feit pire visaige, n'y
+        monde</seg>, ne leur en feit pire visaige, n'y
         n'en changea de contenance : dont il.
         furent tant estonnez, qu'ilz rapportèrent
         en leur sein la honte qu'ilz luy avoient
         voulu faire. 
         "Si vous ne trouvez, mes Dames, ce compte
-        digne de faire congnoistre <span type="counterstereotype">les femmes aussi
-        mauvaises que les hommes</span>, j'en chercheray
+        digne de faire congnoistre <seg xml:id="seg6" ana="#counterstereotype">les femmes aussi
+        mauvaises que les hommes</seg>, j'en chercheray
         d'autres pour vous contenter; toutesfois, il
         me semble que cestuy-là suffise pour vous
-        monstrer que <span type="honour">une femme qul a perdu la
+        monstrer que <seg xml:id="seg1" ana="#honour">une femme qul a perdu la
         honte est cent foys plus hardye à faire mal
-        que n'est un homme</span>". ll n'y eut femme en
+        que n'est un homme</seg>". ll n'y eut femme en
         la compaignie, oiant racompter ceste histoire, 
         qui ne fist tant de signes de croix,
         qu'il sembloit qu'elles voyoient tous les dia-
@@ -323,15 +414,15 @@
         cculx qui adhèrent à son contraire; et n'est
         rien si bestial que la personne destituće de
         l'esperit de Dieu". "Quoy que ait faict
-        ceste pauvre Dame", dist <persName>Ennasuitte</persName>, "si
+        ceste pauvre Dame", dist <persName xml:id="Ennasuitte">Ennasuitte</persName>, "si
         ne scaurois-je louer ceulx qui se vantent de
         leur prison". "J'ay opinion", dist 
-        <persName>Longarine</persName>, "que la peine n'est moindre
+        <persName xml:id="Longarine">Longarine</persName>, "que la peine n'est moindre
         un homme de celer sa bonne fortune, que de
         la pourchasser, car il n'y a veneur qui ne
         prenne plaisir à corner sa prise, ny amou.
         reux, d'avoir la gloire de sa victoire".
-        "Voila une opinion", dist <persName>Simontault</persName>, "que
+        "Voila une opinion", dist <persName xml:id="Simontault">Simontault</persName>, "que
         devant tous les inquisiteurs de la Foy, je
         soustiendray héréticque, car il y a plus
         d'hommes secretz que de femmes ; et sçay
@@ -342,12 +433,12 @@
         ordonne les prestres confesseurs et non Pas
         les femmes, parce qu'elles ne peuvent rien
         celer". "Ce n'est pas pour ceate accasion,
-        dit <persName>Oisille</persName>, "mais c'est parce que les femmes
+        dit <persName xml:id="Oisille">Oisille</persName>, "mais c'est parce que les femmes
         sont tant ennemyes du vice, qu'elles ne
         donneroient pas si facilement absolution
         que les hommes , et seroient trop austères
         an leurs péoitences". "Si elles l'estoient autant"
-        dist <persName>Dagoudin</persName>, "qu'elles sont en
+        dist <persName xml:id="Dagoudin">Dagoudin</persName>, "qu'elles sont en
         leurs responces , clles feroient désespérer
         plus de pécheurs, qu'elles n'en attireroient
         à salut ; parquoy l'Eglise, en toute sorte, y
@@ -355,31 +446,31 @@
         pour cela, excuser les gentilz hommes, qui
         se vantèrent ainsy de leur prison, car jamais
         homme n'eut honneur à dire mal des
-        femmes". "Puis que le faict estoit commun", dit <persName>Hircan</persName>, 
+        femmes". "Puis que le faict estoit commun", dit <persName xml:id="Hircan">Hircan</persName>, 
         "il me semble qu'ilz
         faisoient bien de se consoler les uns aux aultres". 
-        "Mais", dist <persName>Geburon</persName>, "ilz ne le
+        "Mais", dist <persName xml:id="Geburon">Geburon</persName>, "ilz ne le
         devoient jamais confesser pour leur honneur mesme. 
         Car les livres de la Table
         Ronde nous apprennent que ce n'est point
         honneur à un bon chevalier, d'en abattre
         un qui ne vault rien". "Je p'esbahys",
-        dist <persName>Longarine</persName>, "que ceste paüvre femme
+        dist <persName xml:id="Longarine">Longarine</persName>, "que ceste paüvre femme
         ne moroit de honte devant ses prisonniers".
-        "Celles qui l'ont perdue", dist <persName>Oisille</persName>, 
+        "Celles qui l'ont perdue", dist <persName xml:id="Oisille">Oisille</persName>, 
         "à grand peyne la peuvent-elles jamais reprendre, 
         sinon celle que fort amour a faict
         oublier.De telles en ay-je veu beaucoup re"
-        venir". "Je croy", dist <persName>Hircan</persName>, "que vous
+        venir". "Je croy", dist <persName xml:id="Hircan">Hircan</persName>, "que vous
         en avez veu revenir celles qui y sont alldes,
         car forte amour, qui est en une femme, est
         malaisée à trourer". "Je ne suis pas de
-        vostre opinion, dist <persName>Longarine</persName>,
+        vostre opinion, dist <persName xml:id="Longarine">Longarine</persName>,
         "car je croy qu'il y en a qui ont aymé juaques à la
         mort". "J'ay tant d'envie d'ouyr ceste nouvelle", 
-        dist <persName>Hircan</persName>, "que je vous donne
+        dist <persName xml:id="Hircan">Hircan</persName>, "que je vous donne
         ma voix pour congnoistre aux femmes l'amour que je n'ay jamais estimé y estre".
-        "Or, mais que vous l'oyez", dist <persName>Longarine</persName>,
+        "Or, mais que vous l'oyez", dist <persName xml:id="Longarine">Longarine</persName>,
         "vous le croirez, et quil n'est nulle Plus
         forte passion que celle d'amour Mais, tout
         ainsy qu'elle faict entreprendre choses quasi
