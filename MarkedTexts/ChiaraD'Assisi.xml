@@ -63,7 +63,7 @@
                 <p>This letter was selected in order to create this digial edition. The sample was chosen on the basis of the topics touched upon in the text.</p>
             </samplingDecl>
             <tagsDecl>
-                <tagsUsage gi="seg" occurs=""> <!--aggiungi occorrenze-->>
+                <tagsUsage gi="seg" occurs="25">
                     Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
                 </tagsUsage>
             </tagsDecl>

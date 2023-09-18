@@ -5,7 +5,7 @@
 <span type="body">
 <span type="education">
 <span type="foodOrFoodAbst"> (se vogliamo separare i tag o modificare modifichiamo)
-<span type="grace">
+<span type="grace"> (per Wollstonecraft ho taggato così anche la "falsa raffinatezza")
 <span type="honour">
 <span type="intellect"> (non sapevo quale fosse il modo migliore di tradurre il concetto di intelletto/intelligenza/razionalità)
 <span type="marriage">
