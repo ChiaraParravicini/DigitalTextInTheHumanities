@@ -11,7 +11,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: black;
+  text-align: justify;
 }
 
 a {
@@ -31,6 +32,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+
 }
 
 /*--------------------------------------------------------------
