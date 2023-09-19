@@ -58,7 +58,7 @@
                 <purpose type="inform" degree="medium"/>
             </textDesc>
         </profileDesc>
-        <interpGrp resp="Nicole Liggeri" type="maintopic">
+        <interpGrp resp="Nicole Liggeri" type="maintopics">
             <interp xml:id="body">body</interp>
             <interp xml:id="intellect">intellectual capability and intelligence</interp>
             <interp xml:id="gender">gender division or binary male-female opposition</interp>
