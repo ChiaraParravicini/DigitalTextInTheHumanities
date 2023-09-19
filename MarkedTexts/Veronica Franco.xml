@@ -10,17 +10,31 @@
                 </author>
             </titleStmt>
             <editionStmt>
-                <p>
-                Terze rime
-                </p>
+                <edition>Words of Gender edition</edition>
+                <respStmt>
+                    <resp>conversion to TEI-conformant markup</resp>
+                    <name>Nicole Liggeri</name>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
-                <date>
+                <date when="1575">
                  1575
                 </date>
             </publicationStmt>
         </fileDesc>
-            
+          <encodingDesc>
+            <projectDesc>
+                Basic encoding, capturing information related to main characters and aiming to interpret the texts through concept-like structures. All hyphenation, punctuation, and variant spelling normalized. No formatting or layout information preserved.
+            </projectDesc>
+            <samplingDecl>
+                <p>This text was selected in order to create this digial edition. The sample was chosen on the basis of the topics touched upon in the text.</p>
+            </samplingDecl>
+            <tagsDecl>
+                <tagsUsage gi="seg" occurs="16">
+                    Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
+                </tagsUsage>
+            </tagsDecl>
+        </encodingDesc>  
         <profileDesc>
             <langUsage>
                 <language ident="it">Italian</language>
@@ -37,6 +51,13 @@
                 <purpose type="inform" degree="medium"/>
             </textDesc>
         </profileDesc>
+        <interpGrp resp="Nicole Liggeri" type="maintopic">
+            <interp xml:id="body">what concerns body, its perception and value</interp>
+            <interp xml:id="intellect">intellectual capability and intelligence</interp>
+            <interp xml:id="gender">gender division or binary male-female opposition</interp>
+            <interp xml:id="war">semantic field of war</interp>
+            <interp xml:id="education">value and methods of education</interp>
+        </interpGrp>
 
     </teiHeader>
 
@@ -128,7 +149,7 @@
         <span class="body">Data è dal ciel la feminil bellezza,
         perch’ella sia felicitate in terra
         di qualunque uom conosce gentilezza.</span>
-       <span class="war"> Ma dove ’l mio pensier trascorre ed erra
+       <span class="war intellenct"> Ma dove ’l mio pensier trascorre ed erra
         a ragionar de le cose d’amore,
         or ch’io sono in procinto di far guerra,
         torno al mio intento, ond’era uscita fuore,
@@ -218,7 +239,7 @@
         sì come in questo caso ancor si vede,
         ché voi, non v’accorgendo, mi lodate
         di quel ch’al bene ed a la virtù chiede.
-        <span class="puttana">E se ben «meretrice» mi chiamate,</span>
+        <span class="bitch">E se ben «meretrice» mi chiamate,</span>
         <span class="war">o volete inferir ch’io non vi sono,
         o che ve n’èn tra tali di lodate.
         Quanto le meretrici hanno di buono,
