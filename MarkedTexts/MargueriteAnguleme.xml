@@ -151,8 +151,6 @@
             </particDesc>
         </profileDesc>
 
-    </teiHeader>
-
 <interpGrp resp="#LuciaBertoldini"
     type="structuralunit">
         <interp xml:id="honour">honour</interp>
@@ -161,7 +159,11 @@
         <interp xml:id="bitch">bitch</interp>       
         <interp xml:id="independence">independence</interp>
         <interp xml:id="counterstereotype">counterstereotype</interp>      
-</interpGrp>           
+</interpGrp> 
+
+    </teiHeader>
+
+          
    
 
     <text>
