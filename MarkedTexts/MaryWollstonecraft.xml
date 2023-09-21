@@ -1,13 +1,14 @@
-<!--da modificare-->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>
-                Lettera sul digiuno A digital edition
+                A Vindication of the Rights of Woman - A digital edition
                 </title>
                 <author>
-                Chiara d'Assisi
+                Mary Wollstonecraft
                 </author>
                 <respStmt>
                     <resp>conversion to TEI-conformant markup</resp>
@@ -23,35 +24,27 @@
                 <authority>Chiara Parravicini</authority>                
             </publicationStmt>
             <sourceDesc>
-                <biblFull xml:lang="it">
+                <biblFull xml:lang="eng">
                     <titleStmt>
                         <title>
-                        Lettera sul digiuno
+                        A Vindication of the Rights of Woman
                         </title>
                         <author>
-                        Chiara d'Assisi
+                        Mary Wollstonecraft
                         </author>
                         <editor>
                         <!--da riguardare-->
                         </editor>
                     </titleStmt>
                     <editionStmt>
-                        <edition> <!--da riguardare--> <date when=""><!--da riguardare--></date>
+                        <edition> <!--da riguardare--><date when="1792">1792</date>
                         </edition>
                     </editionStmt>
-                    <extent>
-                        <measure unit="pages" quantity=""><!--da riguardare--></measure>
-                    </extent>
                     <publicationStmt>
                         <publisher><!--da riguardare--></publisher>
-                        <date when=""><!--da riguardare--></date>   
-                        <pubPlace>Boston</pubPlace>  
-                        <availability target=""><!--da riguardare-->
-                        </availability>          
+                        <date when="1729">1792</date>   
+                        <pubPlace>London</pubPlace>        
                     </publicationStmt>
-                    <sourceDesc>
-                        <!--da riguardare--> 
-                    </sourceDesc>
                 </biblFull>
             </sourceDesc>
         </fileDesc>
@@ -61,10 +54,10 @@
                 Basic encoding, capturing information related to main characters and aiming to interpret the texts through concept-like structures. All hyphenation, punctuation, and variant spelling normalized. No formatting or layout information preserved.
             </projectDesc>
             <samplingDecl>
-                <p>This letter was selected in order to create this digial edition. The sample was chosen on the basis of the topics touched upon in the text.</p>
+                <p>This sample from the book was selected in order to create this digial edition. The sample was chosen on the basis of the topics touched upon in the text.</p>
             </samplingDecl>
             <tagsDecl>
-                <tagsUsage gi="seg" occurs="25">
+                <tagsUsage gi="seg" occurs="45">
                     Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
                 </tagsUsage>
             </tagsDecl>
@@ -72,58 +65,32 @@
                     
         <profileDesc>
             <langUsage>
-                <language ident="it">Italian</language>
+                <language ident="eng">English</language>
             </langUsage>
-            <particDesc>
-                <listPerson>
-                    <person xml:id="ChiaradAssisi">
-                        <persName>
-                            Chiara d'Assisi
-                        </persName>
-                    </person>
-                    <person xml:id="FrancescodAssisi">
-                        <persName>
-                            Francesco d'Assisi
-                        </persName>
-                    </person>
-                    <person xml:id="AgnesediBoemia">
-                        <persName>
-                            Agnese di Boemia
-                        </persName> 
-                    </person>
-                    <person xml:id="GesudiNazareth">
-                        <persName>
-                            Gesù di Nazareth
-                        </persName> 
-                    </person>   
-                </listPerson>
-            </particDesc>
         </profileDesc>
 
-    </teiHeader>
+        <interpGrp resp="#ChiaraParravicini" type="structuralunit">
+            <interp xml:id="beauty">beauty</interp>
+            <interp xml:id="counterstereotype">counterstereotype</interp>
+            <interp xml:id="education">education</interp>
+            <interp xml:id="gender">gender stereotype</interp>
+            <interp xml:id="grace">grace and false grace</interp>
+            <interp xml:id="intellect">intellect</interp>
+            <interp xml:id="marriage">marriage</interp>
+            <interp xml:id="mother">mother</interp>
+            <interp xml:id="rights">rights</interp>
+            <interp xml:id="society">society</interp>
+            <interp xml:id="strength">strength</interp>
+            <interp xml:id="weakness">weakness</interp>
+                
+        </interpGrp>
 
-    <interpGrp resp="#ChiaraParravicini"
-    type="structuralunit">
-        <interp xml:id="beauty">beauty</interp>
-        <interp xml:id="counterstereotype">counterstereotype</interp>
-        <interp xml:id="education">education</interp>
-        <interp xml:id="gender">gender stereotype</interp>
-        <interp xml:id="grace">grace and false grace</interp>
-        <interp xml:id="intellect">intellect</interp>
-        <interp xml:id="marriage">marriage</interp>
-        <interp xml:id="mother">mother</interp>
-        <interp xml:id="rights">rights</interp>
-        <interp xml:id="society">society</interp>
-        <interp xml:id="strength">strength</interp>
-        <interp xml:id="weakness">weakness</interp>
-            
-    </interpGrp>
+    </teiHeader>
 
     <text>
         <h2>Author's Introduction</h2>
         After considering the historic page, and viewing the
-        living world with anxious solicitude, the most melan-
-        choly emotions of sorrowful indignation have depressed
+        living world with anxious solicitude, the most melancholy emotions of sorrowful indignation have depressed
         my spirits, and I have sighed when obliged to confess
         that either Nature has made a great difference between
         man and man, or that the civilization which has hitherto
@@ -135,8 +102,7 @@
         education</seg> of my fellow-creatures is the grand source of
         the misery I deplore, and that women, in particular, are
         rendered weak and wretched by a variety of concurring
-        causes, originating from one hasty conclusion. The con-
-        duct and manners of women, in fact, evidently prove
+        causes, originating from one hasty conclusion. The conduct and manners of women, in fact, evidently prove
         that their minds are not in a healthy state; for, like the
         flowers which are planted in too rich a soil, strength and
         usefulness are sacrificed to <seg xml:id="seg2" ana="#beauty">beauty</seg>; and the flaunting
@@ -196,12 +162,11 @@
         those talents and virtues, the exercise of which ennobles
         the human character, and which raises females in the
         scale of animal being, when they are comprehensively
-        termed mankind, all those who view them with a philo-
-        sophic eye must, I should think, wish with me, that <seg xml:id="seg8.1" ana="#counterstereotype">they
+        termed mankind, all those who view them with a philosophic eye must, 
+        I should think, wish with me, that <seg xml:id="seg8.1" ana="#counterstereotype">they
         may every day grow more and more masculine</seg>.
         This discussion naturally divides the subject. I shall
-        first consider women in the grand light of human crea-
-        tures, who, in common with men, are placed on this
+        first consider women in the grand light of human creatures, who, in common with men, are placed on this
         earth to unfold their faculties; and afterwards I shall
         more particularly point out their peculiar designation.
         I wish also to steer clear of an error which many
@@ -235,8 +200,7 @@
         <seg xml:id="seg3.2" ana="#intellect">rational creatures</seg>, instead of flattering their <seg xml:id="seg6.2" ana="#grace">fascinating
         graces</seg>, and viewing them as if they were in a state of
         perpetual childhood, <seg xml:id="seg7.1" ana="#weakness">unable to stand alone</seg>. I earnestly
-        wish to point out in what true dignity and human happi-
-        ness consists. I wish to persuade women to endeavour
+        wish to point out in what true dignity and human happiness consists. I wish to persuade women to endeavour
         to acquire <seg xml:id="seg10" ana="#strength"><seg xml:id="seg3.3" ana="#intellect">strength, both of mind</seg> and body</seg>, and to
         convince them that the soft; phrases, susceptibility of
         heart, delicacy of sentiment, and refinement of taste, are
@@ -247,8 +211,8 @@
         Dismissing, then, those <seg xml:id="seg6.3" ana="#grace">pretty feminine phrases</seg>,
         which the men condescendingly use to soften our slavish
         dependence, and despising that weak elegancy of mind,
-        exquisite sensibility, and <seg xml:id="seg6.4" ana="#grace">sweet docility of manners</seg>, sup-
-        posed to be the sexual characteristics of the <seg xml:id="seg7.3" ana="#weakness">weaker
+        exquisite sensibility, and <seg xml:id="seg6.4" ana="#grace">sweet docility of manners</seg>, 
+        supposed to be the sexual characteristics of the <seg xml:id="seg7.3" ana="#weakness">weaker
         vessel</seg>, I wish to show that elegance is inferior to virtue,
         that the first object of laudable ambition is to obtain a
         character as a human being, regardless of the distinction
@@ -257,9 +221,8 @@
         This is a rough sketch of my plan; and should I express
         my conviction with the energetic emotions that I feel
         whenever I think of the subject, the dictates of experience
-        and reflection will be felt by some of my readers. Ani-
-        mated by this important object, I shall disdain to cull my
-        phrases or polish my style. I aim at being useful, and
+        and reflection will be felt by some of my readers. Animated by this important object, 
+        I shall disdain to cull myphrases or polish my style. I aim at being useful, and
         sincerity will render me unaffected; for wishing rather
         to persuade by the force of my arguments than dazzle
         by the elegance of my language, I shall not waste my
@@ -271,8 +234,7 @@
         flowery diction which has slided from essays into novels,
         and from novels into familiar letters and conversations.
         These pretty superlatives, dropping glibly from the
-        tongue, vitiate the taste, and create a kind of sickly deli-
-        cacy that turns away from simple unadorned truth; and
+        tongue, vitiate the taste, and create a kind of sickly delicacy that turns away from simple unadorned truth; and
         a deluge of false sentiments and overstretched feelings,
         stifling the natural emotions of the heart, render the
         domestic pleasures insipid, that ought to sweeten the
@@ -297,8 +259,7 @@
         If, then, it can be fairly deduced from the present
         conduct of the sex, from the prevalent fondness for
         pleasure which takes place of ambition and those nobler
-        passions that open and enlarge the soul, that the instruc-
-        tion which women have hitherto received has only
+        passions that open and enlarge the soul, that the instruction which women have hitherto received has only
         tended, with the constitution of <seg xml:id="seg9.2" ana="#society">civil society</seg>, to render
         them insignificant objects of desire - mere <seg xml:id="seg4.1" ana="#mother">propagators</seg>
         of fools! - if it can be proved that in aiming to accomplish
@@ -306,8 +267,7 @@
         taken out of their sphere of duties, and made ridiculous
         and useless when <seg xml:id="seg2.2" ana="#beauty">the short-lived bloom of beauty</seg> is
         over, I presume that rational men will excuse me for
-        endeavouring to persuade them to <seg xml:id="seg8.2" ana="#counterstereotype">become more mascu-
-        line</seg> and respectable.
+        endeavouring to persuade them to <seg xml:id="seg8.2" ana="#counterstereotype">become more masculine</seg> and respectable.
         Indeed the word masculine is only a bugbear; there is
         little reason to fear that women will acquire <seg xml:id="seg10.2" ana="#strength">too much
         courage or fortitude</seg>, for their <seg xml:id="seg7.5" ana="#weakness">apparent inferiority with
@@ -325,8 +285,7 @@
         men become more chaste and modest, and <seg xml:id="seg3.6" ana="#intellect">if women do
         not grow wiser in the same ratio it will be clear that they
         have weaker understandings</seg>. It seems scarcely necessary
-        to say that I now speak of the sex in general. Many indi-
-        viduals have more sense than their male relatives; and, as
+        to say that I now speak of the sex in general. Many individuals have more sense than their male relatives; and, as
         nothing preponderates where there is a constant struggle
         for an equilibrium without it has naturally more gravity,
         some women govern their husbands without degrading
