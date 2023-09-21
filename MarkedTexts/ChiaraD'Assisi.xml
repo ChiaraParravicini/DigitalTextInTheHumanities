@@ -1,9 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>
-                Lettera sul digiuno A digital edition
+                Lettera sul digiuno - A digital edition
                 </title>
                 <author>
                 Chiara d'Assisi
@@ -99,23 +101,23 @@
             </particDesc>
         </profileDesc>
 
-    </teiHeader>
+        <interpGrp resp="#ChiaraParravicini" type="structuralunit">
+            <interp xml:id="body">body</interp>
+            <interp xml:id="foodOrFoodAbst">food or food abstinence</interp>
+            <interp xml:id="marriage">marriage</interp>
+            <interp xml:id="mother">mother</interp>
+            <interp xml:id="sorority">sorority</interp>
+            <interp xml:id="strength">strength</interp>
+            <interp xml:id="virginity">virginity</interp>
+            <interp xml:id="weakness">weakness</interp>     
+        </interpGrp>
 
-    <interpGrp resp="#ChiaraParravicini"
-    type="structuralunit">
-        <interp xml:id="body">body</interp>
-        <interp xml:id="foodOrFoodAbst">food or food abstinence</interp>
-        <interp xml:id="marriage">marriage</interp>
-        <interp xml:id="mother">mother</interp>
-        <interp xml:id="sorority">sorority</interp>
-        <interp xml:id="strength">strength</interp>
-        <interp xml:id="virginity">virginity</interp>
-        <interp xml:id="weakness">weakness</interp>     
-    </interpGrp>
+
+    </teiHeader>
 
     <text>
         Alla signora in Cristo veneratissima e <seg xml:id="seg1" ana="#sorority">sorella</seg> degna d’amore più di tutte le creature mortali, <persName xml:id="AgnesediBoemia">Agnese</persName>,
-        germana dell’illustre <roleName>Re di <placeName>Boemia</placeName><roleName>, ma ora soprattutto sorella e <seg xml:id="seg2" ana="#marriage">sposa</seg> del
+        germana dell’illustre <roleName>Re di <placeName>Boemia</placeName></roleName>, ma ora soprattutto sorella e <seg xml:id="seg2" ana="#marriage">sposa</seg> del
         sommo Re dei cieli, <persName xml:id="ChiaradAssisi">Chiara</persName>, umilissima e indegna ancella di Cristo e serva delle Donne Povere, augura
         salutare gaudio nell’Autore della salvezza e quanto di meglio essa possa desiderare.
         Le liete notizie del tuo benessere, del tuo stato felice e dei tuoi prosperi progressi nella corsa che hai
@@ -130,7 +132,7 @@
         l’umiltà, con la forza della fede e le braccia della povertà, il tesoro incomparabile, nascosto nel campo
         del mondo e dei cuori umani, col quale si compra Colui che dal nulla trasse tutte
         le cose.
-        E, per avvalermi delle parole medesime dell’<roleName>Apostolo<roleName>, ti stimo collaboratrice
+        E, per avvalermi delle parole medesime dell’<roleName>Apostolo</roleName>, ti stimo collaboratrice
         di Dio stesso e sostegno delle membra deboli e vacillanti del suo ineffabile Corpo.
         Chi potrebbe, dunque, impedirmi di rallegrarmi per sì mirabili motivi di gaudio?
         Gioisci, perciò, anche tu nel Signore sempre, o carissima. Non permettere che
@@ -168,7 +170,7 @@
         elevassero la loro superbia fino al cielo e toccassero quasi col capo le nubi, alla fine saranno dissolti nel
         nulla, come spazzatura.
         Passando ora al quesito che mi hai sottoposto, credo di poterti rispondere così. Tu mi domandi
-        quali feste il gloriosissimo Padre nostro <roleName>san</roleName> <persName xml:id="FrancescodAssisi">Francesco<persName> ci raccomandò di celebrare con particolare
+        quali feste il gloriosissimo Padre nostro <roleName>san</roleName> <persName xml:id="FrancescodAssisi">Francesco</persName> ci raccomandò di celebrare con particolare
         solennità, pensando, se ben ho capito, che si possa in esse usare una certa maggior larghezza nella
         varietà dei <seg xml:id="seg6" ana="#foodOrFoodAbst">cibi</seg>. Nella tua prudenza certamente saprai che, salvo le deboli e le inferme, -­‐ verso le
         quali ci insegnò e ci comandò di usare ogni discrezione con qualsiasi genere di <seg xml:id="seg6.1" ana="#foodOrFoodAbst">cibo</seg> -­‐, nessuna di noi,
