@@ -32,7 +32,7 @@
           <div class="box left">
             <h2>Concetti Chiave</h2>
             <ul>
-              <xsl:for-each select="tei:teiHeader/tei:interpGrp/tei:interp">
+              <xsl:for-each select="tei:text/tei:front/tei:interpGrp/tei:interp">
                 <li>
                   <xsl:value-of select="."/>
                 </li>
@@ -48,7 +48,7 @@
             </ul>
           </div>
           <div class="box right">
-            <xsl:value-of select="tei:text"/>
+            <xsl:value-of select="tei:text/tei:body"/>
           </div>
         </div>
       </body>
