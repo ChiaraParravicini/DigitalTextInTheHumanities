@@ -5,7 +5,7 @@
                 <title>
                 D’ardito cavalier non è prodezza
                 </title>
-                <author>
+                <author ref="http://viaf.org/viaf/66577804">
                 Veronica Franco
                 </author>
             </titleStmt>
@@ -57,6 +57,7 @@
             <interp xml:id="gender">gender division, binary male-female opposition and their relationship</interp>
             <interp xml:id="war">semantic field of war</interp>
             <interp xml:id="education">value and methods of education</interp>
+            <interp xml:id="bitch"></interp>
         </interpGrp>
 
     </teiHeader>
@@ -68,24 +69,24 @@
         da cavalier non è, ch’abbia raccolta
         ne l’animo suo invitto alta virtute,
         e che a l’onor la mente abbia rivolta,
-        <span class= "war">con armi insidiose e non vedute,
+        <seg xml:id="seg4" ana="#war">con armi insidiose e non vedute,
         a chi piú disarmato men sospetta
-        dar gravi colpi di mortal ferute.</span>
+        dar gravi colpi di mortal ferute.</seg>
         Men ch’agli altri ciò far poi se gli aspetta
-        <span class="gender">contra le donne, da natura fatte
-        per l’uso che piú d’altro a l’uom diletta:</span>
-        <span class= "body"> imbecilli di body, ed in nulla atte
+        <seg xml:id="seg3" asa="#gender">contra le donne, da natura fatte
+        per l’uso che piú d’altro a l’uom diletta:</seg>
+        <seg xml:id="seg1" asa="#body"> imbecilli di corpo, ed in nulla atte
         non pur a offender gli altri, ma se stesse
         dal difender col cor timido astratte.
         Questo doveva far che s’astenesse
         la vostra man da quell’aspre percosse,
-        ch’al mio feminil petto ignudo impresse.</span>
+        ch’al mio feminil petto ignudo impresse.</seg>
         Io non saprei già dir onde ciò fosse,
         se non che fuor del lato mi traeste
-        <span class= "war">l’armi vostre del sangue asperse e rosse.
+        <seg xml:id="seg4.1" asa="#war">l’armi vostre del sangue asperse e rosse.
         Spogliata e sola e incauta mi coglieste,
         debil d’animo, e in armi non esperta,
-        e robusto ed armato m’offendeste:</span>
+        e robusto ed armato m’offendeste:</seg>
         tanto ch’io stei per lungo spazio incerta
         di mia salute; e fu per me tra tanto
         passion infinita al cor sofferta.
@@ -94,10 +95,10 @@
         che da l’un mi passava a l’altro canto.
         Quasi da pigro sonno or poi svegliata,
         dal cansato periglio animo presi,
-        <span class="gender">benché femina a molli opere nata;</span>
-        <span class="war">e in man col ferro a essercitarmi appresi,</span>
+        <seg xml:id="seg3.1" asa="#gender">benché femina a molli opere nata;</seg>
+        <seg xml:id="seg4.2" asa="#war">e in man col ferro a essercitarmi appresi,</seg>
         tanto ch’aver le donne agil natura,
-        non men che l’uomo, <span class="war">in armeggiando intesi</span>:
+        non men che l’uomo, <seg xml:id="seg4.3" asa="#war">in armeggiando intesi</seg>:
         perché ’n ciò posto ogni mia industria e cura,
         mercé del ciel, mi veggo giunta a tale,
         che più d’offese altrui non ho paura.
@@ -114,12 +115,12 @@
         che m’offendeste non già per giovarmi,
         e ’l fatto stesso parla e sì v’accusa.
         Ed io, poi che ’l ciel vòlse liberarmi
-        da sì mortal periglio, <span class="war">ho sempre atteso
+        da sì mortal periglio, <seg xml:id="seg4.4" asa="#war">ho sempre atteso
         a l’essercizio nobile de l’armi,
         sì ch’or, animo e forze avendo preso,
         di provocarvi a rissa in campo ardisco,
-        con cor non poco a la vendetta acceso.</span>
-        <span class="gender">Non so se voi stimiate lieve risco
+        con cor non poco a la vendetta acceso.</seg>
+        <seg xml:id="seg3.2" asa="#gender">Non so se voi stimiate lieve risco
         entrar con una donna in campo armato;
         ma io, benché ingannata, v’avvertisco
         che ’l mettersi con donne è da l’un lato
@@ -136,20 +137,20 @@
         con voi pugnar porìan fino a la morte.
         E per farvi veder che ’l vero parlo,
         tra tante donne incominciar voglio io,
-        porgendo essempio a lor di seguitarlo.</span>
-        <span class="war">A voi, che contra tutte sète rio,
+        porgendo essempio a lor di seguitarlo.</seg>
+        <seg xml:id="seg4.5" asa="#war">A voi, che contra tutte sète rio,
         con qual’armi volete in man mi volgo,
         con speme d’atterrarvi e con desio;
-        e le donne a difender tutte tolgo</span>
+        e le donne a difender tutte tolgo</seg>
         contra di voi, che di lor sète schivo,
         sì ch’a ragion io sola non mi dolgo.
         Certo d’un gran piacer voi sète privo,
         a non gustar di noi la gran dolcezza;
         ed al mal uso in ciò la colpa ascrivo.
-        <span class="body">Data è dal ciel la feminil bellezza,
+        <seg xml:id="seg1.1" asa="#body">Data è dal ciel la feminil bellezza,
         perch’ella sia felicitate in terra
-        di qualunque uom conosce gentilezza.</span>
-       <span class="war intellenct"> Ma dove ’l mio pensier trascorre ed erra
+        di qualunque uom conosce gentilezza.</seg>
+       <seg xml:id="seg2" asa="#intellect"> Ma dove ’l mio pensier trascorre ed erra
         a ragionar de le cose d’amore,
         or ch’io sono in procinto di far guerra,
         torno al mio intento, ond’era uscita fuore,
@@ -178,7 +179,7 @@
         s’a voi piace d’usar, piace a me ancora;
         e se volete entrar ne la toscana,
         scegliete voi la seria o la burlesca,
-        ché l’una e l’altra è a me facile e piana.</span>
+        ché l’una e l’altra è a me facile e piana.</seg>
         Io ho veduto in lingua selvaghesca
         certa fattura vostra molto bella,
         simile a la maniera pedantesca:
@@ -187,9 +188,9 @@
         di queste in biasmo nostro le quadrella,
         qual di lor più vi piace, e voi pigliate,
         ché di tutte ad un modo io mi contento.
-        <span class="education">avendole perciò tutte imparate.
+        <seg xml:id="seg5" asa="#education">avendole perciò tutte imparate.
         Per contrastar con voi con ardimento,
-        in tutte queste ho molta industria speso:</span>
+        in tutte queste ho molta industria speso:</seg>
         se bene o male, io stessa mi contento;
         e ciò sarà dagli altri ancora inteso,
         e ’l saperete voi, che forse vinto
@@ -200,7 +201,7 @@
         de la vostra canzone, a me mandata,
         il principio vorrei mi dichiaraste,
         poi che l’opera a me vien indrizzata.
-        <span class="irony">«Verunica» e ’l restante mi chiamaste,
+        «Verunica» e ’l restante mi chiamaste,
         alludendo a Veronica mio nome,
         ed al vostro discorso mi biasmaste;
         ma al mio dizzionario io non so come
@@ -229,7 +230,7 @@
         quel che vi corse a l’animo scriveste,
         altrui volendo in ciò forse esser grato;
         benché me non ingiuria, ma se stesso,
-        s’altri mi dice mal, non provocato.</span>
+        s’altri mi dice mal, non provocato.
         E ’l voler oscurar il vero espresso
         con le torbide macchie degli inchiostri
         in buona civiltà non è permesso;
@@ -239,15 +240,15 @@
         sì come in questo caso ancor si vede,
         ché voi, non v’accorgendo, mi lodate
         di quel ch’al bene ed a la virtù chiede.
-        <span class="bitch">E se ben «meretrice» mi chiamate,</span>
-        <span class="war">o volete inferir ch’io non vi sono,
+        <seg xml:id="seg6" asa="#bitch">E se ben «meretrice» mi chiamate,</seg>
+        <seg xml:id="seg4.6" asa="#war">o volete inferir ch’io non vi sono,
         o che ve n’èn tra tali di lodate.
         Quanto le meretrici hanno di buono,
         quanto di grazioso e di gentile,
         esprime in me del parlar vostro il suono.
         Se questo intese il vostro arguto stile,
         di non farne romor io son contenta,
-        e d’inchinarmi a voi devota, umìle;</span>
+        e d’inchinarmi a voi devota, umìle;</seg>
         ma perch’al fin de la scrittura, intenta
         stando, che voi mi biasimate trovo,
         e ciò si tocca e non pur s’argomenta,
