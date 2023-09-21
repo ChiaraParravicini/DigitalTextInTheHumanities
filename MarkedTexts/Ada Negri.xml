@@ -69,7 +69,7 @@
     </teiHeader>
 
     <text>
-        Raimonda alzò il bavero del soprabito, <seg xml:id="seg1" asa="#body"> attillato come una fascia sul suo bel
+        Raimonda alzò il bavero del soprabito, <seg xml:id="seg1" ana="#body"> attillato come una fascia sul suo bel
         corpo, di serpentina flessuosità: avvolse intorno al bavero il boa di pelliccia
         fino all’altezza del naso, ficcò le mani nel manicotto, e via, a capo basso,
         fra la nebbia. </seg>
@@ -85,17 +85,17 @@
         rumore, mascherava ogni fisionomia.
         Di questo, sovra tutto, era felice Raimonda, che camminava sicura,
         conoscendo così bene la sua via quotidiana dall’ufficio alla casa, che i piedi
-        gliel’avrebbero potuta far da sé senza l’aiuto degli occhi. <seg xml:id="seg6" asa="#beauty"> Raimonda aveva
+        gliel’avrebbero potuta far da sé senza l’aiuto degli occhi. <seg xml:id="seg6" ana="#beauty"> Raimonda aveva
         la parte destra del viso orribilmente sfregiata. A dieci anni, una mala caduta
         sulla brace rovente del caminetto l’aveva ridotta così. Per ironia della sorte
         era cresciuta agile e bellissima di corpo, calda di sangue, chiara nell’animo,
         pronta nei sensi, certo creata per un destino d’amore, se l’atroce mezza
         maschera raggrinzata, paonazza, costringendo anche la bocca ad una
         smorfia grottesca nel riso, non l’avesse deturpata senza rimedio.</seg>
-        <seg xml:id="seg2" asa="#society"> Dinanzi all’apparente gaiezza di lei, d’una esuberanza a tratti eccessiva,
+        <seg xml:id="seg2" ana="#society"> Dinanzi all’apparente gaiezza di lei, d’una esuberanza a tratti eccessiva,
         parenti e amici pensavano e dicevano: «Per fortuna è indifferente alla sua
         disgrazia. Pel mostro non esiste la propria mostruosità».</seg>
-        S’ingannavano. <seg xml:id="seg4" asa="#mother"> Non forse la madre, alla quale il sesto senso materno
+        S’ingannavano. <seg xml:id="seg4" ana="#mother"> Non forse la madre, alla quale il sesto senso materno
         dava pupille più penetranti;</seg> ma, debole e incerta creatura crepuscolare,
         tentava, illudendosi, di sopire dentro di sé vergogna, dolore, rimorso.
         La verità era questa: tolte le obliose ore del sonno, non un minuto della
@@ -103,7 +103,7 @@
         ridere, durante le più gravi e le più semplici occupazioni, sola o fra molti –
         ella non si fosse veduta nell’inesorabilità della sua laidezza, con quei
         terribili occhi in dentro, che non ingannano mai.
-        <seg xml:id="seg6.1" asa="#beauty">Per questo, nella propria camera, non teneva specchi.</seg> Per questo, portava
+        <seg xml:id="seg6.1" ana="#beauty">Per questo, nella propria camera, non teneva specchi.</seg> Per questo, portava
         feltri o cuffiette di paglia d’un’estrema semplicità, che si potessero calcar
         sul capo alla brava, senza aiuto di spilloni; e vi avvolgeva intorno larghe e
         fitte velette a fiorami, le quali tuttavia non riuscivano a nascondere
@@ -123,7 +123,7 @@
         sorda, costante, fissa, che ha l’inesorabilità d’un cancro. Non v’è scampo
         contro di essa. Non v’è forza d’oblio che possa dimenticarla, o di dominio
         che possa vincerla.
-        In tale stato viveva Raimonda. <seg xml:id="seg2.1" asa="#society"> Non lasciava, tuttavia, trasparire agli
+        In tale stato viveva Raimonda. <seg xml:id="seg2.1" ana="#society"> Non lasciava, tuttavia, trasparire agli
         uomini se non quel ch’era impossibile nascondere: il marchio del viso.</seg>
         Ella si sentiva isolata. Fra il suo fluido e il fluido altrui s’interponeva un
         divieto. Quel divieto la disonorava come una condanna. Dai dodici ai sedici
@@ -131,7 +131,7 @@
         bisbigliar d’amore. Pareva che in tutte quelle fanciulle destinate a
         guadagnarsi la vita fra l’odor di muffa dei magazzini o l’odor d’inchiostro
         degli uffici, in tutte quelle adolescenze verdastre ed asprigne come i frutti
-        acerbi, non germinasse che il desiderio dell’amore. <seg xml:id="seg5" asa="#education"> Aritmetica, disegno,
+        acerbi, non germinasse che il desiderio dell’amore. <seg xml:id="seg5" ana="#education"> Aritmetica, disegno,
         fisica, grammatica, non sembravano in realtà che pretesti inventati dalla
         dura esistenza e dalla volontà dei parenti, per ingannare, per strozzare in
         boccio l’istinto atavico in quelle piccole future femmine, che già davano
@@ -140,18 +140,18 @@
         Più tardi, nel laboratorio di macchine e strumenti fotografici, dove
         Raimonda aveva potuto collocarsi in qualità di dattilografa, ella, intorno a
         sé, fra i compagni di lavoro, non aveva veduto che amore, illusione
-        d’amore, menzogna d’amore. <seg xml:id="seg3" asa="#gender"> Le commesse, eleganti in abiti tagliati
+        d’amore, menzogna d’amore. <seg xml:id="seg3" ana="#gender"> Le commesse, eleganti in abiti tagliati
         sull’ultimo figurino negli scampoli da trenta soldi al metro, colle trecce
         serrate intorno alle tempie secondo la moda, con tacchi altissimi, con ciglia
         e palpebre offese dal bistro, civettavano, nervose, coi giovanotti dello
         studio; oppure trovavan sulla porta, la sera, l’amico pronto per
         accompagnarle.</seg> Le varie correnti si urtavano, sprizzavan scintille nell’urto,
-        creando per Raimonda un’irrespirabile atmosfera magnetica. <seg xml:id="seg2.2" asa="#society">La sua
+        creando per Raimonda un’irrespirabile atmosfera magnetica. <seg xml:id="seg2.2" ana="#society">La sua
         giovinezza era tagliata fuori da quelle vibrazioni di gioia. Per lei non poteva
         sussistere la legge naturale dell’esistenza. </seg> Lo sapeva. E vi pareva
         rassegnata; ma, in fondo, avvilimento, desiderio insoddisfatto, rancore, le si
         aggrovigliavan dentro come un viluppo di serpi.
-        <seg xml:id="seg2.3" asa="#society">Ed era giunta a desiderar d’esser cieca, quasi che la cecità personale
+        <seg xml:id="seg2.3" ana="#society">Ed era giunta a desiderar d’esser cieca, quasi che la cecità personale
         riuscisse a nasconderla agli occhi altrui: </seg> simile in questo al bambino che,
         celandosi il volto col braccio alzato ad arco, crede di essersi reso invisibile
         ad ognuno. Era giunta a non trovarsi bene che nell’ombra; e sempre avrebbe
@@ -159,7 +159,7 @@
         novembre, dandole un senso inatteso e mordente d’agilità, di libertà, di
         sicurezza.
         Un fanale a gas, d’un fosco rosso di piaga nella compagine nebbiosa, le
-        indicava lo svolto di via Solferino in via Pontaccio.<seg xml:id="seg3.1" asa="#gender"> Scivolava rasente i
+        indicava lo svolto di via Solferino in via Pontaccio.<seg xml:id="seg3.1" ana="#gender"> Scivolava rasente i
         muri, imbacuccata e felice, quando una voce maschia le susurrò alle spalle:
         «Signorina…».
         Non si volse, continuò la strada, col cuore che le martellava. Nessuno,
@@ -184,7 +184,7 @@
         silenzio stesso, nel passo un poco rallentato, nell’atto di alzare il manicotto
         fino a celare il mento e la bocca. La nebbia li univa e li divideva nel
         medesimo tempo. Altre fantastiche ombre passavano, larve nere apparenti
-        nelle orbite dei fanali, subito inghiottite dall’elemento grigio. <seg xml:id="seg3.2" asa="#gender">Milano era
+        nelle orbite dei fanali, subito inghiottite dall’elemento grigio. <seg xml:id="seg3.2" ana="#gender">Milano era
         un’immensa nave naufragata, ove Raimonda agonizzava in una dolcissima
         agonia: rivelata finalmente a un uomo: finalmente donna: tremante di muta
         felicità: solo temendo che l’ora dell’incantesimo finisse.
