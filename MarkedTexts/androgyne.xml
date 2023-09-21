@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="LINK AL TEMPLATE"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                L'Androgyne - A Digital Edition
+                </title>
+                <author>
+                Claude Cahun
+                </author>
+                <respStmt>
+                    <resp>conversion to TEI-conformant markup</resp>
+                    <name>Alice Picco</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition> DHDK Digital Edition <date>2023</date>
+                </edition>
+            </editionStmt> 
+            <publicationStmt>
+                <publisher>University of Bologna</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull xml:lang="fr">
+                    <titleStmt>
+                        <title>
+                        Aveux non avenus
+                        </title>
+                        <author>
+                        Claude Cahun
+                        </author>
+                        <editor>
+                        François Leperlier
+                        </editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition> First Edition <date when="1930">1930</date>
+                        </edition>
+                    </editionStmt>
+                    <extent>
+                        <measure unit="pages" quantity="254">254 pages of source
+                        material</measure>
+                    </extent>
+                    <publicationStmt>
+                        <publisher>Éditions Mille et Une Nuits &amp; </publisher>
+                        <date when="1898">1898</date>   
+                        <pubPlace>Paris</pubPlace>  
+                        <availability source="https://archive.org/details/lapetitefadette06sandgoog/page/n11/mode/2up">
+                            <licence >Extract from Aveux non avenus by Claude Cahun, published by Éditions Mille et Une Nuits and diffused by https://archive-magazine.jeudepaume.org/ </licence>
+                        </availability>          
+                    </publicationStmt>
+                    <sourceDesc>
+                        <p>No source: this is an original</p>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>Basic encoding, capturing information related to main characters and aiming to interpret the texts through concept-like structures. All hyphenation, punctuation, and variant spelling normalized. No formatting or layout information preserved.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>A sample of the text "Héroïnes", contained in the photography and poetry anthology "Aveux non avenus" was selected in order to create this digial edition. The sample was chosen on the basis of the topics touched upon in the text.</p>
+            </samplingDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="seg" occurs="7">
+                        Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
+                    </tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+                    
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">French</language>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="Narcisse">
+                        <persName>
+                            Narcisse
+                        </persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <docTitle>
+                <titlePart>L'Androgyne</titlePart>
+            </docTitle>
+            <interpGrp resp="#AlicePicco" type="structuralunit">
+                <interp xml:id="body">body</interp>
+                <interp xml:id="uglyness">uglyness</interp>
+                <interp xml:id="sensuality">sensuality</interp>
+                <interp xml:id="beauty">beauty</interp>
+                <interp xml:id="grace">grace</interp>
+                <interp xml:id="marriage">marriage</interp>
+                <interp xml:id="counterstereotype">counterstereotype</interp>
+            </interpGrp>
+        </front>
+    <body>
+        <p>
+         <seg xml:id="seg1" ana="#body"><seg xml:id="seg2" ana="#uglyness">– Des seins superflus ; les dents lourdes et contradictoires ; les yeux et les cheveux du ton le plus banal ; des mains assez fines, mais qu’un démon 
+         – le démon de l’hérédité – a tordues, déformées… La tête ovale de l’esclave, le front trop haut… ou trop bas ; un nez bien réussi dans son genre 
+         – hélas ! un genre qui donne de vilaines associations d’images ; la bouche trop <seg xml:id="seg3" ana="#sensuality"> sensuelle </seg>: cela peut plaire tant qu’on a faim, mais dès qu’on a mangé ça vous écœure ;
+         le menton à peine assez saillant ; et par tout le corps des muscles seulement esquissés… </seg></seg>
+         Victorieuse !… parfois victorieuse des plus atroces gênes, une adresse tardive corrige une ombre, un geste imprudent – <seg xml:id="seg4" ana="beauty"> et la beauté renaît ! </seg>
+         Car devant son miroir <persName ref="#Narcisse">Narcisse</persName> est touché de la <seg xml:id="seg5" ana="grace"> grâce.</seg> Il consent à se reconnaître. Et l’illusion qu’il crée pour lui-même s’étend à quelques autres. 
+        </p>
+        <p>
+        <title>Hors-texte</title>
+        – La parole est à <roleName> l’Androgyne </roleName> : 
+        « À la recherche de l’homme. Voilà où j’en suis. Mais il n’en fut pas toujours de même : Enfant, ne lui jurai-je pas un éternel amour ? Comme elle était sensée déjà !
+        Il m’en souvient très bien (la souffrance d’alors m’a formé la mémoire : une mémoire à vif), très bien, ô sagesse précoce ! – car tu me répondais :
+        « Tu as tort… et moi, non ! je ne te promets rien de pareil… combien de temps ? Je ne sais pas. Sais-je seulement si je t’aime… Oui, je me <seg xml:id="seg6" ana="marriage"> marierai… </seg> Quand ? bientôt, n’en doute pas… » 
+        – Franchise admirable ! et perdue… J’étais incapable de l’apprécier – et cela se comprend : passionnée, presque hystérique, indigne… et bien loin d’envier, haïssant si fort toute la sérénité du monde !… 
+        « À force d’insister j’obtins qu’elle me promît un an – ce qu’elle ne consentit pourtant qu’à regret. Elle me mit à la porte ce jour-là, s’enferma dans sa chambre – seule – pour méditer une décision si grave.
+        Elle sortit. Je revins : Eh bien ? dis-je (car j’y pensais toujours. Elle aussi d’ailleurs). Mais elle répondit : « Eh bien ! quoi ?… Je vais au jardin : <roleName>maman</roleName> réclame ses fleurs. 
+        Tu restes ici ? » On ne se débarrasse pas de moi si facilement. Je m’entête : Toujours, dis, toujours ? – Je marchande ; et, voyant qu’elle va se fâcher, je rabaisse mes prétentions : 
+        Un an, dis, un an ? Promets-moi un an, ce n’est pas grand-chose… Alors, ne pouvant plus se dérober, elle me regarde durement, réfléchie, sérieuse : 
+        « Un an, soit » – et cela, comme une aumône à un pauvre qu’on sait simulateur, pour qu’enfin je la laisse en repos. 
+        « Pourtant cette promesse n’était point une pièce fausse ; mais elle l’avait pesée, elle comptait la tenir. Elle la tint largement. Avant tout, et pour sa propre estime, elle est absolument loyale. 
+        « Ce fut là le méchant début de nos amours. – Et voilà bientôt quinze années… »
+        </p>
+        <p>
+        <title>Portraits psychologiques</title>
+        <roleName>L’Androgyne</roleName>:
+         <seg xml:id="seg7" ana="counterstereotype"> – Férocité, luxure, un égoïsme monstrueux… </seg>
+         (Il y a bien des circonstances, des détails contradictoires ; on pourrait atténuer… mais à quoi bon ? Sachons ne choisir que l’essentiel.)
+         – Enthousiasmes faciles, incessants et fidèles – mais dureté de cœur. Lâcheté physique, et parfois morale (mais de source physique). 
+         – Aucun préjugé : pas de sens social. 
+        </p>
+        <p>
+        <roleName>Le Maître de l’Androgyne</roleName> :
+        – Méfiance envers les hommes (et soi-même) ; confiance… relative à l’égard de l’Androgyne. 
+        Une excessive pudeur mentale. Une paresse étrange – qui est plutôt l’horreur des initiatives, de tout changement, peut-être des transitions. 
+        – Honnêteté stricte, un sens rare de la justice, le respect de la liberté de chacun. 
+        Quelques préjugés enracinés, pour ainsi dire : physiques, qui sont bien des préjugés cependant puisqu’à l’essai ils peuvent être vaincus. 
+        – Douceur, bonté sans illusion. – Une certaine lâcheté morale (effet de l’excessive pudeur et de la paresse).
+        </p>
+        <p>
+        <roleName>Le Poète</roleName>, amant de <roleName>l’Androgyne</roleName>:
+        – Bovarysme. Impuissance. Aucune concentration d’esprit. Peu de logique : jugements subjectifs. Enthousiasme et générosité (non pas bonté). 
+        – Quelques préjugés, mais superficiels : de vanité sociale. Accès de témérité, puis de faiblesse morale (dépression nerveuse). 
+        Explications – Écoute, <roleName>Androgyne</roleName>! Si c’est Lui que tu aimes, quitte-moi. Je ne le désire pas, mais je m’en consolerai… Ne va pas te croire indispensable. 
+        – (Que répondre à cela ?)… Ce n’est pas Lui que j’aime assez pour te quitter… 
+        – Alors, <roleName>Androgyne</roleName>, puisqu’après tout c’est moi que tu aimes, il faut être honnête et cesser de mentir. (Que répondre à cela ?)... Je ne souhaite pas mentir.
+        C’est Lui, c’est toi qui m’y contrains. Ce n’est certes pas Lui, mais je crains que ce ne soit point toi non plus que j’aime… assez pour être « honnête ». 
+        (Existe-t-il, Celui ?… non, non ! mais plutôt : est-il bien nécessaire d’être « honnête » ?) – Restez avec votre <roleName>Maître</roleName>, <roleName>Androgyne</roleName>, mais couchez avec moi. 
+        Il vous soignera mieux que je ne pourrais faire… (traduisez : je n’aurai pas cette peine) – et moi je serai là pour l’Art, le Rêve, l’Amour… 
+        Il faut seulement me promettre de n’aimer que moi seul, de ne coucher qu’avec moi seul… (En effet : quand je fais l’amour à mon Maître, le Poète s’en aperçoit et le Poète est furieux !) 
+        – (Enfin à cela je puis répondre !)… Mais pourquoi, pourquoi ?… Puisque je me sens de force à coucher avec vous deux !
+        </p>
+            </body>
+            </text>
+                </TEI>
