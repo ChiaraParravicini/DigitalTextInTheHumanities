@@ -3,7 +3,7 @@
   href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
   schematypens="http://relaxng.org/ns/structure/1.0"
   type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="LINK AL TEMPLATE"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
