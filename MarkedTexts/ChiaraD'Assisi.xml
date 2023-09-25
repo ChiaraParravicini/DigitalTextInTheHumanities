@@ -10,7 +10,7 @@
         <fileDesc>
             <titleStmt>
                 <title>
-                Lettera sul digiuno. A digital edition
+                Lettera sul digiuno (Lettera terza). A digital edition
                 </title>
                 <author>
                 Chiara d'Assisi
@@ -31,23 +31,15 @@
                 <biblFull xml:lang="it">
                     <titleStmt>
                         <title>
-                        Lettera sul digiuno
+                        Lettera sul digiuno (Lettera terza)
                         </title>
                         <author>
                         Chiara d'Assisi
                         </author>
                         <editor>
-                        <!--cambia-->
+                        Chiara Augusta Angelica Lainati
                         </editor>
                     </titleStmt>
-                    <editionStmt>
-                        <edition> First Edition <date when="1111">.<!--cambia--></date>
-                        </edition>
-                    </editionStmt>
-                    <extent>
-                        <measure unit="pages" quantity=".">.<!--cambia-->
-                        material</measure>
-                    </extent>
                     <publicationStmt>
                         <publisher><!--cambia-->.</publisher>
                         <date when="1111"><!--cambia-->.</date>   
@@ -110,7 +102,7 @@
     <text>
         <front>
             <docTitle>
-                <titlePart>Lettera sul digiuno</titlePart>
+                <titlePart>Lettera sul digiuno (Lettera terza)</titlePart>
             </docTitle>
             <interpGrp resp="#ChiaraParravicini" type="structuralunit">
                 <interp xml:id="body">body</interp>
