@@ -1661,3 +1661,29 @@ section {
 #footer .credits a {
   transition: 0.3s;
 }
+
+/*--------------------------------------------------------------
+# Boxes for texts in the visualization page
+--------------------------------------------------------------*/
+
+.container {
+  display: flex;
+}
+.box {
+  border: 1px solid #ff5e31;
+  border-top: transparent;
+  border-bottom: transparent;
+  padding: 10px;
+  margin: 10px;
+}
+.box.left {
+  flex: 1;
+}
+.box.right {
+  flex: 2;
+}
+
+.title-text {
+  text-align: left;
+  margin: 30px;
+}

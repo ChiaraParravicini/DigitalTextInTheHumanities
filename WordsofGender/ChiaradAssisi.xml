@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                Lettera sul digiuno (Lettera terza). A digital edition
+                </title>
+                <author>
+                Chiara d'Assisi
+                </author>
+                <respStmt>
+                    <resp>conversion to TEI-conformant markup</resp>
+                    <name>Chiara Parravicini</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition> DHDK Digital Edition <date>2023</date>
+                </edition>
+            </editionStmt> 
+            <publicationStmt>
+                <publisher>University of Bologna</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull xml:lang="it">
+                    <titleStmt>
+                        <title>
+                        Lettera sul digiuno (Lettera terza)
+                        </title>
+                        <author>
+                        Chiara d'Assisi
+                        </author>
+                        <editor>
+                        Chiara Augusta Angelica Lainati
+                        </editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher><!--cambia-->.</publisher>
+                        <date when="1111"><!--cambia-->.</date>   
+                        <pubPlace><!--cambia-->.</pubPlace>          
+                    </publicationStmt>
+                    <sourceDesc>
+                        <p><!--cambia-->.</p>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>Basic encoding, capturing information related to main characters and aiming to interpret the texts through concept-like structures. All hyphenation, punctuation, and variant spelling normalized. No formatting or layout information preserved.</p>
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="seg" occurs="25">
+                        Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
+                    </tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+                    
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italian</language>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="ChiaradAssisi">
+                        <persName>
+                            Chiara d'Assisi
+                        </persName>
+                    </person>
+                    <person xml:id="FrancescodAssisi">
+                        <persName>
+                            Francesco d'Assisi
+                        </persName>
+                    </person>
+                    <person xml:id="AgnesediBoemia">
+                        <persName>
+                            Agnese di Boemia
+                        </persName> 
+                    </person>
+                    <person xml:id="GesudiNazareth">
+                        <persName>
+                            Gesù di Nazareth
+                        </persName> 
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+
+
+
+
+    <text>
+        <front>
+            <docTitle>
+                <titlePart>Lettera sul digiuno (Lettera terza)</titlePart>
+            </docTitle>
+            <interpGrp resp="#ChiaraParravicini" type="structuralunit">
+                <interp xml:id="body">body</interp>
+                <interp xml:id="foodOrFoodAbst">food or food abstinence</interp>
+                <interp xml:id="marriage">marriage</interp>
+                <interp xml:id="mother">mother</interp>
+                <interp xml:id="sorority">sorority</interp>
+                <interp xml:id="strength">strength</interp>
+                <interp xml:id="virginity">virginity</interp>
+                <interp xml:id="weakness">weakness</interp>     
+            </interpGrp>
+        </front>
+        <body>
+             <p>
+                Alla signora in Cristo veneratissima e <seg xml:id="seg1" ana="#sorority">sorella</seg> degna d’amore più di tutte le creature mortali, <persName ref="#AgnesediBoemia">Agnese</persName>,
+                germana dell’illustre <roleName>Re di <placeName>Boemia</placeName></roleName>, ma ora soprattutto sorella e <seg xml:id="seg2" ana="#marriage">sposa</seg> del
+                sommo Re dei cieli, <persName ref="#ChiaradAssisi">Chiara</persName>, umilissima e indegna ancella di Cristo e serva delle Donne Povere, augura
+                salutare gaudio nell’Autore della salvezza e quanto di meglio essa possa desiderare.
+                Le liete notizie del tuo benessere, del tuo stato felice e dei tuoi prosperi progressi nella corsa che hai
+                intrapresa per la conquista del celeste palio, mi riempiono di tanta gioia; e tanto più
+                respiro di esultanza nel Signore, perché so e ritengo che tu supplisci magnificamente alle imperfezioni
+                che sono in me e nelle altre sorelle nella nostra imitazione degli esempi di <persName ref="#GesudiNazareth">Gesù</persName> Cristo povero ed umile.
+                Davvero posso rallegrarmi, e nessuno potrebbe strapparmi da questa gioia, poiché ho raggiunto
+                quello che ho desiderato sotto il cielo, dal momento che vedo te trionfare in una maniera, direi,
+                terribile e incredibile, sostenuta da una prerogativa meravigliosa della sapienza che procede da Dio
+                medesimo, sulle astuzie dello scaltro serpente, sulla superbia, che è rovina dell’umana
+                natura, e sulla vanità, che rende fatui i cuori degli uomini. E ti ammiro ancora stringere a te, mediante
+                l’umiltà, con la forza della fede e le braccia della povertà, il tesoro incomparabile, nascosto nel campo
+                del mondo e dei cuori umani, col quale si compra Colui che dal nulla trasse tutte
+                le cose.
+                E, per avvalermi delle parole medesime dell’<roleName>Apostolo</roleName>, ti stimo collaboratrice
+                di Dio stesso e sostegno delle membra deboli e vacillanti del suo ineffabile Corpo.
+                Chi potrebbe, dunque, impedirmi di rallegrarmi per sì mirabili motivi di gaudio?
+                Gioisci, perciò, anche tu nel Signore sempre, o carissima. Non permettere che
+                nessun’ombra di mestizia avvolga il tuo cuore, o signora in Cristo dilettissima, gioia degli Angeli e
+                corona delle tue <seg xml:id="seg1.1" ana="#sorority">sorelle</seg>.
+                Colloca i tuoi occhi davanti allo specchio dell’eternità, colloca la tua anima nello splendore della
+                gloria, colloca il tuo cuore in Colui che è figura della divina sostanza, e
+                trasformati interamente, per mezzo della contemplazione, nella immagine della
+                divinità di Lui.
+                Allora anche tu proverai ciò che è riservato ai soli suoi amici, e gusterai la segreta dolcezza che Dio medesimo
+                ha riservato fin dall’inizio per coloro che lo amano. Senza concedere
+                neppure uno sguardo alle seduzioni, 
+                che in questo mondo fallace ed irrequieto tendono lacci ai ciechi
+                che vi attaccano il loro cuore, con tutta te stessa ama Colui che per amor tuo tutto si è donato.
+                La sua bellezza ammirano il sole e la luna; i suoi premi sono di pregio e grandezza infiniti. 
+                Voglio dire quel Figlio dell’Altissimo, che la Vergine ha partorito, senza cessare di essere
+                <seg xml:id="seg3" ana="#virginity">vergine</seg>. Stringiti alla sua dolcissima <seg xml:id="seg4" ana="#mother">Madre</seg>, la quale generò un Figlio tale che i cieli non lo potevano
+                contenere, eppure ella lo raccolse nel piccolo chiostro del suo santo seno e
+                lo portò nel suo <seg xml:id="seg3.1" ana="#virginity">grembo verginale</seg>.
+                Chi non sdegnerebbe con orrore le insidie del nemico dell’umano genere, che facendo brillare
+                innanzi agli occhi il luccicore delle cose transitorie e delle glorie fallaci, tenta annientare ciò che è più
+                grande del cielo?
+                Sì perché è ormai chiaro che l’anima dell’uomo fedele, che è la più degna di tutte le creature, è resa
+                dalla grazia di Dio più grande del cielo. Mentre, infatti, i cieli con tutte le altre cose create non
+                possono contenere il Creatore, l’anima fedele invece, ed essa sola, è sua dimora
+                e soggiorno, e ciò soltanto a motivo della carità, di cui gli empi sono privi. È la stessa
+                Verità che lo afferma: “Colui che mi ama, sarà amato dal Padre mio, e io pure lo amerò; e noi verremo a
+                lui e porremo in lui la nostra dimora”.
+                A qual modo, dunque, che la gloriosa <seg xml:id="seg3.2" ana="#virginity">Vergine delle vergini</seg> portò Cristo materialmente nel suo
+                grembo, tu pure, seguendo le sue vestigia, specialmente dell’umiltà e povertà di Lui,
+                puoi sempre, senza alcun dubbio, portarlo spiritualmente nel <seg xml:id="seg5" ana="#body">corpo</seg> <seg xml:id="seg3.3" ana="#virginity">casto e verginale</seg>. E conterrai in
+                te Colui dal quale tu e tutte le creature sono contenute, e possederai ciò che è
+                bene più duraturo e definitivo anche a paragone di tutti gli altri possessi transeunti di questo mondo.
+                Come si ingannano, molte volte, al riguardo, re e regine di questo mondo! Quand’anche
+                elevassero la loro superbia fino al cielo e toccassero quasi col capo le nubi, alla fine saranno dissolti nel
+                nulla, come spazzatura.
+                Passando ora al quesito che mi hai sottoposto, credo di poterti rispondere così. Tu mi domandi
+                quali feste il gloriosissimo Padre nostro <roleName>san</roleName> <persName ref="#FrancescodAssisi">Francesco</persName> ci raccomandò di celebrare con particolare
+                solennità, pensando, se ben ho capito, che si possa in esse usare una certa maggior larghezza nella
+                varietà dei <seg xml:id="seg6" ana="#foodOrFoodAbst">cibi</seg>. Nella tua prudenza certamente saprai che, salvo le deboli e le inferme, -­‐ verso le
+                quali ci insegnò e ci comandò di usare ogni discrezione con qualsiasi genere di <seg xml:id="seg6.1" ana="#foodOrFoodAbst">cibo</seg> -­‐, nessuna di noi,
+                che sia sana e <seg xml:id="seg7" ana="#strength">robusta</seg>, dovrebbe prendere se non <seg xml:id="seg6.2" ana="#foodOrFoodAbst">cibi</seg> quaresimali, tanto nei giorni feriali che nei
+                festivi, <seg xml:id="seg6.3" ana="#foodOrFoodAbst">digiunando</seg> ogni giorno ad eccezione delle domeniche e del Natale del Signore, nei quali
+                giorni possiamo prendere il <seg xml:id="seg6.4" ana="#foodOrFoodAbst">cibo</seg> due volte. Ed anche nei giovedì, dei periodi non di <seg xml:id="seg6.5" ana="#foodOrFoodAbst">digiuno</seg>,
+                ciascuna può fare come le piace, cioè chi non volesse <seg xml:id="seg6.6" ana="#foodOrFoodAbst">digiunare</seg> non vi è tenuta.
+                Ma noi, che siamo in buona salute, <seg xml:id="seg6.7" ana="#foodOrFoodAbst">digiuniamo</seg> tutti i giorni, eccetto le domeniche e il Natale. Non
+                siamo però tenute al <seg xml:id="seg6.8" ana="#foodOrFoodAbst">digiuno</seg> -­‐ così ci ha insegnato il beato Francesco in suo scritto -­‐, durante tutto il
+                tempo pasquale e nelle feste della Madonna e dei santi Apostoli, a meno che cadessero il venerdì.
+                Ma, come ho detto sopra, noi che siamo sane e <seg xml:id="seg7.1" ana="#strength">robuste</seg>, consumiamo sempre <seg xml:id="seg6.9" ana="#foodOrFoodAbst">cibi</seg> quaresimali.
+                Siccome però, non abbiamo un <seg xml:id="seg5.1" ana="#body">corpo</seg> di bronzo, 
+                <seg xml:id="seg8" ana="#weakness">né la nostra è la robustezza del granito</seg>,
+                anzi siamo piuttosto <seg xml:id="seg8.1" ana="#weakness">fragili e inclini ad ogni debolezza corporale</seg>, ti prego e ti supplico nel Signore, o
+                carissima, di moderarti con saggia discrezione nell’austerità, quasi esagerata e impossibile, nella quale
+                ho saputo che ti sei avviata, affinché, vivendo, la tua vita sia lode del Signore, e
+                tu renda al Signore, un culto spirituale ed il tuo sacrificio sia sempre condito col sale della
+                prudenza.
+                Ti auguro di stare sempre bene nel Signore, con la premura con la quale lo potrei augurare a me
+                stessa. Raccomanda me e le mie <seg xml:id="seg1.2" ana="#sorority">sorelle</seg> nelle tue sante orazioni.
+            </p>
+        </body>
+    </text>
+</TEI>
