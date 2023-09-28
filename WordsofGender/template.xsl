@@ -15,12 +15,12 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
       </head>
       <body>
-        <div class="title-text">
+        <div id="title-text">
           <h2>From <i><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/></i>,
           by <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:author"/></h2>
         </div>
-        <div class="container">
-          <div class="box left">
+        <div id="text">
+          <div id="box-left">
             <ul>
               <xsl:if test="tei:text/tei:front/tei:interpGrp/tei:interp">
                 <h2>Key Concepts</h2>
@@ -43,7 +43,7 @@
               </xsl:if>
             </ul>
           </div>
-          <div class="box right">
+          <div id="box-right">
             <xsl:value-of select="tei:text/tei:body"/>
           </div>
         </div>
