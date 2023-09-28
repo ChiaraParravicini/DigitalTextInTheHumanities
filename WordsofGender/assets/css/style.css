@@ -15,6 +15,35 @@ body {
   text-align: justify;
 }
 
+#footnotes, #footnotes2, #footnotes3 {
+  font-size: 14px;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+#footnotes ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+#footnotes2 ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+#footnotes3 ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: smaller;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 a {
   color: #ff4a17;
   text-decoration: none;
