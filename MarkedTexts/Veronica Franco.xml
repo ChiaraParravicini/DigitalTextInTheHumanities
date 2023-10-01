@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -5,52 +10,80 @@
                 <title>
                 D’ardito cavalier non è prodezza
                 </title>
-                <author ref="http://viaf.org/viaf/66577804">
+                <author>
                 Veronica Franco
                 </author>
-            </titleStmt>
-            <editionStmt>
-                <edition>Words of Gender edition</edition>
                 <respStmt>
                     <resp>conversion to TEI-conformant markup</resp>
                     <name>Nicole Liggeri</name>
                 </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>DHDK Digital Edition <date>2023</date></edition>
             </editionStmt>
             <publicationStmt>
-                <date when="1575">
-                 1575
-                </date>
+                <publisher>University of Bologna</publisher>
             </publicationStmt>
+            <sourceDesc>
+                <biblFull xml:lang="it">
+                    <titleStmt>
+                        <title>
+                        D’ardito cavalier non è prodezza
+                        </title>
+                        <author>
+                        Veronica Franco
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher></publisher>
+                        <date when="1575">1575</date>
+                        <pubPlace></pubPlace>
+                        <availability>
+                            <licence >Freely available on a non-commercial basis.</licence >
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
         </fileDesc>
           <encodingDesc>
             <projectDesc>
-                Basic encoding, capturing information related to main characters and aiming to interpret the texts through concept-like structures. All hyphenation, punctuation, and variant spelling normalized. No formatting or layout information preserved.
+                 <p>Basic encoding, capturing information related to main characters and aiming to interpret the texts through concept-like structures. All hyphenation, punctuation, and variant spelling normalized. No formatting or layout information preserved. </p>
             </projectDesc>
             <samplingDecl>
                 <p>This text was selected in order to create this digial edition. The sample was chosen on the basis of the topics touched upon in the text.</p>
             </samplingDecl>
             <tagsDecl>
-                <tagsUsage gi="seg" occurs="16">
-                    Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
-                </tagsUsage>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="seg" occurs="16">
+                        Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
+                    </tagUsage>
+                </namespace>
             </tagsDecl>
         </encodingDesc>  
         <profileDesc>
             <langUsage>
                 <language ident="it">Italian</language>
             </langUsage>
-            <textDesc n="poems">
-                <channel mode="w">print; part issues</channel>
-                <constitution type="single"/>
-                <derivation type="original"/>
-                <domain type="art"/>
-                <factuality type="fiction"/>
-                <interaction type="none"/>
-                <preparedness type="prepared"/>
-                <purpose type="entertain" degree="high"/>
-                <purpose type="inform" degree="medium"/>
-            </textDesc>
         </profileDesc>
+        <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:owl="http://www.w3.org/2002/07/owl#">
+            <rdf:RDF>
+                <rdf:Description>
+                    <dc:title> D’ardito cavalier non è prodezza</dc:title>
+                    <dc:creator>Veronica Franco</dc:creator>
+                    <owl:sameAs rdf:resource="http://viaf.org/viaf/66577804"/>
+                    <dc:date>1575</dc:date>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
+
+
+    </teiHeader>
+
+    <text>
+    <front>
+            <docTitle>
+                <titlePart>Réflexions sur les femmes</titlePart>
+            </docTitle>
         <interpGrp resp="Nicole Liggeri" type="maintopics">
             <interp xml:id="body">what concerns body, its perception and value</interp>
             <interp xml:id="intellect">intellectual capability and intelligence</interp>
@@ -59,10 +92,10 @@
             <interp xml:id="education">value and methods of education</interp>
             <interp xml:id="bitch"></interp>
         </interpGrp>
+        </front>
+        <body>
+            <p>
 
-    </teiHeader>
-
-    <text>
         D’ardito cavalier non è prodezza
         (concedami che ’l vero a questa volta
         io possa dir, la vostra gentilezza),
@@ -73,9 +106,9 @@
         a chi piú disarmato men sospetta
         dar gravi colpi di mortal ferute.</seg>
         Men ch’agli altri ciò far poi se gli aspetta
-        <seg xml:id="seg3" asa="#gender">contra le donne, da natura fatte
+        <seg xml:id="seg3" ana="#gender">contra le donne, da natura fatte
         per l’uso che piú d’altro a l’uom diletta:</seg>
-        <seg xml:id="seg1" asa="#body"> imbecilli di corpo, ed in nulla atte
+        <seg xml:id="seg1" ana="#body"> imbecilli di corpo, ed in nulla atte
         non pur a offender gli altri, ma se stesse
         dal difender col cor timido astratte.
         Questo doveva far che s’astenesse
@@ -83,7 +116,7 @@
         ch’al mio feminil petto ignudo impresse.</seg>
         Io non saprei già dir onde ciò fosse,
         se non che fuor del lato mi traeste
-        <seg xml:id="seg4.1" asa="#war">l’armi vostre del sangue asperse e rosse.
+        <seg xml:id="seg4.1" ana="#war">l’armi vostre del sangue asperse e rosse.
         Spogliata e sola e incauta mi coglieste,
         debil d’animo, e in armi non esperta,
         e robusto ed armato m’offendeste:</seg>
@@ -95,10 +128,10 @@
         che da l’un mi passava a l’altro canto.
         Quasi da pigro sonno or poi svegliata,
         dal cansato periglio animo presi,
-        <seg xml:id="seg3.1" asa="#gender">benché femina a molli opere nata;</seg>
-        <seg xml:id="seg4.2" asa="#war">e in man col ferro a essercitarmi appresi,</seg>
+        <seg xml:id="seg3.1" ana="#gender">benché femina a molli opere nata;</seg>
+        <seg xml:id="seg4.2" ana="#war">e in man col ferro a essercitarmi appresi,</seg>
         tanto ch’aver le donne agil natura,
-        non men che l’uomo, <seg xml:id="seg4.3" asa="#war">in armeggiando intesi</seg>:
+        non men che l’uomo, <seg xml:id="seg4.3" ana="#war">in armeggiando intesi</seg>:
         perché ’n ciò posto ogni mia industria e cura,
         mercé del ciel, mi veggo giunta a tale,
         che più d’offese altrui non ho paura.
@@ -115,12 +148,12 @@
         che m’offendeste non già per giovarmi,
         e ’l fatto stesso parla e sì v’accusa.
         Ed io, poi che ’l ciel vòlse liberarmi
-        da sì mortal periglio, <seg xml:id="seg4.4" asa="#war">ho sempre atteso
+        da sì mortal periglio, <seg xml:id="seg4.4" ana="#war">ho sempre atteso
         a l’essercizio nobile de l’armi,
         sì ch’or, animo e forze avendo preso,
         di provocarvi a rissa in campo ardisco,
         con cor non poco a la vendetta acceso.</seg>
-        <seg xml:id="seg3.2" asa="#gender">Non so se voi stimiate lieve risco
+        <seg xml:id="seg3.2" ana="#gender">Non so se voi stimiate lieve risco
         entrar con una donna in campo armato;
         ma io, benché ingannata, v’avvertisco
         che ’l mettersi con donne è da l’un lato
@@ -138,7 +171,7 @@
         E per farvi veder che ’l vero parlo,
         tra tante donne incominciar voglio io,
         porgendo essempio a lor di seguitarlo.</seg>
-        <seg xml:id="seg4.5" asa="#war">A voi, che contra tutte sète rio,
+        <seg xml:id="seg4.5" ana="#war">A voi, che contra tutte sète rio,
         con qual’armi volete in man mi volgo,
         con speme d’atterrarvi e con desio;
         e le donne a difender tutte tolgo</seg>
@@ -147,10 +180,10 @@
         Certo d’un gran piacer voi sète privo,
         a non gustar di noi la gran dolcezza;
         ed al mal uso in ciò la colpa ascrivo.
-        <seg xml:id="seg1.1" asa="#body">Data è dal ciel la feminil bellezza,
+        <seg xml:id="seg1.1" ana="#body">Data è dal ciel la feminil bellezza,
         perch’ella sia felicitate in terra
         di qualunque uom conosce gentilezza.</seg>
-       <seg xml:id="seg2" asa="#intellect"> Ma dove ’l mio pensier trascorre ed erra
+       <seg xml:id="seg2" ana="#intellect"> Ma dove ’l mio pensier trascorre ed erra
         a ragionar de le cose d’amore,
         or ch’io sono in procinto di far guerra,
         torno al mio intento, ond’era uscita fuore,
@@ -188,7 +221,7 @@
         di queste in biasmo nostro le quadrella,
         qual di lor più vi piace, e voi pigliate,
         ché di tutte ad un modo io mi contento.
-        <seg xml:id="seg5" asa="#education">avendole perciò tutte imparate.
+        <seg xml:id="seg5" ana="#education">avendole perciò tutte imparate.
         Per contrastar con voi con ardimento,
         in tutte queste ho molta industria speso:</seg>
         se bene o male, io stessa mi contento;
@@ -240,8 +273,8 @@
         sì come in questo caso ancor si vede,
         ché voi, non v’accorgendo, mi lodate
         di quel ch’al bene ed a la virtù chiede.
-        <seg xml:id="seg6" asa="#bitch">E se ben «meretrice» mi chiamate,</seg>
-        <seg xml:id="seg4.6" asa="#war">o volete inferir ch’io non vi sono,
+        <seg xml:id="seg6" ana="#bitch">E se ben «meretrice» mi chiamate,</seg>
+        <seg xml:id="seg4.6" ana="#war">o volete inferir ch’io non vi sono,
         o che ve n’èn tra tali di lodate.
         Quanto le meretrici hanno di buono,
         quanto di grazioso e di gentile,
@@ -271,5 +304,7 @@
         son contenta di far con voi la pace,
         pur ch’una volta meco vi proviate:
         fate voi quel che più vi giova e piace.
+         </p>
+        </body>
     </text>
 </TEI>

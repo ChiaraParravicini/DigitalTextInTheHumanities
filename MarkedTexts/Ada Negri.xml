@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -5,59 +10,82 @@
                 <title>
                Nella nebbia
                 </title>
-                <author ref="http://viaf.org/viaf/73891042">
+                <author>
                 Ada Negri
                 </author>
-            </titleStmt>
-            <editionStmt>
-                <edition>Words of Gender edition</edition>
                 <respStmt>
                     <resp>conversion to TEI-conformant markup</resp>
                     <name>Nicole Liggeri</name>
                 </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>DHDK Digital Edition <date>2023</date></edition>
             </editionStmt>
-            
             <publicationStmt>
-                <publisher>
-                Sandron
-                </publisher>
-                <pubPlace>
-                Firenze
-                </pubPlace>
-                <date when="1909">
-                1917
-                </date>
+                <publisher>University of Bologna</publisher>
             </publicationStmt>
+            <sourceDesc>
+                <biblFull xml:lang="it">
+                    <titleStmt>
+                        <title>
+                        Nella nebbia
+                        </title>
+                        <author>
+                        Ada Negri
+                        </author>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition> First Edition <date when="1917">1917</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Sandron</publisher>
+                        <date when="1917">1917</date>
+                        <pubPlace>Firenze</pubPlace>
+                        <availability>
+                        <licence>Copyrigth</licence >
+                    </availability>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
         </fileDesc> 
         <encodingDesc>
             <projectDesc>
-                Basic encoding, capturing information related to main characters and aiming to interpret the texts through concept-like structures. All hyphenation, punctuation, and variant spelling normalized. No formatting or layout information preserved.
+                 <p>Basic encoding, capturing information related to main characters and aiming to interpret the texts through concept-like structures. All hyphenation, punctuation, and variant spelling normalized. No formatting or layout information preserved. </p>
             </projectDesc>
             <samplingDecl>
                 <p>This text was selected in order to create this digial edition. The sample was chosen on the basis of the topics touched upon in the text.</p>
             </samplingDecl>
             <tagsDecl>
-                <tagsUsage gi="seg" occurs="12">
-                    Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
-                </tagsUsage>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="seg" occurs="12">
+                        Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
+                    </tagUsage>
+                </namespace>
             </tagsDecl>
-        </encodingDesc>   
+        </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="it">Italian</language>
+                <language ident="fr">French</language>
             </langUsage>
-            <textDesc n="novel">
-                <channel mode="w">print; part issues</channel>
-                <constitution type="single"/>
-                <derivation type="original"/>
-                <domain type="art"/>
-                <factuality type="fiction"/>
-                <interaction type="none"/>
-                <preparedness type="prepared"/>
-                <purpose type="entertain" degree="high"/>
-                <purpose type="inform" degree="medium"/>
-            </textDesc>
         </profileDesc>
+        <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:owl="http://www.w3.org/2002/07/owl#">
+            <rdf:RDF>
+                <rdf:Description>
+                    <dc:title>Nella nebbia</dc:title>
+                    <dc:creator>Ada Negri</dc:creator>
+                    <owl:sameAs rdf:resource="http://viaf.org/viaf/73891042"/>
+                    <dc:date>1917</dc:date>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
+    </teiHeader>
+
+    <text>
+    <front>
+            <docTitle>
+                <titlePart>Réflexions sur les femmes</titlePart>
+            </docTitle>
         <interpGrp resp="Nicole Liggeri" type="maintopics">
             <interp xml:id="body">what concerns body, its perception and value</interp>
             <interp xml:id="society">relationship between the self and her comunity</interp>
@@ -66,9 +94,9 @@
             <interp xml:id="education">value and methods of education</interp>
             <interp xml:id="beauty">beauty as a feminine value</interp>
         </interpGrp>
-    </teiHeader>
-
-    <text>
+    </front>
+        <body>
+            <p>
         Raimonda alzò il bavero del soprabito, <seg xml:id="seg1" ana="#body"> attillato come una fascia sul suo bel
         corpo, di serpentina flessuosità: avvolse intorno al bavero il boa di pelliccia
         fino all’altezza del naso, ficcò le mani nel manicotto, e via, a capo basso,
@@ -218,5 +246,8 @@
         carezza della maschia voce carnale, rigustando in bocca il sapore dell’unico
         bacio, si raggomitolò, sussultò, si contorse, pregò Iddio che di quell’ora non
         le togliesse mai più la memoria – e pianse, e rise.
+    </p>
+        </body>
     </text>
+
 </TEI>
