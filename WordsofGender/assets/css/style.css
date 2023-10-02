@@ -1696,32 +1696,27 @@ section {
 --------------------------------------------------------------*/
 
 #text {
-  display: flex;
+  display:flex;
+  height: 70vh;
+  overflow: auto;
+  border: solid 1px #e44e34;
+  padding: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
-
-/* #text .box {
-  border: 1px solid #ff5e31;
-  border-top: transparent;
-  border-bottom: transparent;
-  padding: 10px;
-  margin: 10px;
-} */
 
 #box-left {
   flex: 1;
-  border: 1px solid #ff5e31;
-  border-top: transparent;
-  border-bottom: transparent;
   padding: 10px;
   margin: 10px;
+  position: sticky;
+  top: 0;
+  border-right: solid 1px #e44e34;
+  overflow: auto;
 }
 
 #box-right {
   flex: 2;
-  border: 1px solid #ff5e31;
-  border-top: transparent;
-  border-bottom: transparent;
-  padding: 10px;
   margin: 10px;
 }
 
@@ -1734,3 +1729,22 @@ section {
 .text-food {
   background-color: #e44e34;
 }
+
+/* Webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+

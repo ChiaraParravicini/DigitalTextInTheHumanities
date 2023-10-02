@@ -30,6 +30,7 @@
           <h2>From <i><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/></i>,
           by <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:author"/></h2>
         </div>
+        
         <div id="text">
           <div id="box-left">
             <ul>
@@ -65,10 +66,11 @@
             </xsl:element>
 
           </div>
+
           <div id="box-right">
             <xsl:apply-templates select="tei:text/tei:body"/>
           </div>
-        </div>
+          </div>
       </body>
     </html>
   </xsl:template>
