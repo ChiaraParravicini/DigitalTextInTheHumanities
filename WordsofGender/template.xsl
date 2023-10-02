@@ -57,10 +57,10 @@
             <!-- form for highlighting key concepts-->
             <xsl:element name="form">
               <xsl:attribute name="role">form</xsl:attribute>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" id="showfood" class="show"/> Food theme
-                </label>
+              <div>
+                  <button onclick="highlightElement('.mother')">Mother</button>
+                  <button onclick="highlightElement('.virginity')">virginity</button>
+                  <button onclick="highlightElement('.strength')">Strength</button>
               </div>
             </xsl:element>
 

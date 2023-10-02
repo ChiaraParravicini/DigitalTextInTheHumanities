@@ -220,110 +220,73 @@
         processXML(xmlFile);
       });
     }
-  </script>
-  <script>
+
     $(document).ready(function() {
       // Attendi il caricamento completo del documento
       $(window).on('load', function() {
         loadAndTransform(); // Carica e trasforma i dati XML
       });
     
-      $('#showfood').click(function () {
-        if (this.checked)
-          $('.foodOrFoodAbst').addClass('text-food');
-        else
-          $('.foodOrFoodAbst').removeClass('text-food');
-      });
+    //   $('#showfood').click(function () {
+    //     if (this.checked)
+    //       $('.foodOrFoodAbst').addClass('text-food');
+    //     else
+    //       $('.foodOrFoodAbst').removeClass('text-food');
+    //   });
     });
     
     </script>
+    <script>
+
+      var currentIndex = 0;
+      var currentClassName = "";
+      
+      
+          function highlightElement(className) {
+
+            event.preventDefault();
+      
+            // var elements = document.querySelectorAll(className);
+
+            var containerDiv = document.getElementById("text"); 
+            var elements = containerDiv.querySelectorAll(className);
+
+      
+              if (currentClassName !== className) {
+                  currentIndex = 0;
+                  if (currentClassName) {
+                      var prevElements = document.querySelectorAll(currentClassName);
+                      prevElements.forEach(function (element) {
+                          element.classList.remove("highlight");
+                      });
+                  }
+              }
+      
+              if (currentIndex > 0) {
+                  elements[currentIndex - 1].classList.remove("highlight");
+              }
+      
+              if (currentIndex < elements.length) {
+                  elements[currentIndex].classList.add("highlight");
+                  elements[currentIndex].scrollIntoView({ behavior: "smooth", block: "center", inline: "center"});
+                  currentIndex++;
+              }
+              else {
+                  elements[elements.length - 1].classList.remove("highlight");
+                  currentIndex = 0;
+                  elements[currentIndex].classList.add("highlight");
+                  elements[currentIndex].scrollIntoView({ behavior: "smooth" });
+              }
+      
+              currentClassName = className;
+          }
+      </script>
+      
+      <style>
+          .highlight {
+            background-color: yellow;
+          }
+      </style>
 
 </body>
-
-
-  
-<!--<script>
-function loadMultipleXMLAndTransform(xmlFiles, xsltFile, targetElementId) {
-  // Counter to keep track of processed XML files
-  var count = 0;
-
-  // Function to process each XML file
-  function processXML(xmlFile) {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function () {
-      if (this.readyState === 4 && this.status === 200) {
-        var xml = this.responseXML;
-
-        // Load XSLT only once for the first XML file
-        if (count === 0) {
-          var xhttp2 = new XMLHttpRequest();
-          xhttp2.onreadystatechange = function () {
-            if (this.readyState === 4 && this.status === 200) {
-              var xslt = this.responseXML;
-              applyTransform(xml, xslt);
-            }
-          };
-          xhttp2.open('GET', xsltFile, true);
-          xhttp2.send();
-        } else {
-          applyTransform(xml, null);
-        }
-      }
-    };
-    xhttp.open('GET', xmlFile, true);
-    xhttp.send();
-  }
-
-  // Function to apply the XSLT transformation and display the result
-  function applyTransform(xml, xslt) {
-    var xsltProcessor = new XSLTProcessor();
-    if (xslt) {
-      xsltProcessor.importStylesheet(xslt);
-    }
-
-    var resultDocument = xsltProcessor.transformToDocument(xml);
-
-    // Display the transformed content in the target element
-    var targetElement = document.getElementById(targetElementId);
-    var div = document.createElement('div');
-    div.innerHTML = '<br/>';
-    div.appendChild(resultDocument.documentElement);
-    targetElement.appendChild(div);
-
-    // Increment the counter
-    count++;
-
-    // Check if all XML files are processed
-    if (count === xmlFiles.length) {
-      console.log('All XML files processed.');
-    }
-  }
-
-  // Process each XML file
-  xmlFiles.forEach(function (xmlFile) {
-    processXML(xmlFile);
-  });
-}
-
-var xmlFiles = ["MaryWollstonecraft.xml", "ChiaradAssisi.xml"];
-var xsltFile = "template.xsl";
-var targetElementId = "xmlContentPlaceholder";
-loadMultipleXMLAndTransform(xmlFiles, xsltFile, targetElementId);
-
-</script>
-
-<script>
-
-$(document).ready(function() {
-    $('#showfood').click(function () {
-        if (this.checked)
-            $('.foodOrFoodAbst').addClass('text-food')
-        else
-            $('.foodOrFoodAbst').removeClass('text-food')
-    })
-})
-
-
-</script>-->
-
 </html>
