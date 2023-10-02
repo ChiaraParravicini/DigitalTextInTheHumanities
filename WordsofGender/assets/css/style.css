@@ -1730,3 +1730,7 @@ section {
   margin: 30px; 
   padding-left: 3vw;
 }
+
+.text-food {
+  background-color: #e44e34;
+}

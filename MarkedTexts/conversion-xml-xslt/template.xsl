@@ -8,17 +8,6 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- Modifica il template per l'elemento 'tei:seg' -->
-  <xsl:template match="tei:seg">
-    <span>
-      <xsl:attribute name="class">
-        <xsl:value-of select="substring(@ana, 2)"/>
-      </xsl:attribute>
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-
-
   <!-- Template per l'elemento radice dell'HTML -->
   <xsl:template match="tei:TEI">
     <html>
@@ -26,15 +15,11 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
       </head>
       <body>
-        <div id="title-text">
-          <h2>From <i><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/></i>,
-          by <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:author"/></h2>
-        </div>
-        <div id="text">
-          <div id="box-left">
+        <div class="container">
+          <div class="box left">
+            <h2>Key Concepts</h2>
             <ul>
               <xsl:if test="tei:text/tei:front/tei:interpGrp/tei:interp">
-                <h2>Key Concepts</h2>
                 <xsl:for-each select="tei:text/tei:front/tei:interpGrp/tei:interp">
                   <li>
                     <xsl:value-of select="."/>
@@ -42,10 +27,9 @@
                 </xsl:for-each>
               </xsl:if>
             </ul>
-
+            <h2>Characters</h2>
             <ul>
               <xsl:if test="tei:teiHeader/tei:profileDesc/tei:particDesc/tei:listPerson/tei:person/tei:persName">
-                <h2>Characters</h2>
                 <xsl:for-each select="tei:teiHeader/tei:profileDesc/tei:particDesc/tei:listPerson/tei:person/tei:persName">
                   <li>
                     <xsl:value-of select="."/>
@@ -53,25 +37,14 @@
                 </xsl:for-each>
               </xsl:if>
             </ul>
-
-            <!-- form for highlighting key concepts-->
-            <xsl:element name="form">
-              <xsl:attribute name="role">form</xsl:attribute>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" id="showfood" class="show"/> Food theme
-                </label>
-              </div>
-            </xsl:element>
-
           </div>
-          <div id="box-right">
-            <xsl:apply-templates select="tei:text/tei:body"/>
+          <div class="box right">
+            <xsl:value-of select="tei:text/tei:body"/>
           </div>
         </div>
       </body>
     </html>
   </xsl:template>
 
-</xsl:stylesheet>
 
+</xsl:stylesheet>
