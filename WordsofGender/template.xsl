@@ -52,7 +52,7 @@
             <ul>
               <xsl:if test="tei:teiHeader/tei:profileDesc/tei:particDesc/tei:listPerson/tei:person/tei:persName">
                 <h2>Characters</h2>
-                <xsl:for-each select="tei:teiHeader/tei:profileDesc/tei:particDesc/tei:listPerson/tei:person/tei:persName">
+                <xsl:for-each select="tei:teiHeader/tei:profileDesc/tei:particDesc/tei:listPerson/tei:person">
                   <li>
                       <button>
                         <xsl:attribute name="onclick">highlightElement('.<xsl:value-of select="@xml:id"/>')</xsl:attribute>
