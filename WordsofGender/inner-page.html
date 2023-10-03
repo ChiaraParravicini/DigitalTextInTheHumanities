@@ -230,9 +230,6 @@
 
     });
 
-    </script>
-    <script>
-
       var currentIndex = 0;
       var currentClassName = "";
       
@@ -240,10 +237,11 @@
           function highlightElement(className) {
 
             event.preventDefault();
-      
-            // var elements = document.querySelectorAll(className);
+             
+            applyTransform();
+            // questo apply transform non viene riconosciuto dal sito!!!
 
-            var containerDiv = document.getElementById("div2"); 
+            var containerDiv = document.getElementById(divId); 
             var elements = containerDiv.querySelectorAll(className);
 
       
