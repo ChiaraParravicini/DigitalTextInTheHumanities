@@ -36,11 +36,14 @@
             <ul>
               <xsl:if test="tei:text/tei:front/tei:interpGrp/tei:interp">
                 <h2>Key Concepts</h2>
-                <xsl:for-each select="tei:text/tei:front/tei:interpGrp/tei:interp">
-                  <li>
-                    <xsl:value-of select="."/>
-                  </li>
-                </xsl:for-each>
+                    <xsl:for-each select="tei:text/tei:front/tei:interpGrp/tei:interp">
+                    <li>
+                      <button>
+                        <xsl:attribute name="onclick">highlightElement('.<xsl:value-of select="@xml:id"/>')</xsl:attribute>
+                        <xsl:value-of select="."/>
+                      </button>
+                    </li> 
+                    </xsl:for-each>
               </xsl:if>
             </ul>
 
@@ -49,21 +52,23 @@
                 <h2>Characters</h2>
                 <xsl:for-each select="tei:teiHeader/tei:profileDesc/tei:particDesc/tei:listPerson/tei:person/tei:persName">
                   <li>
-                    <xsl:value-of select="."/>
+                      <button>
+                        <xsl:attribute name="onclick">highlightElement('.<xsl:value-of select="@xml:id"/>')</xsl:attribute>
+                        <xsl:value-of select="."/>
+                      </button>
                   </li>
                 </xsl:for-each>
               </xsl:if>
             </ul>
 
-            <!-- form for highlighting key concepts-->
-            <xsl:element name="form">
+            <!-- <xsl:element name="form">
               <xsl:attribute name="role">form</xsl:attribute>
               <div>
                   <button onclick="highlightElement('.mother')">Mother</button>
                   <button onclick="highlightElement('.virginity')">virginity</button>
                   <button onclick="highlightElement('.strength')">Strength</button>
               </div>
-            </xsl:element>
+            </xsl:element> -->
 
           </div>
 
