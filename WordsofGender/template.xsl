@@ -19,6 +19,16 @@
     </span>
   </xsl:template>
 
+  <!-- Modifica il template per l'elemento 'tei:persName' -->
+  <xsl:template match="tei:persName">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:value-of select="substring(@ref, 2)"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+
 
   <!-- Template per l'elemento radice dell'HTML -->
   <xsl:template match="tei:TEI">
