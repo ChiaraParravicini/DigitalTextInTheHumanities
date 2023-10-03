@@ -154,71 +154,72 @@
 
   <script>
 
-    // Funzione per caricare e trasformare XML
     function loadAndTransform() {
       var xmlFiles = ["MaryWollstonecraft.xml", "ChiaradAssisi.xml"];
       var xsltFile = "template.xsl";
       var targetElementId = "xmlContentPlaceholder";
-    
+      var count = 0;
+
       // Funzione per processare ciascun file XML
       function processXML(xmlFile) {
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
           if (this.readyState === 4 && this.status === 200) {
             var xml = this.responseXML;
-    
+            var xslt = null;
+
             // Carica l'XSLT solo per il primo file XML
             if (count === 0) {
               var xhttp2 = new XMLHttpRequest();
               xhttp2.onreadystatechange = function () {
                 if (this.readyState === 4 && this.status === 200) {
-                  var xslt = this.responseXML;
-                  applyTransform(xml, xslt);
+                  xslt = this.responseXML;
+                  applyTransform(xml, xslt, targetElementId);
                 }
               };
               xhttp2.open('GET', xsltFile, true);
               xhttp2.send();
             } else {
-              applyTransform(xml, null);
+              applyTransform(xml, xslt, targetElementId);
             }
           }
         };
         xhttp.open('GET', xmlFile, true);
         xhttp.send();
       }
-    
+
+      // Variabile per tenere traccia del conteggio di div
+      var divCount = 1;
+
       // Funzione per applicare la trasformazione XSLT e visualizzare il risultato
-      function applyTransform(xml, xslt) {
+      function applyTransform(xml, xslt, targetId) {
         var xsltProcessor = new XSLTProcessor();
         if (xslt) {
           xsltProcessor.importStylesheet(xslt);
         }
-    
+
         var resultDocument = xsltProcessor.transformToDocument(xml);
-    
+
+        // Incrementa il contatore e crea un ID univoco per il div
+        var divId = 'div' + divCount;
+        divCount++;
+
         // Visualizza il contenuto trasformato nell'elemento target
-        var targetElement = document.getElementById(targetElementId);
+        var targetElement = document.getElementById(targetId);
         var div = document.createElement('div');
+        div.id = divId;  // Assegna l'ID univoco al div
         div.innerHTML = '<br/>';
         div.appendChild(resultDocument.documentElement);
         targetElement.appendChild(div);
-    
-        // Incrementa il contatore
-        count++;
-    
+
         // Verifica se tutti i file XML sono stati processati
         if (count === xmlFiles.length) {
           console.log('Tutti i file XML sono stati processati.');
         }
       }
-    
-      // Inizia il conteggio dei file XML processati
-      var count = 0;
-    
+
       // Processa ciascun file XML
-      xmlFiles.forEach(function (xmlFile) {
-        processXML(xmlFile);
-      });
+      xmlFiles.forEach(processXML);
     }
 
     $(document).ready(function() {
@@ -226,15 +227,9 @@
       $(window).on('load', function() {
         loadAndTransform(); // Carica e trasforma i dati XML
       });
-    
-    //   $('#showfood').click(function () {
-    //     if (this.checked)
-    //       $('.foodOrFoodAbst').addClass('text-food');
-    //     else
-    //       $('.foodOrFoodAbst').removeClass('text-food');
-    //   });
+
     });
-    
+
     </script>
     <script>
 
@@ -248,7 +243,7 @@
       
             // var elements = document.querySelectorAll(className);
 
-            var containerDiv = document.getElementById("text"); 
+            var containerDiv = document.getElementById("div2"); 
             var elements = containerDiv.querySelectorAll(className);
 
       

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0">
 
+
   <!-- Identity template: copia tutti gli elementi e attributi così come sono -->
   <xsl:template match="@* | node()">
     <xsl:copy>
@@ -32,6 +33,7 @@
         </div>
         
         <div id="text">
+          
           <div id="box-left">
             <ul>
               <xsl:if test="tei:text/tei:front/tei:interpGrp/tei:interp">
