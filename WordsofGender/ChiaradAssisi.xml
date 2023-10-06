@@ -41,12 +41,11 @@
                         </editor>
                     </titleStmt>
                     <publicationStmt>
-                        <publisher><!--cambia-->.</publisher>
-                        <date when="1111"><!--cambia-->.</date>   
-                        <pubPlace><!--cambia-->.</pubPlace>          
+                        <publisher>Edizioni Messaggero Padova</publisher>
+                        <date when="2008">2008</date>         
                     </publicationStmt>
                     <sourceDesc>
-                        <p><!--cambia-->.</p>
+                        <bibl>Santa Chiara d'Assisi - Contemplare la bellezza di un Dio sposo</bibl>
                     </sourceDesc>
                 </biblFull>
             </sourceDesc>
