@@ -98,6 +98,18 @@
                 </listPerson>
             </particDesc>
         </profileDesc>
+
+        <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:owl="http://www.w3.org/2002/07/owl#">
+            <rdf:RDF>
+                <rdf:Description>
+                    <dc:title>La Petite Fadette</dc:title>
+                        <owl:sameAs rdf:resource="https://www.wikidata.org/Q2735124"/>
+                    <dc:creator>George Sand</dc:creator>
+                        <owl:sameAs rdf:resource="https://viaf.org/viaf/46766944/"/>
+                    <dc:date>1849</dc:date>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
     </teiHeader>
 
 
