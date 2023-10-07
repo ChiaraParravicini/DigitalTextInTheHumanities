@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="LINK AL TEMPLATE"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                Memoires d'une jeune fille rangée - A Digital Edition
+                </title>
+                <author>
+                Simone De Beauvoir
+                </author>
+                <respStmt>
+                    <resp>conversion to TEI-conformant markup</resp>
+                    <name>Alice Picco</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition> DHDK Digital Edition <date>2023</date>
+                </edition>
+            </editionStmt> 
+            <publicationStmt>
+                <publisher>University of Bologna</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull xml:lang="fr">
+                    <titleStmt>
+                        <title>
+                        Memoires d'une jeune fille rangée
+                        </title>
+                        <author>
+                        Simone De Beauvoir
+                        </author>
+                        <editor>
+                        </editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition> First Edition <date when="1958">1958</date>
+                        </edition>
+                    </editionStmt>
+                    <extent>
+                        <measure unit="pages" quantity="473">473 pages of source
+                        material</measure>
+                    </extent>
+                    <publicationStmt>
+                        <publisher>Éditions Gallimard &amp; </publisher>
+                        <date when="2016">2016</date>   
+                        <pubPlace>Paris</pubPlace>  
+                        <availability source="https://scolaire.loupbrun.ca/a19/fra3314/textes/beauvoir-memoires-de-jeune-fille-rangee/">
+                            <licence >Extract from Memoire d'une jeune fille rangée by Simone De Beauvoir, published by Éditions Gallimard</licence>
+                        </availability>          
+                    </publicationStmt>
+                    <sourceDesc>
+                        <p>No source: this is an original</p>
+                    </sourceDesc>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>Basic encoding, capturing information related to main characters and aiming to interpret the texts through concept-like structures. All hyphenation, punctuation, and variant spelling normalized. No formatting or layout information preserved.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>A sample of the text "Héroïnes", contained in the photography and poetry anthology "Aveux non avenus" was selected in order to create this digial edition. The sample was chosen on the basis of the topics touched upon in the text.</p>
+            </samplingDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="seg" occurs="7">
+                        Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
+                    </tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+                    
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">French</language>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="Louise">
+                        <persName>
+                            Louise
+                        </persName>
+                    </person>
+                    <person xml:id="Meyrignac">
+                        <persName>
+                            Meyrignac
+                        </persName>
+                    </person>
+                    <person xml:id="Gaston">
+                        <persName>
+                            Gaston
+                        </persName>
+                    </person>
+                    <person xml:id="Zaza">
+                        <persName>
+                            Zaza
+                        </persName>
+                    </person>
+                    <person xml:id="Poupette">
+                        <persName>
+                            Poupette
+                        </persName>
+                    </person>
+                    <person xml:id="ColetteYver">
+                        <persName>
+                            Colette Yver
+                        </persName>
+                    </person>
+                   <person xml:id="LouisaAlcott">
+                        <persName>
+                            Louisa Alcott
+                        </persName>
+                    </person>
+                    <person xml:id="Laurie">
+                        <persName>
+                            Laurie
+                        </persName>
+                    </person>
+                    <person xml:id="Joe">
+                        <persName>
+                            Joe
+                        </persName>
+                    </person>
+                    <person xml:id="Amy">
+                        <persName>
+                            Amy
+                        </persName>
+                    </person>
+                    <person xml:id="Sophie">
+                        <persName>
+                            Sophie
+                        </persName>
+                    </person>
+                    <person xml:id="Paul">
+                        <persName>
+                            Paul
+                        </persName>
+                    </person>
+                    <person xml:id="VictorHugo">
+                        <persName>
+                            Victor Hugo
+                        </persName>
+                    </person>
+                    <person xml:id="Rostand">
+                        <persName>
+                            Rostand
+                        </persName>
+                    </person>
+                    <person xml:id="Zola">
+                        <persName>
+                            Zola
+                        </persName>
+                    </person>
+                    <person xml:id="AnatoleFrance">
+                        <persName>
+                            Anatole France
+                        </persName>
+                    </person>
+                    <person xml:id="M.Jeannot">
+                        <persName>
+                            M. Jeannot
+                        </persName>
+                    </person>
+                    <person xml:id="MaxMaurey">
+                        <persName>
+                            Max Maurey
+                        </persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart>Memoires d'une jeune fille rangée</titlePart>
+            </docTitle>
+            <interpGrp resp="#AlicePicco" type="structuralunit">
+            <interp xml:id="body">body</interp>
+            <interp xml:id="housework">housework</interp>
+            <interp xml:id="sorority">sorority</interp>
+            <interp xml:id="feminism">feminism</interp>
+            <interp xml:id="submission">submission</interp>
+            <interp xml:id="marriage">marriage</interp>
+            <interp xml:id="beauty">beauty</interp>
+            <interp xml:id="grace">grace</interp>
+            </interpGrp>
+        </front>
+    <body>
+        <p>
+        Mon <seg xml:id="seg1" ana="#body">corps</seg> changeait ; mon existence aussi : le passé me quittait. Déjà nous avions <seg xml:id="seg2" ana="#housework">déménagé</seg>, et <persName ref="#Louise">Louise</persName> était partie. Je regardais avec ma <seg xml:id="seg3" ana="#sorority">sœur</seg> de vieilles photographies quand je m’avisai soudain qu’un de ces jours, j’allais perdre <persName ref="#Meyrignac">Meyrignac</persName>. <roleName>Grand-père</roleName> était très âgé, il mourrait ;
+        quand le domaine appartiendrait à mon <roleName>oncle</roleName> <persName ref="#Gaston">Gaston</persName> — qui déjà en était nu-propriétaire — je ne m’y sentirais plus chez moi ; j’y viendrais en étrangère, puis je n’y viendrais plus. Je fus consternée. 
+        Mes parents répétaient — et leur exemple semblait le confirmer — que la vie a raison des amitiés d’enfance : est-ce que j’oublierais <persName ref="Zaza">Zaza</persName> ? Nous nous demandions avec inquiétude <persName ref="Poupette">Poupette</persName> et moi si notre affection résisterait à l’âge. Les grandes personnes ne partageaient pas nos jeux ni nos plaisirs. 
+        Je n’en connaissais aucune qui parût beaucoup s’amuser sur terre : la vie n’est pas gaie, la vie n’est pas un roman, déclaraient-elles en chœur.
+        La monotonie de l’existence adulte m’avait toujours apitoyée ; quand je me rendis compte que, dans un bref délai, elle deviendrait mon lot, l’angoisse me prit. Un après-midi, j’aidais <roleName>maman</roleName> à faire la <seg xml:id="seg2.1" ana="#housework">vaisselle ; elle lavait des assiettes, je les essuyais </seg>; par la fenêtre, je voyais le mur de la caserne de pompiers, et d’autres <seg xml:id="seg2.2" ana="#housework">cuisines où des femmes frottaient des casseroles ou épluchaient des légumes.</seg> Chaque jour, le déjeuner, le dîner ; <seg xml:id="seg2.3" ana="#housework">chaque jour la vaisselle ;</seg> ces heures indéfiniment recommencées et qui ne mènent nulle part : vivrais-je ainsi ?
+        Une image se forma dans ma tête, avec une netteté si désolante que je me la rappelle encore aujourd’hui : une rangée de carrés gris s’étendait jusqu’à l’horizon, diminués selon les lois de la perspective, mais tous identiques, et plats ; c’étaient les jours et les semaines, et les années. Moi, depuis ma naissance, je m’étais endormie chaque soir un peu plus riche que la veille ; je m’élevais de degré en degré ; mais si je ne trouvais là-haut qu’un morne plateau, sans aucun but vers lequel marcher, à quoi bon ?
+        Non, me dis-je, tout en <seg xml:id="seg2.4" ana="#housework">rangeant dans le placard une pile d’assiettes</seg> ; ma vie à moi conduira quelque part. Heureusement, je n’étais pas vouée à un destin de <seg xml:id="seg2.5" ana="#housework">ménagère.</seg> Mon <roleName>père</roleName> n’était pas <seg xml:id="seg4" ana="#feminism">féministe ;</seg> il admirait la sagesse des romans de <persName ref="#Colette Yver">Colette Yver</persName> où l’avocate, la doctoresse, finissent par <seg xml:id="seg5" ana="#submission">sacrifier leur carrière à l’harmonie du foyer ;</seg> mais nécessité fait loi :
+        « Vous, mes petites, vous ne vous <seg xml:id="seg6" ana="#marriage">marierez pas,</seg> répétait-il souvent. Vous n’avez pas de dot, il faudra travailler. » Je préférais infiniment la perspective d’un métier à celle du <seg xml:id="seg6.1" ana="#marriage">mariage</seg> ; elle autorisait des espoirs.
+        Il y avait eu des gens qui avaient fait des choses : j’en ferais. Je ne prévoyais pas bien lesquelles. L’astronomie, l’archéologie, la paléontologie tour à tour m’avaient réclamée et je continuais à caresser vaguement le dessein d’écrire. Mais ces projets manquaient de consistance, je n’y croyais pas assez pour envisager avec confiance l’avenir. D’avance, je portais le deuil de mon passé. 
+        Ce refus du dernier sevrage se manifesta avec éclat à l’occasion du roman de <persName ref="#Louisa Alcott">Louisa Alcott<persName>, Good Wives, qui fait suite à Little Women. Un an, ou davantage, avait passé depuis que j’avais quitté Joe et Laurie, souriant ensemble à l’avenir. Dès que j’eus entre les mains le petit volume broché de la collection Tauchnitz où s’achevait leur histoire, je l’ouvris au hasard :
+        je tombai sur une page qui m’apprit brutalement le <seg xml:id="seg6.2" ana="#marriage">mariage</seg> de <persName ref="#Laurie">Laurie<persName> avec une jeune <roleName>sœur<roleName> de <persName ref="Joe">Joe</persName>, la blonde, vaine et stupide <persName ref="#Amy">Amy</persName>. Je rejetai le livre, comme s’il m’avait brûlé les doigts. Pendant plusieurs jours, je restai terrassée par un malheur qui m’avait atteinte au vif de moi-même : l’homme que j’aimais et dont je me croyais aimée m’avait trahie pour une sotte. 
+        Je détestai <persName ref="#Louisa Alcott">Louisa Alcott</persName>. Plus tard, je découvris que <persName ref="Joe">Joe</persName> avait elle-même refusé sa main à <persName ref="Laurie">Laurie.</persName> Après un long célibat, des erreurs, des épreuves, elle rencontrait un <roleName>professeur</roleName>, plus âgé qu’elle, doté des plus hautes qualités : il la comprenait, la consolait, la conseillait, ils s’épousaient. 
+        Bien mieux que le jeune <persName ref="#Laurie">Laurie</persName>, cet homme supérieur, survenant du dehors dans l’histoire de <persName ref="#Joe">Joe</persName>, incarnait le <roleName>Juge suprême</roleName> par qui je rêvais d’être un jourreconnue ; néanmoins son intrusion me mécontenta. Autrefois, lisant Les Vacances de Madame de Ségur, j’avais déploré que <persName ref="#Sophie">Sophie</persName> <seg xml:id="seg6.3" ana="#marriage">n’épousât</seg> pas <persName ref="#Paul">Paul</persName>, son ami d’enfance, mais un jeune châtelain inconnu.
+        L’amitié, l’amour, c’était à mes yeux quelque chose de définitif, d’éternel, et non pas une aventure précaire. Je ne voulais pas que l’avenir m’imposât des ruptures : il fallait qu’il enveloppât tout mon passé.
+        </p>
+        <p>
+        J’avais perdu la sécurité de l’enfance ; en échange je n’avais rien gagné. L’autorité de mes parents n’avait pas fléchi et comme mon esprit critique s’éveillait, je la supportais de plus en plus impatiemment. Visites, déjeuners de famille, toutes ces corvées que mes parents tenaient pour <seg xml:id="seg5.1" ana="#submission">obligatoires</seg>, je n’en voyais pas l’utilité. 
+        Les réponses : <seg xml:id="seg5.2" ana="#submission">« Ça se doit. Ça ne se fait pas »</seg>, ne me satisfaisaient plus du tout. La sollicitude de ma <roleName>mère<roleName> me pesait. Elle avait « ses idées » qu’elle ne se souciait pas de justifier, aussi ses décisions me paraissaient-elles souvent arbitraires. Nous nous disputâmes violemment à propos d’un missel que j’offris à ma <roleName>sœur</roleName> pour sa communion solennelle ;
+        je le voulais relié de cuir fauve, comme celui que possédaient la plupart de mes camarades ; <roleName>maman</roleName> estimait qu’une couverture de toile bleue serait bien assez belle ; je protestai que l’argent de ma tirelire m’appartenait ; elle répondit qu’on ne doit pas dépenser vingt francs pour un objet qui peut n’en coûter que quatorze. 
+        Pendant que nous achetions du pain chez le boulanger, tout au long de l’escalier et de retour à la maison, je lui tins tête. Je dus céder la rage au cœur, me promettant de ne jamais lui pardonner ce que je considérais comme <seg xml:id="seg5.3" ana="#submission">un abus de pouvoir.</seg> Si elle m’avait souvent contrariée, je crois qu’elle m’eût précipitée dans la révolte. 
+        Mais dans les choses importantes — mes études, le choix de mes amies — elle intervenait peu ; elle respectait mon travail et même mes loisirs, <seg xml:id="seg2.6" ana="#housework">ne me demandant que de menus services : moudre le café, descendre la caisse à ordures.</seg> J’avais l’habitude de la <seg xml:id="seg5.4" ana="#submission">docilité</seg>, et je croyais que, en gros, Dieu l’exigeait de moi ; le conflit qui m’opposait à ma <roleName>mère</roleName> n’éclata pas, mais j’en avais sourdement conscience. 
+        Son éducation, son milieu l’avaient convaincue que pour une femme la maternité est le plus beau des rôles : elle ne pouvait le jouer que si je tenais le mien, mais je refusais aussi farouchement qu’à cinq ans d’entrer dans les comédies des adultes. Au cours Désir, la veille de notre communion solennelle, on nous exhortait à aller nous jeter aux pieds de nos mamans en leur demandant pardon de nos fautes 
+        ; non seulement je ne l’avais pas fait, mais quand son tour fut venu, j’en dissuadai ma <roleName>sœur.</roleName>
+        Ma <roleName>mère</roleName> fut fâchée. Elle devinait en moi des réticences qui lui donnaient de l’humeur, et elle me grondait souvent. Je lui en voulais de <seg xml:id="seg5.5" ana="#submission">me maintenir dans la dépendance et d’affirmer sur moi des droits.</seg> En outre j’étais jalouse de la place qu’elle occupait dans le cœur de mon père car ma passion pour lui n’avait fait que grandir.
+        Plus sa vie devenait ingrate, plus la <seg xml:id="seg5.7" ana="#submission">supériorité de mon père m’aveuglait</seg> ; elle ne dépendait ni de la fortune ni du succès, aussi je me persuadais qu’il les avait délibérément négligés ; cela ne m’empêchait pas de le plaindre : je le pensais méconnu, incompris, victime d’obscurs cataclysmes. Je lui savais d’autant plus gré de ses accès de gaieté, encore assez fréquents. 
+        Il racontait de vieilles histoires, se moquait du tiers et du quart, faisait de bons mots. Quand il restait à la maison, il nous lisait <persName ref="#Victor Hugo">Victor Hugo</persName>,<persName ref="#Rostand">Rostan</persName> ; il parlait des écrivains qu’il aimait, de théâtre, de grands événements passés, d’un tas de sujets élevés, et j’étais transportée bien loin des grisailles quotidiennes. 
+        Je n’imaginais pas qu’il existât un homme aussi intelligent que lui. <seg xml:id="seg5.8" ana="#submission">Dans toutes les discussions auxquelles j’assistais, il avait le dernier mot,</seg> et quand il s’attaquait à des absents, il les écrasait. Il admirait avec feu certains grands hommes ; mais ceux-ci appartenaient à des sphères si lointaines qu’elles me paraissaient mythiques, et d’ailleurs ils n’étaient jamais irréprochables ;
+        l’excès même de leur génie les vouait à l’erreur : ils sombraient dans l’orgueil et leur esprit se faussait. C’était le cas de <persName ref="#Victor Hugo">Victor Hugo</persName> dont mon <roleName>père<roleName> déclamait les poèmes avec enthousiasme mais que la vanité avait finalement égaré ; c’était le cas de <persName ref="#Zola">Zola</persName>, d’<persName ref="Anatole France">Anatole France</persName>, de beaucoup d’autres. Mon <roleName>père</roleName> opposait à leurs aberrations une sereine impartialité. Même ceux qu’il estimait sans réserve, leur œuvre avait des limites :
+        mon <roleName>père</roleName>, lui, parlait d’une voix vivante, sa pensée était insaisissable et infinie. Gens et choses comparaissaient devant lui : il <seg xml:id="seg5.6" ana="#submission">jugeait souverainement.</seg>
+        Du moment qu’il m’approuvait, j’étais sûre de moi. Pendant des années, il ne m’avait décerné que des éloges. Lorsque j’entrai dans l’âge ingrat, je le déçus :il appréciait chez les femmes <seg xml:id="seg8" ana="#grace">l’élégance</seg>, <seg xml:id="seg7" ana="#beauty">la beauté</seg>.
+        Non seulement il ne me cacha pas son désappointement, mais il marqua plus d’intérêt qu’autrefois à ma <roleName>sœur</roleName>, qui restait une jolie enfant. Il rayonnait de fierté quand elle parada, déguisée en « Belle de la Nuit ». Il participait parfois à des spectacles que son ami <persName ref="#M. Jeannot">M. Jeannot </persName>— grand zélateur du théâtre chrétien — organisait dans des patronages de banlieue ;
+        il fit jouer <persName ref="#Poupette">Poupette</persName> avec lui. Le visage encadré de longues tresses blondes, elle tint le rôle de la petite fille dans Le Pharmacien, de <persName ref="#Max Maurey">Max Maurey.</persName> Il lui apprit à réciter des fables en les détaillant et avec des effets. Sans me l’avouer, je souffrais de leur entente et j’en voulais vaguement à ma <roleName>sœur</roleName>.
+        </p>
+        <p>
+        Ma véritable rivale, c’était ma <roleName>mère</roleName>. Je rêvais d’avoir avec mon père des rapports personnels ; mais même dans les rares occasions où nous nous trouvions tous les deux seuls, nous nous parlions comme si elle avait été là. En cas de conflit, si j’avais recouru à mon <roleName>père</roleName>, il m’aurait répondu : <seg xml:id="seg5.9" ana="#submission">« Fais ce que ta <roleName>mère</roleName> te dit ! »</seg> Il ne m’arriva qu’une fois de chercher sa complicité. 
+        Il nous avait emmenées aux courses d’Auteuil ; la pelouse était noire de monde, il faisait chaud, rien ne se passait, et je m’ennuyais ; enfin on donna le départ : les gens se ruèrent vers les barrières, et leurs dos me cachèrent la piste. Mon <roleName>père</roleName> avait loué pour nous des pliants et je voulus monter sur le mien. « Non », dit <roleName>maman</roleName>, qui détestait la foule et que la bousculade avait énervée. J’insistai. « Non et non », répéta-t-elle.
+        Comme elle s’affairait avec ma <roleName>sœur</roleName>, je me tournai vers mon <roleName>père</roleName> et je lançai avec emportement : « <roleName>Maman</roleName> est ridicule. Pourquoi est-ce que je ne peux pas monter sur ce pliant ? » Il haussa les épaules d’un air gêné, sans prendre parti.
+        Du moins ce geste ambigu me permettait-il de supposer qu’à part soi mon père trouvait parfois ma mère trop impérieuse ; je me persuadai qu’une silencieuse alliance existait entre lui et moi. Je perdis cette illusion. Pendant un déjeuner, on parla d’un grand cousin dissipé qui considérait sa mère comme une idiote :
+        de l’aveu de mon <roleName>père</roleName> elle l’était en effet. Il déclara cependant avec véhémence : « Un enfant qui juge sa <roleName>mère</roleName> est un imbécile. » Je devins écarlate et je quittai la table en prétextant un malaise : je jugeais ma <roleName>mère</roleName>. Mon <roleName>père</roleName> m’avait porté un double coup, en affirmant leur solidarité et en me traitant indirectement d’imbécile. Ce qui m’affolait encore davantage, c’est que je jugeais cette phrase même qu’il venait de prononcer :
+        puisque la sottise de ma tante sautait aux yeux, pourquoi son <roleName>fils</roleName> ne l’eût-il pas reconnue ? Ce n’est pas mal de se dire la vérité, et d’ailleurs, bien souvent, on ne le fait pas exprès ; en ce moment, par exemple, je ne pouvais pas m’empêcher de penser ce que je pensais : étais-je en faute ? En un sens non, et pourtant les paroles de mon <roleName>père</roleName> mordaient sur moi si bien que je me sentais à la fois irréprochable et monstrueuse. 
+        Par la suite, et peut-être en partie à cause de cet incident, je n’accordai plus à mon <roleName>père</roleName> une infaillibilité absolue. Pourtant mes parents conservèrent le pouvoir de faire de moi une coupable ; j’acceptais leurs verdicts tout en me voyant avec d’autres yeux que les leurs. La vérité de mon être leur appartenait encore autant qu’à moi : mais paradoxalement, ma vérité en eux pouvait n’être qu’un leurre, elle pouvait être fausse. 
+        Il n’y avait qu’un moyen de prévenir cette étrange confusion : il fallait leur dissimuler les trompeuses apparences.
+        </p>
+        </body>
+    </text>
+</TEI>

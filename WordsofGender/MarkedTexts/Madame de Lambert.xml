@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                Réflexions sur les femmes
+                </title>
+                <author>Anne-Thérèse de Lambert</author>
+                <respStmt>
+                    <resp>conversion to TEI-conformant markup</resp>
+                    <name>Nicole Liggeri</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>DHDK Digital Edition <date>2023</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>University of Bologna</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull xml:lang="fr">
+                    <titleStmt>
+                        <title>
+                        Réflexions sur les femme
+                        </title>
+                        <author>
+                        Madame de Lambert
+                        </author>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition> First Edition <date when="1728">1728</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Chez Etienne Ganeau</publisher>
+                        <date when="1728">1728</date>
+                        <pubPlace>Paris</pubPlace>
+                        <availability>
+                        <licence >Freely available on a non-commercial basis.</licence >
+                    </availability>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                 <p>Basic encoding, capturing information related to main characters and aiming to interpret the texts through concept-like structures. All hyphenation, punctuation, and variant spelling normalized. No formatting or layout information preserved. </p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This text was selected in order to create this digial edition. The sample was chosen on the basis of the topics touched upon in the text.</p>
+            </samplingDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="seg" occurs="13">
+                        Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
+                    </tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">French</language>
+            </langUsage>
+        </profileDesc>
+        <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:owl="http://www.w3.org/2002/07/owl#">
+            <rdf:RDF>
+                <rdf:Description>
+                    <dc:title>Réflexions sur les femmes</dc:title>
+                    <dc:creator>Anne-Thérèse de Lambert</dc:creator>
+                    <owl:sameAs rdf:resource="http://viaf.org/viaf/95150112"/>
+                    <dc:date>1728</dc:date>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
+    </teiHeader>
+ <text>
+    <front>
+            <docTitle>
+                <titlePart>Réflexions sur les femmes</titlePart>
+            </docTitle>
+            <interpGrp resp="Nicole Liggeri" type="maintopics">
+            <interp xml:id="body">body</interp>
+            <interp xml:id="intellect">intellectual capability and intelligence</interp>
+            <interp xml:id="gender">gender division or binary male-female opposition</interp>
+            <interp xml:id="modesty">modesty as a feminine value</interp>
+            <interp xml:id="beauty">beauty as a feminine value</interp>
+            <interp xml:id="education">value and methods of education</interp>
+        </interpGrp>
+        </front>
+        <body>
+            <p>
+            Le Livre de Dom-Quichotte, selon un Auteur Espagnol, a perdu la Monarchie d’Espagne ; parce que le ridicule qu’il a répandu sur la valeur, 
+            que cette Nation possedoit autrefois dans un dégré si éminent, en a amolli et énervé le courage.
+
+            Moliere en France a fait le même desordre, par la Comedie des Femmes sçavantes. <seg xml:id="seg2" ana="#intellect">Depuis ce tems-là, on a attaché presque autant de honte au sçayoir des Femmes, 
+            qu’aux vices qui leur sont le plus défendus.</seg> <seg xml:id="seg1" ana="#body">Lorsqu’elles se sont vûës attaquées sur des amusemens innocens, elles ont compris que, honte pour honte, 
+            il falloit choisir celle qui leur rendoit davantage, et elles se sont livrées aux plaisirs.</seg>
+            
+            Le desordre s’est accru par l’exemple, et a été autorisé par les femmes en dignité; car la licence et l’impunité sont les privileges de la Grandeur : 
+            Alexandre nous l’a appris. On vint un jour lui dire que sa sœur aimoit un jeune homme, que leur intrigue étoit publique, et qu’elle se respectoit peu : 
+            Il faut bien, dit-il, lui laisser sa part de la Royauté, qui est la liberté et l’impunité.
+
+            La societé a-t’elle gagné dans cet échange du goût des Femmes ? <seg xml:id="seg1.1" ana="#body"> Elles ont mis la débauche à la place du sçavoir ;</seg> le precieux qu’on leur a tant reproché, 
+            elles l’ont changé en indécence : Par-là elles se sont dégradées ; et sont déchuës de leur dignité ; car il n’y a que la vertu qui leur conserve leur place, 
+            et il n’y a que les bienséances, qui les maintienent dans leurs droits.<seg xml:id="seg3" ana="#gender"> Mais plus elles ont voulu ressembler aux hommes de ce côté-là, et plus elles se sont avilies.</seg>
+
+            Les hommes par la force plutôt que par le droit naturel, ont usurpé l’autorité sur les femmes ; elles ne rentrent dans leur domination que par la beauté
+             et par la vertu : si elles peuvent joindre les deux, leur empire sera plus absolu : <seg xml:id="seg4" ana="#modesty"> mais le regne de la beauté est peu durable. On l’appelle une courte tyrannie ; 
+             elle leur donne le pouvoir de faire des malheureux, mais il ne faut pas qu’elles en abusent.
+
+            Le regne de la vertu est pour toute la vie : c’est le caractere des choses estimables de redoubler de prix par leur durée, et de plaire par le dégré de perfection 
+            qu’elles ont, quand elles ne plaisent plus par le charme de la nouveauté. Il faut penser qu’il y a peu de tems à être belle, et beaucoup à ne l’être plus ; 
+            que quand les graces abandonnent les Femmes, elles ne se soûtiennent que par les parties essentielles et par les qualitez estimables.</seg> Il ne faut pas qu’elles
+             esperent allier une jeunesse voluptueuse et une vieillesse honorable. Quand une fois la pudeur est immolée, elle ne revient pas plus que les belles années : 
+             <seg xml:id="seg4.1" ana="#modesty"> c’est elle qui sert leur veritable interêt : elle augmente leur beauté : elle en est la fleur : elle sert d’excuse à la laideur : elle est le charme des yeux, 
+             l’attrait des cœurs, la caution des vertus, l’union et la paix des familles.</seg>
+
+            Mais si elle est une sûreté pour les mœurs, elle est aussi l’aiguillon des desirs : sans elle l’amour seroit sans gloire, et sans goût ; c’est sur elle que se 
+            prennent les plus flateuses conquêtes ; elle met le prix aux faveurs. <seg xml:id="seg4.2" ana="#modesty">La pudeur enfin est si necessaire aux plaisirs, qu’il la faut conserver dans les tems mêmes 
+            destinez à la perdre ; elle est aussi une coquetterie rafinée, une espece d’enchere, que les belles personnes mettent à leurs appas, et une maniere délicate
+             d’augmenter leurs charmes en les cachant.</seg> Ce qu’elles dérobent aux yeux leur est rendu par la liberalité de l’imagination. Plutarque dit qu’il y avoit un Temple
+              dedié à Venus la voilée. On ne sçauroit, dit-il, entourer cette Déesse de trop d’ombres, d’obscuritez et de mystères. Mais à present l’indécence est au point de 
+              ne vouloir plus de voile à ses foiblesses.
+
+            Les Femmes pourroient dire : quelle est la tyrannie des hommes ! Ils veulent que nous ne fassions aucun usage de notre esprit ni de nos sentimens.<seg xml:id="seg2.1" ana="#intellect">Ne doit-il pas 
+            leur suffire de regler tout le mouvement de notre cœur, sans se saisir encore de notre intelligence ? Ils veulent que la bienséance soit aussi blessée, quand nous
+             ornons notre esprit, que quand nous livrons notre cœur. C’est étendre trop loin leurs droits.</seg>
+
+             <seg xml:id="seg3.1" ana="#gender">Les hommes ont un grand intérêt à rappeller les Femmes à elles-mêmes et à leurs premiers devoirs.</seg> Le divorce que nous faisons avec nous-mêmes, est la source de tous
+             nos égaremens. Quand nous ne tenons pas à nous par des goûts solides, nous tenons à tout. C’est dans la solitude que la verité donne ses leçons, et où nous 
+             apprenons à rabattre du prix des choses, que notre imagination sçait nous surfaire. <seg xml:id="seg2.2" ana="#intellect">Quand nous sçavons nous occuper par de bonnes lectures, il se fait 
+             en nous insensiblement une nourriture solide, qui coule dans les mœurs.
+             [...]
+             Ceux qui attaquent les Femmes, ont prétendu que l’action de l’esprit qui consiste à considerer un objet, étoit bien moins parfaite dans les Femmes, parce que le sentiment qui les domine, les distrait et les entraîne. 
+             L’attention est necessaire ; elle fait naître la lumière pour ainsi dire, approche les idées de l’esprit et les met à la portée : mais chez les Femmes les idées s’offrent d’elles-mêmes, et s’arrangent plutôt par sentiment que par réflexion : la nature raisonne pour elles et leur en épargne tous les frais. 
+             Je ne crois donc pas que le sentiment nuise à l’entendement ; il fournit de nouveaux esprits, qui illuminent de maniere, que les idées se presentent plus vives, plus nettes et plus démêlées ; et pour preuve de ce que je dis, toutes les passions sont éloquentes : nous allons aussi surement à la verité par la force et la chaleur des sentimens, que par l’étenduë et la justesse des raisonnemens ; 
+             et nous arrivons toujours par eux plus vîte au but dont il s’agit, que par les connoissances. La persuasion du cœur est audessus de celle de l’esprit, puisque souvent notre conduite en dépend : c’est à notre imagination et à notre cœur, que la nature a rendis la conduite de nos actions et de ses mouvemens.</seg>
+
+             La sensibilité est une disposition de l’ame qu’il est avantageux de trouver dans les autres. Vous ne pouvez avoir ni humanité ni generosité, sans sensibilité. Un seul sentiment, un seul mouvement du cœur a plus de credit sur l’ame, que toutes les sentences des Philosophes : la ssensibilité secourt l’esprit et sert la vertu. On convient que les agrémens se trouvent chez les personnes de ce caractere ; les graces vives et soudaines, dont parle Plutarque, ne font que pour elles. Une Dame qui a été un modele d’agrémens sert de preuves à ce que j’avance. On demandoit un jour à un homme d’esprit de ses amis, ce qu’elle faisoit et ce qu’elle pensoit dans sa retraite. Elle n’a jamais pensé, répondit-il, elle ne fait que sentir. Tous ceux qui l’ont connuë, conviennent, que c’étoit la plus séduisante personne du monde, et que les goûts, ou plûtôt les passions, se rendoient maîtres de son imagination et de sa raison, de maniere que ses goûts étoient toujours justifiez par sa raison et respectez par ses amis : aucun de ceux qui l’ont connuë, n’a osé la condamner qu’en cessant de la voir, parce que jamais elle n’avoit tort en presence. Cela prouve que rien n’est si absolu, que la superiorité de l’esprit, qui vient de la sensibilité et de la force de l’imagination, parce que la persuasion est toujours à sa suite.
+             
+             <seg xml:id="seg6" ana="#education"> Les Femmes d’ordinaire ne doivent rien à l’art. Pourquoi trouver mauvais qu’elles ayent un esprit qui ne leur coûte rien ? Nous gâtons toutes les dispositions que leur a donné la nature : nous commençons par négliger leur éducation : nous n’occupons leur esprit à rien de solide, et le cœur en profite : nous les destinons à plaire, et elles ne nous plaisent que par leurs graces ou par leurs vices ; il semble qu’elles ne soient faites que pour être un spectacle agréable à nos yeux. Elles ne songent donc qu’à cultiver leurs agremens, et se laissent aisément entraîner au penchant de la nature ; elles ne se refusent pas à des goûts qu’elles ne croyent pas avoir reçus de la nature, pour les combattre.</seg>
+             
+             Mais ce qu’il y a de singulier, c’est qu’en les formant pour l’amour, nous leur en défendons l’usage. Il faudrait prendre parti : si nous ne les destinons qu’à plaire, ne leur défendons pas l’usage de leurs agrémens : si vous les voulez raisonnables et spirituelles, ne les abandonnez pas, quand elles n’ont que cette sorte de mérite ; <seg xml:id="seg2.3" ana="#intellect"> mais nous leur demandons un mélange et un menagement de ces qualitez, qu’il est difficile d’attraper et de réduire à une mesure juste. Nous leur voulions de l’esprit, mais pour le cacher, l’arrêter et l’empêcher de rien produire. Il ne sçauroit prendre l’essor, qu’il ne soit aussi-tôt rappellé par ce qu’on nomme bienséance.</seg> La gloire, qui est l’ame et le soutien de toutes les productions de l’esprit, leur est refusée. On ôte à leur esprit tout objet, toute esperance : on l’abaisse, et si j’ose me servir des termes de Platon, on lui coupe les aîles. Il est bien étonnant qu’il leur en reste encore.
+             
+             Les Femmes ont pour elles une grande autorité : c’est s. Evremont. Quand il a voulu donner un modèle de perfection, il ne l’a pas placé chez les hommes.<seg xml:id="seg3.3"  ana="#gender"> Je crois, dit-il, moins impossible de trouver dans les Femmes la saine raison des hommes, que dans les hommes les agremens des Femmes. Je demande aux hommes de la part de tout le sexe : Que voulez-vous de nous ? vous souhaitez tous de vous unir à des personnes estimables, d’un esprit aimable et d’un cœur droit. Permettez-leur donc l’usage des choses qui perfectionnent la raison. Ne voulez-vous que des grâces qui favorisent les plaisirs ? Ne vous plaignez donc pas si les Femmes étendent un peu l’usage de leurs charmes.</seg>
+                </p>
+        </body>
+    </text>
+
+
+</TEI>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+               Nella nebbia
+                </title>
+                <author>
+                Ada Negri
+                </author>
+                <respStmt>
+                    <resp>conversion to TEI-conformant markup</resp>
+                    <name>Nicole Liggeri</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>DHDK Digital Edition <date>2023</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>University of Bologna</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull xml:lang="it">
+                    <titleStmt>
+                        <title>
+                        Nella nebbia
+                        </title>
+                        <author>
+                        Ada Negri
+                        </author>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition> First Edition <date when="1917">1917</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Sandron</publisher>
+                        <date when="1917">1917</date>
+                        <pubPlace>Firenze</pubPlace>
+                        <availability>
+                        <licence>Copyrigth</licence >
+                    </availability>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc> 
+        <encodingDesc>
+            <projectDesc>
+                 <p>Basic encoding, capturing information related to main characters and aiming to interpret the texts through concept-like structures. All hyphenation, punctuation, and variant spelling normalized. No formatting or layout information preserved. </p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This text was selected in order to create this digial edition. The sample was chosen on the basis of the topics touched upon in the text.</p>
+            </samplingDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="seg" occurs="12">
+                        Used to mark segments of text addressed through @ana to a specific interpretation of the segments themselves.
+                    </tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">French</language>
+            </langUsage>
+        </profileDesc>
+        <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:owl="http://www.w3.org/2002/07/owl#">
+            <rdf:RDF>
+                <rdf:Description>
+                    <dc:title>Nella nebbia</dc:title>
+                    <dc:creator>Ada Negri</dc:creator>
+                    <owl:sameAs rdf:resource="http://viaf.org/viaf/73891042"/>
+                    <dc:date>1917</dc:date>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
+    </teiHeader>
+
+    <text>
+    <front>
+            <docTitle>
+                <titlePart>Réflexions sur les femmes</titlePart>
+            </docTitle>
+        <interpGrp resp="Nicole Liggeri" type="maintopics">
+            <interp xml:id="body">what concerns body, its perception and value</interp>
+            <interp xml:id="society">relationship between the self and her comunity</interp>
+            <interp xml:id="gender">gender division, binary male-female opposition and their relationship </interp>
+            <interp xml:id="mother">A mother and the relationship with her child</interp>
+            <interp xml:id="education">value and methods of education</interp>
+            <interp xml:id="beauty">beauty as a feminine value</interp>
+        </interpGrp>
+    </front>
+        <body>
+            <p>
+        Raimonda alzò il bavero del soprabito, <seg xml:id="seg1" ana="#body"> attillato come una fascia sul suo bel
+        corpo, di serpentina flessuosità: avvolse intorno al bavero il boa di pelliccia
+        fino all’altezza del naso, ficcò le mani nel manicotto, e via, a capo basso,
+        fra la nebbia. </seg>
+        Così densa, così opaca era la nebbia, che si sarebbe potuta tagliar col
+        coltello. Penetrava nella bocca e nelle narici, mozzava il respiro, dava il
+        senso dell’asfissia. Vie e case scomparivano, dissolte nell’impalpabile
+        massa dei vapori. Atmosfera di sogno. Ma un sogno sinistro, pieno
+        d’agguati.
+        Si doveva aprirsi il varco a guisa di nuotatori nell’acqua, respingendo la
+        potenza d’un elemento. Le carrozze, rarissime, avanzavano adagio, passo
+        passo, ombre vaghe e difformi nel grigio, scampanellando dalle sonagliere
+        dei cavalli. La coltre spessa e morbida tappava ogni fessura, attutiva ogni
+        rumore, mascherava ogni fisionomia.
+        Di questo, sovra tutto, era felice Raimonda, che camminava sicura,
+        conoscendo così bene la sua via quotidiana dall’ufficio alla casa, che i piedi
+        gliel’avrebbero potuta far da sé senza l’aiuto degli occhi. <seg xml:id="seg6" ana="#beauty"> Raimonda aveva
+        la parte destra del viso orribilmente sfregiata. A dieci anni, una mala caduta
+        sulla brace rovente del caminetto l’aveva ridotta così. Per ironia della sorte
+        era cresciuta agile e bellissima di corpo, calda di sangue, chiara nell’animo,
+        pronta nei sensi, certo creata per un destino d’amore, se l’atroce mezza
+        maschera raggrinzata, paonazza, costringendo anche la bocca ad una
+        smorfia grottesca nel riso, non l’avesse deturpata senza rimedio.</seg>
+        <seg xml:id="seg2" ana="#society"> Dinanzi all’apparente gaiezza di lei, d’una esuberanza a tratti eccessiva,
+        parenti e amici pensavano e dicevano: «Per fortuna è indifferente alla sua
+        disgrazia. Pel mostro non esiste la propria mostruosità».</seg>
+        S’ingannavano. <seg xml:id="seg4" ana="#mother"> Non forse la madre, alla quale il sesto senso materno
+        dava pupille più penetranti;</seg> ma, debole e incerta creatura crepuscolare,
+        tentava, illudendosi, di sopire dentro di sé vergogna, dolore, rimorso.
+        La verità era questa: tolte le obliose ore del sonno, non un minuto della
+        vita di Raimonda era trascorso senza che – nel camminare, nel parlare, nel
+        ridere, durante le più gravi e le più semplici occupazioni, sola o fra molti –
+        ella non si fosse veduta nell’inesorabilità della sua laidezza, con quei
+        terribili occhi in dentro, che non ingannano mai.
+        <seg xml:id="seg6.1" ana="#beauty">Per questo, nella propria camera, non teneva specchi.</seg> Per questo, portava
+        feltri o cuffiette di paglia d’un’estrema semplicità, che si potessero calcar
+        sul capo alla brava, senza aiuto di spilloni; e vi avvolgeva intorno larghe e
+        fitte velette a fiorami, le quali tuttavia non riuscivano a nascondere
+        compiutamente il segno del fuoco.
+        Talvolta, a notte alta, un incubo angoscioso la svegliava di soprassalto,
+        col batticuore; ed ella sbarrava nel buio gli occhi ancor ciechi di sonno; e,
+        subito, nell’implacabile memoria dei sensi le si scolpiva la visione del
+        proprio volto; e pensava, con terrore, la disgraziata, che l’ombra sarebbe
+        svanita con la notte, che la luce avrebbe fatto ritorno, e con essa gli sguardi
+        pietosi o ironici o stupiti o sfuggenti, sulla sua deformità.
+        Vi sono tragedie che afferrano una creatura in piena bellezza, in piena
+        felicità, in piena armonia d’azione; e l’incalzano e l’aggirano
+        vorticosamente nel loro turbine ruinoso: poi la lasciano, a terra, inerte, uno
+        straccio, ma libera: ed ella a poco a poco si riconosce, si ritrova intatta,
+        riprende a vivere, a gioire delle forze naturali, a respirare energia e
+        speranza, quasi che nulla fosse avvenuto. – Vi è, invece, la tragedia muta,
+        sorda, costante, fissa, che ha l’inesorabilità d’un cancro. Non v’è scampo
+        contro di essa. Non v’è forza d’oblio che possa dimenticarla, o di dominio
+        che possa vincerla.
+        In tale stato viveva Raimonda. <seg xml:id="seg2.1" ana="#society"> Non lasciava, tuttavia, trasparire agli
+        uomini se non quel ch’era impossibile nascondere: il marchio del viso.</seg>
+        Ella si sentiva isolata. Fra il suo fluido e il fluido altrui s’interponeva un
+        divieto. Quel divieto la disonorava come una condanna. Dai dodici ai sedici
+        anni, alle scuole tecniche, nei gruppi delle compagne non aveva udito che
+        bisbigliar d’amore. Pareva che in tutte quelle fanciulle destinate a
+        guadagnarsi la vita fra l’odor di muffa dei magazzini o l’odor d’inchiostro
+        degli uffici, in tutte quelle adolescenze verdastre ed asprigne come i frutti
+        acerbi, non germinasse che il desiderio dell’amore. <seg xml:id="seg5" ana="#education"> Aritmetica, disegno,
+        fisica, grammatica, non sembravano in realtà che pretesti inventati dalla
+        dura esistenza e dalla volontà dei parenti, per ingannare, per strozzare in
+        boccio l’istinto atavico in quelle piccole future femmine, che già davano
+        furtivamente un nome ed un corpo al loro bisogno di amare e di sentirsi
+        amate.</seg>
+        Più tardi, nel laboratorio di macchine e strumenti fotografici, dove
+        Raimonda aveva potuto collocarsi in qualità di dattilografa, ella, intorno a
+        sé, fra i compagni di lavoro, non aveva veduto che amore, illusione
+        d’amore, menzogna d’amore. <seg xml:id="seg3" ana="#gender"> Le commesse, eleganti in abiti tagliati
+        sull’ultimo figurino negli scampoli da trenta soldi al metro, colle trecce
+        serrate intorno alle tempie secondo la moda, con tacchi altissimi, con ciglia
+        e palpebre offese dal bistro, civettavano, nervose, coi giovanotti dello
+        studio; oppure trovavan sulla porta, la sera, l’amico pronto per
+        accompagnarle.</seg> Le varie correnti si urtavano, sprizzavan scintille nell’urto,
+        creando per Raimonda un’irrespirabile atmosfera magnetica. <seg xml:id="seg2.2" ana="#society">La sua
+        giovinezza era tagliata fuori da quelle vibrazioni di gioia. Per lei non poteva
+        sussistere la legge naturale dell’esistenza. </seg> Lo sapeva. E vi pareva
+        rassegnata; ma, in fondo, avvilimento, desiderio insoddisfatto, rancore, le si
+        aggrovigliavan dentro come un viluppo di serpi.
+        <seg xml:id="seg2.3" ana="#society">Ed era giunta a desiderar d’esser cieca, quasi che la cecità personale
+        riuscisse a nasconderla agli occhi altrui: </seg> simile in questo al bambino che,
+        celandosi il volto col braccio alzato ad arco, crede di essersi reso invisibile
+        ad ognuno. Era giunta a non trovarsi bene che nell’ombra; e sempre avrebbe
+        voluto muoversi fra la densa bruma che ravvolgeva quella sera di
+        novembre, dandole un senso inatteso e mordente d’agilità, di libertà, di
+        sicurezza.
+        Un fanale a gas, d’un fosco rosso di piaga nella compagine nebbiosa, le
+        indicava lo svolto di via Solferino in via Pontaccio.<seg xml:id="seg3.1" ana="#gender"> Scivolava rasente i
+        muri, imbacuccata e felice, quando una voce maschia le susurrò alle spalle:
+        «Signorina…».
+        Non si volse, continuò la strada, col cuore che le martellava. Nessuno,
+        nessuno, fino a quel momento, l’aveva seguita per via.
+        «Signorina…»
+        L’uomo la seguiva davvero, accordando il passo con quello di lei,
+        mormorando altre parole, vuote, incoerenti, dolcissime.</seg> Raimonda le udiva
+        per la prima, forse per l’unica volta; e la maschia voce era calda, profonda,
+        vellutata, di quelle che agiscono immediatamente sui sensi.
+        Con un rapidissimo volger del capo e delle pupille aveva scorta l’alta
+        figura d’un giovane, sfumata nella bruma che intorbidava, velandoli, i
+        lineamenti del viso. Ah!… Quell’ignoto non l’avrebbe vista in faccia, non
+        avrebbe celato il brivido del ribrezzo davanti alla mezza maschera deforme.
+        Fitta veletta, fitta nebbia, ora di sogno, nella quale ella pure poteva esser
+        bella per un uomo: ora che forse non sarebbe ritornata più!…
+        Tacque, lasciò dire, lasciò che l’ignoto le si avvicinasse alle spalle, le si
+        serrasse dappresso, tanto da alitarle nel collo il respiro profumato di
+        sigaretta.
+        «Signorina… Come si chiama?… Non corra tanto. Mi dica il suo nome,
+        il suo bel nome. Signorina…»
+        Nessuna udibile risposta; ma un consenso pieno di turbamento nel
+        silenzio stesso, nel passo un poco rallentato, nell’atto di alzare il manicotto
+        fino a celare il mento e la bocca. La nebbia li univa e li divideva nel
+        medesimo tempo. Altre fantastiche ombre passavano, larve nere apparenti
+        nelle orbite dei fanali, subito inghiottite dall’elemento grigio. <seg xml:id="seg3.2" ana="#gender">Milano era
+        un’immensa nave naufragata, ove Raimonda agonizzava in una dolcissima
+        agonia: rivelata finalmente a un uomo: finalmente donna: tremante di muta
+        felicità: solo temendo che l’ora dell’incantesimo finisse.
+        In corso Garibaldi, quando comprese che soli cento passi la separavano
+        dalla porta di casa, indugiò in un istante di perplessità, s’appoggiò al muro,
+        sempre in silenzio. L’ignoto vide, in quel trepido atto, un invito. Trasse a sé
+        la fanciulla pel braccio, cercò, avido, la bocca, senza vederla; e, attraverso
+        la veletta, la baciò.</seg>
+        Con sua immensa meraviglia, il bacio gli fu reso.
+        Ladra d’amore, sì, ella era; e sapeva e godeva d’esserlo, chiudendo in
+        quell’attimo l’intera sua vita di donna, accumulando in quell’attimo sogni,
+        desideri, brividi, carezze, impeti di dedizione, voluttà di sensazioni, tutta
+        l’occulta parte di sé che alla luce spietata del sole non aveva diritto di
+        esistere.
+        Quando le ingorde labbra lentamente si staccarono, e il lunghissimo
+        bacio ebbe fine, l’uomo stupefatto, inebriato, cieco, rimasto intontito sul
+        marciapiede, sentì la fanciulla guizzargli di mano con agilità di lucertola, e
+        sparir nell’ombra.
+        Non tentò di seguirla. A un metro di distanza non sarebbe stato possibile
+        riconoscere una persona. La massa fluttuante dei vapori s’addensava
+        sempre più, diveniva un corpo quasi solido, benda agli occhi, bavaglio alla
+        bocca.
+        Ritrovata per virtù di consuetudine la porta della sua casa, infilata a capo
+        basso un’umidiccia scala a chiocciola anch’essa invasa di nebbia,
+        Raimonda suonò il campanello d’un modesto usciolo bruno. Alla madre
+        che, inquieta e premurosa, le aperse, mormorò un frettoloso saluto. Poi, con
+        voce rauca: «Stasera non mangio, ho male alla testa, voglio riposare, abbi
+        pazienza…». E sgusciò nella sua camera e vi si rinchiuse.
+        Nel letto, al buio, colle braccia avvinte sul seno, coi begli occhi sbarrati
+        nell’oscurità, rabbrividendo ancora per tutto il corpo sotto l’invisibile
+        carezza della maschia voce carnale, rigustando in bocca il sapore dell’unico
+        bacio, si raggomitolò, sussultò, si contorse, pregò Iddio che di quell’ora non
+        le togliesse mai più la memoria – e pianse, e rise.
+    </p>
+        </body>
+    </text>
+
+</TEI>
