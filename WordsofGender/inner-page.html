@@ -237,12 +237,14 @@
           function highlightElement(className) {
 
             event.preventDefault();
+
+            var elements = document.querySelectorAll(className);
              
-            applyTransform();
+            // applyTransform();
             // questo apply transform non viene riconosciuto dal sito!!!
 
-            var containerDiv = document.getElementById(divId); 
-            var elements = containerDiv.querySelectorAll(className);
+            // var containerDiv = document.getElementById(divId); 
+            // var elements = containerDiv.querySelectorAll(className);
 
       
               if (currentClassName !== className) {
