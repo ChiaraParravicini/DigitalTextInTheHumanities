@@ -91,6 +91,21 @@
 
     </section>
 
+    <section class="container">
+      <p>Explore our texts: 
+        <ul>
+          <li><a href="#div1"><i>A Vindication of the Rights of Woman</i> by Mary Wollstonecraft</a></li> 
+          <li><a href="#div2"><i>Lettera sul digiuno</i> by Chiara d'Assisi</a></li> 
+          <li><a href="#div3"><i>Nella nebbia</i> by Ada Negri</a></li>
+          <li><a href="#div4"><i>L'Androgyne</i> by Claude Cahun</a></li>
+          <li><a href="#div5"><i>D’ardito cavalier non è prodezza</i> by Veronica Franco</a></li>
+          <li><a href="#div6"><i>La Petite Fadette</i> by George Sand</a></li>
+          <li><a href="#div7"><i>La doulce prison</i> by Marguerite Anguleme</a></li> 
+          <li><a href="#div8"><i>Réflexions sur les femmes</i> by Madame de Lambert</a></li> 
+          <li><a href="#div9"><i>Memoires d'une jeune fille rangée</i> by Simone de Beauvoir</a></li></p>
+        </ul>
+    </section>
+
     <section>
       <div id="xmlContentPlaceholder"></div>
     </section>
@@ -155,7 +170,7 @@
   <script>
 
     function loadAndTransform() {
-      var xmlFiles = ["MarkedTexts/MaryWollstonecraft.xml", "MarkedTexts/ChiaradAssisi.xml", "MarkedTexts/Ada Negri.xml", "MarkedTexts/androgyne.xml", "MarkedTexts/deBeauvoir.xml", "MarkedTexts/FINALGeorgeSand.xml", "MarkedTexts/FINALMargueriteAnguleme.xml", "MarkedTexts/Madame de Lambert.xml", "MarkedTexts/Veronica Franco.xml"];
+      var xmlFiles = ["MarkedTexts/MaryWollstonecraft.xml", "MarkedTexts/ChiaradAssisi.xml", "MarkedTexts/Ada Negri.xml", "MarkedTexts/androgyne.xml", "MarkedTexts/FINALGeorgeSand.xml", "MarkedTexts/FINALMargueriteAnguleme.xml", "MarkedTexts/Madame de Lambert.xml", "MarkedTexts/Veronica Franco.xml"];
       var xsltFile = "template.xsl";
       var targetElementId = "xmlContentPlaceholder";
       var count = 0;
@@ -199,6 +214,9 @@
         }
 
         var resultDocument = xsltProcessor.transformToDocument(xml);
+        
+        // Incrementa il contatore
+        count++;
 
         // Incrementa il contatore e crea un ID univoco per il div
         var divId = 'div' + divCount;
@@ -239,6 +257,7 @@
             event.preventDefault();
 
             var elements = document.querySelectorAll(className);
+            var containerDiv = document.getElementById("div1");
              
             // applyTransform();
             // questo apply transform non viene riconosciuto dal sito!!!

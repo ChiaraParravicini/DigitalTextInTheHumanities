@@ -65,7 +65,7 @@
                 <xsl:for-each select="tei:teiHeader/tei:profileDesc/tei:particDesc/tei:listPerson/tei:person">
                   <li>
                       <button>
-                        <xsl:attribute name="onclick">highlightElement('.<xsl:value-of select="@xml:id"/>')</xsl:attribute>
+                        <xsl:attribute name="onclick">highlightElement('.<xsl:value-of select="@xml:id"/>', '<xsl:value-of select="ancestor::div/@id"/>')</xsl:attribute>
                         <xsl:value-of select="."/>
                       </button>
                   </li>

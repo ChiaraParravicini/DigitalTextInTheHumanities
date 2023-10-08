@@ -93,6 +93,16 @@
                 </listPerson>
             </particDesc>
         </profileDesc>
+
+        <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:owl="http://www.w3.org/2002/07/owl#">
+            <rdf:RDF>
+                <rdf:Description>
+                    <dc:title>Lettera sul digiuno (Lettera terza)</dc:title>
+                    <dc:creator>Chiara d'Assisi</dc:creator>
+                        <owl:sameAs rdf:resource="https://viaf.org/viaf/8754769/"/>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
     </teiHeader>
 
 

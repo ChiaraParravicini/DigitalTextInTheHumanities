@@ -80,6 +80,18 @@
                 <language ident="en">English</language>
             </langUsage>
         </profileDesc>
+    
+        <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:owl="http://www.w3.org/2002/07/owl#">
+            <rdf:RDF>
+                <rdf:Description>
+                    <dc:title>A Vindication of the Rights of Woman</dc:title>
+                        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q300646"/>
+                    <dc:creator>Mary Wollstonecraft</dc:creator>
+                        <owl:sameAs rdf:resource="https://viaf.org/viaf/51697482/"/>
+                    <dc:date>1792</dc:date>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
     </teiHeader>
 
 
