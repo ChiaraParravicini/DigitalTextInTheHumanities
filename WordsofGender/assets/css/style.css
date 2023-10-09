@@ -39,7 +39,7 @@ button {
   padding: 0;
 }
 
-#footnotes3 ol {
+#footnotes3 ol, #footnotes4 ol {
   list-style-type: none;
   padding: 0;
 }
