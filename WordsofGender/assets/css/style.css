@@ -28,7 +28,13 @@ button {
   border-top: 1px solid #ccc;
   padding-top: 10px;
 }
-#footnotes4, #footnotes5 {
+#footnotes4 {
+  font-size: 14px;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+#footnotes5 {
   font-size: 14px;
   margin-top: 20px;
   border-top: 1px solid #ccc;
