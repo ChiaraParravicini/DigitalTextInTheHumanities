@@ -323,7 +323,22 @@
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">                
                 <h4>Interoperability and annotations</h4>
                   <p>We decided to create XML versions of texts and use the Text Encoding Initiative (TEI) markup. XML is a robust and future-proof format for long-term preservation. It ensures that the encoded texts remain accessible and usable for generations to come, even as technology evolves.
-                  TEI is a widely adopted markup XML standard for encoding literary and historical texts. Using TEI helps ensure consistency and compatibility with other digital archives and projects, making it easier to share and exchange data. It is possible to link directly to authoritative files (as VIAF, for example).</p> 
+                  TEI is a widely adopted markup XML standard for encoding literary and historical texts. Using TEI helps ensure consistency and compatibility with other digital archives and projects, making it easier to share and exchange data.
+                  </p> 
+                <p>
+                  We then decided to enrich the XML file with Linked Open Data (LOD). 
+                </p>
+                  <p>
+                    <blockquote>
+                      The expansion of the Web of Data prompts the redefinition of the concept of digital scientific editions (ESD) by the academic community. ESD, currently structured essentially as a network of documents, must be reconsidered as a set of entities, also resources uniquely identified by URIs and interconnected through the use of typed links (RDF properties), according to a data-centric paradigm. [...] The document (or the collection of documents) that constitutes the edition becomes the subject of a deconstruction process, aimed at identifying uniquely identified informational atoms. However, this process also compels these atomic elements to be extracted, enriched, organized, manipulated, and queried outside the 'straightjacket' of the document within which they occupy a specific position and contribute to its composition.
+                    <sup><a id="fn7" href="#footnotes5">[7]</a></sup></blockquote>
+                  </p>
+                <p>
+                  We have reflected on the most suitable schema to use, considering that:
+                </p>
+                <p>
+                  <blockquote>The choice of ontological predicates, suitable for providing real semantic consistency to the markup, must be consciously undertaken with the goal of enhancing the expressiveness of the knowledge base contained in the text, avoiding the dispersion of its informational potential in the name of, albeit necessary, simplification. The selection of the most suitable ontological models constitutes the central aspect of this phase.<sup><a id="fn8" href="#footnotes5">[8]</a></sup></blockquote>
+                </p>
                   <p>We decided to use it also because TEI provides a granular approach to annotation, allowing you to add detailed metadata and commentary to texts. This is valuable for scholarly analysis and interpretation and we have made extensive use of the features provided by the &lt;interpGrp&gt; tag. We analysed each text and selected significant segments (see the tags &lt;seg&gt;) that could be topics or concepts also addressed by other authors, allowing us to create a bridge between the texts (following the idea described above).</p>
                   <p>Here there is a full list of the concepts we decided to work with. 
                     <br>
@@ -391,8 +406,14 @@
                   <p>Femininity has been also often associated with notions of weakness or vulnerability, reflecting societal expectations that women should be delicate and dependent. These stereotypes limited women's opportunities and agency, perpetuating gender inequalities. In the excerpts we selected, we have highlighted the concept of weakness as something inherently feminine (i.e. Mary Wollstonecraft).</p>
                 <h5>Witch</h5>
                   <p>In the past, the concept of witches often intersected with femininity, as women who deviated from societal norms or exhibited unconventional behavior were frequently accused of witchcraft. These accusations stemmed from deep-seated fears and prejudices, resulting in certain historical periods in persecution and violence against women. We have pointed out the excerpts in which women are reffered to as withces because they act outside of societal standards (i.e. George Sand)</p>
-              </p>                
+              </p> 
             </div>
+            <div id="footnotes5">
+                  <ol>
+                      <li><a href="#fn7">[7]</a>M. Daquino, F. Giovannetti, F. Tomasi – Linked Data per le edizioni scientifiche digitali. Il workflow di pubblicazione dell'edizione semantica del quaderno di appunti di Paolo Bufalini DOI: http://doi.org/10.6092/issn.2532-8816/9091, p.50</li>
+                    <li><a href="#fn8">[8]</a>M. Daquino, F. Giovannetti, F. Tomasi, p.51</li>
+                  </ol>
+              </div>
           </div>
 
           <div class="tab-pane" id="tab-4">
