@@ -22,7 +22,7 @@ button {
   margin: 2px;
 }
 
-#footnotes, #footnotes2, #footnotes3 {
+#footnotes, #footnotes2, #footnotes3, #footnotes4 {
   font-size: 14px;
   margin-top: 20px;
   border-top: 1px solid #ccc;
@@ -39,7 +39,11 @@ button {
   padding: 0;
 }
 
-#footnotes3 ol, #footnotes4 ol {
+#footnotes3 ol{
+  list-style-type: none;
+  padding: 0;
+}
+#footnotes4 ol{
   list-style-type: none;
   padding: 0;
 }
