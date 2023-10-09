@@ -28,7 +28,7 @@ button {
   border-top: 1px solid #ccc;
   padding-top: 10px;
 }
-#footnotes4 {
+#footnotes4, #footnotes5 {
   font-size: 14px;
   margin-top: 20px;
   border-top: 1px solid #ccc;
@@ -51,6 +51,10 @@ button {
 }
 
 #footnotes4 ol{
+  list-style-type: none;
+  padding: 0;
+}
+#footnotes5 ol{
   list-style-type: none;
   padding: 0;
 }
