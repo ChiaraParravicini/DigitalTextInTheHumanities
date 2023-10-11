@@ -177,6 +177,18 @@
                 </listPerson>
             </particDesc>
         </profileDesc>
+        <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:owl="http://www.w3.org/2002/07/owl#">
+            <rdf:RDF>
+                <rdf:Description>
+                    <dc:title>Memoires d'une jeune fille rangée</dc:title>
+                        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3333083"/>
+                    <dc:creator>Simone de Beauvoir</dc:creator>
+                        <owl:sameAs rdf:resource="http://viaf.org/viaf/2466221"/>
+                    <dc:date>1958</dc:date>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
+    </teiHeader>
 
     </teiHeader>
     <text>
