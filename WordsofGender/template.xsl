@@ -39,8 +39,15 @@
       <body>
         <div id="title-text">
           <h2>From <i><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/></i>,
-          by <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:author"/></h2>
+            by <span>
+              <xsl:attribute name="id">
+                <xsl:value-of select="substring-before(normalize-space(tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:author), ' ')"/>
+              </xsl:attribute>
+              <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:author"/>
+            </span>
+          </h2>
         </div>
+        
         
         <div id="text">
           
@@ -65,7 +72,7 @@
                 <xsl:for-each select="tei:teiHeader/tei:profileDesc/tei:particDesc/tei:listPerson/tei:person">
                   <li>
                       <button>
-                        <xsl:attribute name="onclick">highlightElement('.<xsl:value-of select="@xml:id"/>', '<xsl:value-of select="ancestor::div/@id"/>')</xsl:attribute>
+                        <xsl:attribute name="onclick">highlightElement('.<xsl:value-of select="@xml:id"/>')</xsl:attribute>
                         <xsl:value-of select="."/>
                       </button>
                   </li>
