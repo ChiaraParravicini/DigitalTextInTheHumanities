@@ -73,6 +73,7 @@
             <rdf:RDF>
                 <rdf:Description>
                     <dc:title>Nella nebbia</dc:title>
+                   <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3829077"/>
                     <dc:creator>Ada Negri</dc:creator>
                     <owl:sameAs rdf:resource="http://viaf.org/viaf/73891042"/>
                     <dc:date>1917</dc:date>
