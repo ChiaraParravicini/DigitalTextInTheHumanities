@@ -71,7 +71,8 @@
         <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:owl="http://www.w3.org/2002/07/owl#">
             <rdf:RDF>
                 <rdf:Description>
-                    <dc:title>Réflexions sur les femmes</dc:title>
+                    <dc:title>Réflexions nouvelles sur les femmes</dc:title>
+                    <owl:sameAs rdf:resource="https://www.worldcat.org/it/title/21961379"/>
                     <dc:creator>Anne-Thérèse de Lambert</dc:creator>
                     <owl:sameAs rdf:resource="http://viaf.org/viaf/95150112"/>
                     <dc:date>1728</dc:date>

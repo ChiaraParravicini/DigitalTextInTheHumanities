@@ -69,6 +69,7 @@
             <rdf:RDF>
                 <rdf:Description>
                     <dc:title> D’ardito cavalier non è prodezza</dc:title>
+                    <owl:sameAs rdf:resource="https://www.worldcat.org/it/title/797577519"/>
                     <dc:creator>Veronica Franco</dc:creator>
                     <owl:sameAs rdf:resource="http://viaf.org/viaf/66577804"/>
                     <dc:date>1575</dc:date>
