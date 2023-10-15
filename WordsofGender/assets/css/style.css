@@ -15,6 +15,14 @@ body {
   text-align: justify;
 }
 
+#graph1, #graph2 {
+  padding: 5vh;
+}
+
+#graph1 h3, #graph2 h3 {
+  padding-bottom: 3rem;
+}
+
 button {
   background-color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
