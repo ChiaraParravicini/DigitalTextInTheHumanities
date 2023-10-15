@@ -36,12 +36,10 @@
                         <author>
                         Claude Cahun
                         </author>
-                        <editor>
-                        François Leperlier
-                        </editor>
+                      
                     </titleStmt>
                     <editionStmt>
-                        <edition><date when="1930">1930</date>
+                        <edition>First Edition<date when="1930">1930</date>
                         </edition>
                     </editionStmt>
                     <extent>
